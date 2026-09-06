@@ -20,7 +20,7 @@ jobs:
           go-version: "stable"
 
       - name: Build turnbridge
-        run: go mod init turnbridge && go build -o turnbridge .
+        run: go build -o turnbridge .
 
       - name: Sweep relays
         run: bash sweep.sh candidates.txt rank.csv 16
