@@ -77,6 +77,15 @@ test_one() {
     "") GLOC=none ;;
   esac
 
+  # Google 不通的直接判死，跳过后续全部探测（每台最多省 30 秒超时等待）
+  if [ "$G204" != "204" ]; then
+    echo "$URI,$EXITIP,$LAT,$G204,$GLOC,,,0,0" >> "$OUTW"
+    echo "[$(date +%T)] DEAD-FOR-GOOGLE $hostport"
+    kill $TPID 2>/dev/null
+    wait $TPID 2>/dev/null
+    return
+  fi
+
   # Gemini 可用性探测
   local GEM GEMBLOCK=no
   GEM=$(curl -s --max-time 8 -x "socks5h://127.0.0.1:$LP" https://gemini.google.com/ -o "/tmp/gem_$LP.html" -w '%{http_code}' 2>/dev/null)
@@ -91,12 +100,13 @@ test_one() {
   wait $p1 $p2
   for i in 1 2; do [ "$(cat "/tmp/burst_${LP}_$i" 2>/dev/null)" = "204" ] && P_OK=$((P_OK+1)); done
 
-  # 带宽（1MB）
+  # 带宽（512KB）
   local BW
-  BW=$(curl -s --max-time 12 -x "socks5h://127.0.0.1:$LP" -o /dev/null -w '%{speed_download}' "https://speed.cloudflare.com/__down?bytes=1000000" 2>/dev/null)
+  BW=$(curl -s --max-time 10 -x "socks5h://127.0.0.1:$LP" -o /dev/null -w '%{speed_download}' "https://speed.cloudflare.com/__down?bytes=500000" 2>/dev/null)
   BW=${BW%%.*}
 
   echo "$URI,$EXITIP,$LAT,$G204,$GLOC,$GEM,$GEMBLOCK,$P_OK,${BW:-0}" >> "$OUTW"
+  echo "[$(date +%T)] OK $hostport bw=${BW:-0}"
   kill $TPID 2>/dev/null
   wait $TPID 2>/dev/null
 }
