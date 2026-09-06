@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # prune_state.py — 连续 3 天不通的中继自动移出 candidates.txt（归档到 retired.txt）
-# 不通的定义 = 拨测拿不到出口（DEAD / AUTH_REQUIRED / UNREACHABLE）或带宽为 0
+# 不通的定义 = 拨测拿不到出口（DEAD / AUTH_REQUIRED / UNREACHABLE）、带宽为 0、
+#              或 verdict 非 PASS（Google 或 Gemini 不通）——连续 3 天即淘汰
 # 状态文件 failed_days.json 记录每个中继的连续失败天数，成功一次即清零
 import csv, json, os, sys
 from datetime import datetime, timedelta, timezone
@@ -40,6 +41,8 @@ def unusable(row):
                 return True
         except ValueError:
             return True
+    if len(row) >= 16 and row[-1] != "PASS":
+        return True  # Google 或 Gemini 不通，对本案而言等同不可用
     return False
 
 
