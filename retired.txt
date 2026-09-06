@@ -1,0 +1,8 @@
+turn://171.15.38.200:3478	# retired 2026-09-07 (3 consecutive failed days)
+turn://222.128.56.77:3478	# retired 2026-09-07 (3 consecutive failed days)
+turn://117.73.14.109:3478	# retired 2026-09-07 (3 consecutive failed days)
+turn://admin:admin@114.251.223.71:3478	# retired 2026-09-07 (3 consecutive failed days)
+turn://118.24.188.137:3478	# retired 2026-09-07 (3 consecutive failed days)
+turn://test:test@195.12.124.40:3478	# retired 2026-09-07 (3 consecutive failed days)
+turn://test:test@120.221.151.180:3478	# retired 2026-09-07 (3 consecutive failed days)
+turn://111.47.185.91:3479	# retired 2026-09-07 (3 consecutive failed days)
