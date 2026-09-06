@@ -1,0 +1,52 @@
+name: turnrank-sweep
+
+on:
+  workflow_dispatch: {}
+  schedule:
+       - cron: "0 21 * * 1"   # 每周一 UTC 21:00 = 北京周二 05:00
+
+permissions:
+  contents: write
+
+jobs:
+  sweep:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version: "stable"
+
+      - name: Build turnbridge
+        run: go mod init turnbridge && go build -o turnbridge .
+
+      - name: Sweep relays
+        run: bash sweep.sh candidates.txt rank.csv 8
+
+      - name: Upload ranking artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: rank
+          path: rank.csv
+
+      - name: Commit ranking to repo
+        run: |
+          git config user.name "turnrank-bot"
+          git config user.email "actions@localhost"
+          mkdir -p rank
+          cp rank.csv rank/rank-latest.csv
+          git add rank/rank-latest.csv
+          git commit -m "rank update $(date -u '+%F %H:%M') UTC" || echo "nothing to commit"
+          git push
+
+      - name: Email top 5
+        if: always()
+        env:
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}
+        run: python3 mail_top5.py rank.csv
