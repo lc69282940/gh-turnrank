@@ -3,7 +3,7 @@ name: turnrank-sweep
 on:
   workflow_dispatch: {}
   schedule:
-       - cron: "0 21 * * 1"   # 每周一 UTC 21:00 = 北京周二 05:00
+    - cron: "0 21 * * *"   # 每天 UTC 21:00 = 北京 05:00
 
 permissions:
   contents: write
@@ -25,6 +25,10 @@ jobs:
       - name: Sweep relays
         run: bash sweep.sh candidates.txt rank.csv 8
 
+      - name: Prune relays dead for 3+ days
+        if: always()
+        run: python3 prune_state.py candidates.txt rank.csv
+
       - name: Upload ranking artifact
         uses: actions/upload-artifact@v4
         with:
@@ -37,7 +41,7 @@ jobs:
           git config user.email "actions@localhost"
           mkdir -p rank
           cp rank.csv rank/rank-latest.csv
-          git add rank/rank-latest.csv
+          git add -A
           git commit -m "rank update $(date -u '+%F %H:%M') UTC" || echo "nothing to commit"
           git push
 
