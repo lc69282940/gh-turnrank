@@ -23,7 +23,7 @@ jobs:
         run: go mod init turnbridge && go build -o turnbridge .
 
       - name: Sweep relays
-        run: bash sweep.sh candidates.txt rank.csv 8
+        run: bash sweep.sh candidates.txt rank.csv 16
 
       - name: Prune relays dead for 3+ days
         if: always()
