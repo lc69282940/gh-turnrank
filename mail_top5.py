@@ -87,4 +87,8 @@ html = f"""
 <code>/root/turn-candidates.txt</code> 跑 <code>turnrank.sh</code>，达标后 <code>turn-swap &lt;冠军&gt;</code>。</p>
 """
 
+if os.path.exists("pruned_today.txt"):
+    with open("pruned_today.txt") as f:
+        html += "<h4>淘汰榜（连续 3 天不通，已移入 retired.txt）</h4><p>" + f.read() + "</p>"
+
 send(subject, html)
