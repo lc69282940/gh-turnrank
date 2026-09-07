@@ -1,394 +1,295 @@
 relay,exit_ip,latency_s,google_code,google_redirect,burst_ok,bw_Bps,country,city,isp,as,proxy_flag,hosting_flag,verdict
-turn://157.230.140.236:3478,157.230.140.236,0.660009,200,none,1,806497,US,Santa Clara,"DigitalOcean, LLC","AS14061 DigitalOcean, LLC",False,True,PASS
-turn://140.82.48.55:3478,140.82.48.55,0.343271,200,none,2,611281,US,Santa Clara,The Constant Company,"AS20473 The Constant Company, LLC",False,True,PASS
-turn://129.151.22.230:3478,129.151.22.230,0.348206,200,none,2,639971,US,Phoenix,Oracle Corporation,AS31898 Oracle Corporation,False,True,PASS
-turn://172.234.231.32:3478,172.234.231.32,0.317745,200,none,2,694151,US,Tukwila,"Akamai Technologies, Inc.",AS63949 Akamai Connected Cloud,False,True,PASS
-turn://178.156.251.236:3478,178.156.251.236,0.167347,200,none,2,1429465,US,Ashburn,Hetzner Online GmbH,AS213230 Hetzner Online GmbH,False,True,PASS
-turn://198.23.59.41:3478,198.23.59.41,0.100343,200,none,2,2530454,US,Coral Springs,LiquidNet US LLC,AS14555 LiquidNet US LLC,False,True,PASS
-turn://54.175.98.226:3478,54.175.98.226,0.200234,200,none,2,931202,US,Ashburn,"Amazon.com, Inc.","AS14618 Amazon.com, Inc.",False,True,PASS
-turn://162.35.180.19:3478,162.35.180.19,0.201896,200,none,1,992731,US,Secaucus,"Interserver, Inc","AS19318 Interserver, Inc",False,True,PASS
-turn://198.23.193.141:3478,198.23.193.141,0.299760,200,none,1,917008,US,Buffalo,HostPapa,AS36352 HostPapa,False,True,PASS
-turn://212.28.189.163:3478,212.28.189.163,0.166940,200,none,2,1609248,US,St Louis,Contabo Inc.,AS40021 Contabo Inc.,False,True,PASS
-turn://179.237.86.11:3478,179.237.86.11,0.763533,200,none,1,248594,CH,Geneva,Infomaniak Network SA,AS29222 Infomaniak,False,True,PASS
-turn://74.208.72.195:3478,74.208.72.195,0.172685,200,none,1,946514,US,Kansas City,IONOS SE,AS8560 IONOS SE,False,True,PASS
-turn://207.211.164.64:3478,170.9.255.91,0.115851,200,none,2,1608596,US,Chicago,Oracle Corporation,AS31898 Oracle Corporation,False,True,PASS
-turn://161.47.150.41:3478,161.47.150.41,0.105863,200,none,2,919188,US,Chicago,Rackspace Hosting,AS19994 Rackspace Hosting,False,True,PASS
-turn://23.152.226.103:3478,23.152.226.103,0.175700,200,none,2,1204737,US,Roswell,Free Range Cloud Hosting Inc.,AS53356 Free Range Cloud Hosting Inc.,False,True,PASS
-turn://66.198.28.52:3478,66.198.28.52,0.216382,200,none,2,975834,US,Chicago,TATA COMMUNICATIONS (AMERICA) INC,AS6453 TATA COMMUNICATIONS (AMERICA) INC,False,False,PASS
-turn://34.67.13.92:3478,34.67.13.92,0.245919,200,none,1,1131219,US,Council Bluffs,Google LLC,AS396982 Google LLC,False,True,PASS
-turn://35.232.115.57:3478,35.232.115.57,0.213151,200,none,2,1132643,US,Council Bluffs,Google LLC,AS396982 Google LLC,False,True,PASS
-turn://47.89.134.154:3478,47.89.134.154,0.178711,200,none,1,1162150,US,Charlottesville,Alibaba.com LLC,"AS45102 Alibaba (US) Technology Co., Ltd.",False,True,PASS
-turn://40.160.62.128:3478,40.160.62.128,0.225161,200,none,1,999780,US,Warrenton,OVH SAS,AS16276 OVH SAS,False,True,PASS
-turn://45.79.168.64:3478,45.79.168.64,0.281915,200,none,2,814361,US,Cedar Knolls,"Akamai Technologies, Inc.",AS63949 Akamai Connected Cloud,False,True,PASS
-turn://50.6.195.204:3478,50.6.195.204,0.163066,200,none,2,1118303,US,Ashburn,Oracle Corporation,AS31898 Oracle Corporation,False,True,PASS
-turn://150.136.62.165:3478,150.136.62.165,0.154982,200,none,1,606585,US,Ashburn,Oracle Corporation,AS31898 Oracle Corporation,False,True,PASS
-turn://132.145.137.218:3478,132.145.137.218,0.189647,200,none,2,1163004,US,Ashburn,Oracle Corporation,AS31898 Oracle Corporation,False,True,PASS
-turn://132.145.141.209:3478,132.145.141.209,0.163167,200,none,1,1459657,US,Ashburn,Oracle Corporation,AS31898 Oracle Corporation,False,True,PASS
-turn://74.50.66.141:3478,74.50.66.141,0.226046,200,none,1,1004348,US,Englewood Cliffs,"Interserver, Inc","AS19318 Interserver, Inc",False,True,PASS
-turn://139.177.206.54:3478,139.177.206.54,0.604544,200,none,1,1045795,US,Atlanta,"Akamai Technologies, Inc.",AS63949 Akamai Connected Cloud,False,True,PASS
-turn://34.69.203.149:3478,34.69.203.149,0.200423,200,none,2,699793,US,Council Bluffs,Google LLC,AS396982 Google LLC,False,True,PASS
-turn://54.197.180.214:3478,54.197.180.214,0.209599,200,none,1,622206,US,Ashburn,"Amazon.com, Inc.","AS14618 Amazon.com, Inc.",False,True,PASS
-turn://178.156.184.152:3478,178.156.184.152,0.172452,200,none,1,1334237,US,Ashburn,Hetzner Online GmbH,AS213230 Hetzner Online GmbH,False,True,PASS
-turn://20.124.10.175:3478,20.124.10.175,0.177843,200,none,1,1139645,US,Boydton,Microsoft Corporation,AS8075 Microsoft Corporation,False,True,PASS
-turn://199.58.81.158:3478,199.58.81.158,0.234301,200,none,2,1096938,CA,Montreal,Koumbit,AS7765 Koumbit,False,False,PASS
-turn://162.223.14.232:3478,162.223.14.232,0.234492,200,none,2,907557,US,Durham,"NetActuate, Inc","AS36236 NetActuate, Inc",False,False,PASS
-turn://172.105.101.107:3478,172.105.101.107,0.239710,200,none,1,953832,CA,Toronto,Akamai Technologies,AS63949 Akamai Connected Cloud,False,True,PASS
-turn://34.138.28.255:3478,34.138.28.255,0.294434,200,none,1,780514,US,North Charleston,Google LLC,AS396982 Google LLC,False,True,PASS
-turn://20.220.159.142:3478,20.220.159.142,0.157719,200,none,2,1328511,CA,Toronto,Microsoft Corporation,AS8075 Microsoft Corporation,False,True,PASS
-turn://15.235.29.175:3478,15.235.29.175,0.314327,200,none,1,499824,CA,Montreal,OVH SAS,AS16276 OVH SAS,False,True,PASS
-turn://165.22.46.222:3478,165.22.46.222,0.227575,200,none,2,921675,US,Clifton,"DigitalOcean, LLC","AS14061 DigitalOcean, LLC",False,True,PASS
-turn://198.50.202.92:3478,198.50.202.92,0.254046,200,none,1,1010329,CO,Bogotá,OVH SAS,AS16276 OVH SAS,False,True,PASS
-turn://158.69.34.65:3478,158.69.34.65,0.245489,200,none,2,919876,CA,Montreal,OVH SAS,AS16276 OVH SAS,False,True,PASS
-turn://54.237.42.1:3478,54.237.42.1,0.442286,200,none,2,1151328,US,Ashburn,"Amazon.com, Inc.","AS14618 Amazon.com, Inc.",False,True,PASS
-turn://38.49.209.111:3478,38.49.209.111,0.217377,200,none,1,1007589,CA,Montreal,Rica Web Services,AS26832 Rica Web Services,False,True,PASS
-turn://85.119.82.185:3478,85.119.82.185,0.686048,200,none,2,290540,GB,London,Bitfolk Ltd,AS8943 Jump Networks Ltd,False,False,PASS
-turn://193.169.105.14:3478,193.169.105.14,0.685032,200,none,2,282985,NL,Oude Meer,Podaon SIA,AS211381 Podaon SIA,False,False,PASS
-turn://45.90.162.238:3478,45.90.162.238,0.961499,200,none,1,306168,FR,Paris,Sapinet SAS,AS39421 Sapinet SAS,False,False,PASS
-turn://87.106.188.155:3478,87.106.188.155,0.679019,200,none,2,314705,GB,Worcester,IONOS SE,AS8560 IONOS SE,False,True,PASS
-turn://152.228.189.159:3478,152.228.189.159,0.721755,200,none,2,284724,FR,Paris,OVH SAS,AS16276 OVH SAS,False,True,PASS
-turn://152.228.189.155:3478,152.228.189.155,0.700978,200,none,1,287904,FR,Paris,OVH SAS,AS16276 OVH SAS,False,True,PASS
-turn://37.187.148.116:3478,37.187.148.116,0.714400,200,none,1,259657,FR,Roubaix,OVH SAS,AS16276 OVH SAS,False,True,PASS
-turn://94.231.205.158:3478,94.231.205.158,0.730185,200,none,1,289654,DE,Frankfurt am Main,Mvps LTD,AS202448 MVPS LTD,False,True,PASS
-turn://152.228.189.157:3478,152.228.189.157,0.696978,200,none,1,287038,FR,Paris,OVH SAS,AS16276 OVH SAS,False,True,PASS
-turn://118.70.144.77:3478,118.70.144.77,1.789448,200,none,1,139306,VN,Hanoi,FPT Telecom Company,AS18403 FPT Telecom Company,False,False,PASS
-turn://138.204.96.6:3478,138.204.96.6,0.917771,200,none,1,219676,BR,Bom Jardim,Infotech de Bom Jardim C. de material de inf. Ltda,AS263884 Infotech de Bom Jardim C. de material de inf. Ltda,False,False,PASS
-turn://47.84.1.64:3478,47.84.1.64,1.203962,200,none,2,175973,SG,Singapore,Alibaba.com LLC,"AS45102 Alibaba (US) Technology Co., Ltd.",False,True,PASS
-turn://178.20.47.179:3478,178.20.47.179,1.083388,200,none,2,194971,RU,Moscow,Hosting technology LTD,AS48282 Hosting technology LTD,False,True,PASS
-turn://135.181.250.119:3478,135.181.250.119,0.962753,200,none,2,213374,FI,Helsinki,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,False,True,PASS
-turn://195.2.70.36:3478,195.2.70.36,1.062413,200,none,1,195448,RU,Moscow,VDSINA,AS48282 Hosting technology LTD,False,True,PASS
-turn://89.248.192.182:3478,89.248.192.182,0.975812,200,none,2,161864,RU,Moscow,JSC Selectel,AS49505 JSC Selectel,False,False,PASS
-turn://213.184.131.218:3478,194.156.65.66,1.053186,200,none,2,203825,NL,Amsterdam,Foxcloud LLP,AS200904 FOXCLOUD LLP,False,True,PASS
-turn://185.22.154.208:3478,185.22.154.208,1.057227,200,none,1,206752,RU,Moscow,LLC Baxet,AS51659 LLC Baxet,False,False,PASS
-turn://83.217.213.94:3478,83.217.213.94,1.074893,200,none,2,203045,RU,Moscow,Hosting technology LTD,AS48282 Hosting technology LTD,False,True,PASS
-turn://65.21.240.166:3478,65.21.240.166,0.946335,200,none,1,239377,FI,Helsinki,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,False,True,PASS
-turn://79.173.89.166:3478,79.173.89.166,0.978713,200,none,1,231563,RU,Gatchina,IT Region Network,AS43966 OOO IT-Region,False,False,PASS
-turn://156.226.106.9:3478,156.226.104.194,1.103482,200,none,2,177210,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
-turn://89.169.155.107:3478,89.169.155.107,1.077189,200,none,2,200913,RU,Moscow,Yandex.Cloud LLC,AS200350 Yandex.Cloud LLC,False,True,PASS
-turn://89.167.93.194:3478,89.167.93.194,0.959462,200,none,2,234400,DE,Gunzenhausen,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,False,True,PASS
-turn://62.217.182.25:3478,62.217.182.25,1.148252,200,none,1,112922,RU,St Petersburg,Beget LLC,AS198610 Beget LLC,False,False,PASS
-turn://81.222.121.205:3478,81.222.121.205,1.113120,200,none,2,180634,RU,Moscow,"PJSC ""Vimpelcom""",AS3216 PJSC Vimpelcom,False,False,PASS
-turn://37.235.169.38:3478,37.235.169.38,1.203415,200,none,2,213846,RU,Tambov,Lanta Networks,AS41268 Sesameware FZ-LLC,False,False,PASS
-turn://test:test@116.203.70.128:80,116.203.70.128,0.785204,200,none,1,262414,DE,Nuremberg,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,False,True,PASS
-turn://83.68.35.165:3478,83.68.35.165,1.106242,200,none,2,197636,RU,St Petersburg,SeaExpress Ltd,AS31444 SeaExpress Ltd.,False,False,PASS
-turn://190.8.18.8:3478,190.8.18.8,1.073719,200,none,1,200365,BR,Goiânia,LV Consultoria Eireli,AS270767 LV Consultoria Eireli,False,False,PASS
-turn://113.23.35.22:3478,113.23.35.22,1.485126,200,none,1,163085,VN,Hanoi,FPT Telecom Company,AS18403 FPT Telecom Company,False,False,PASS
-turn://181.215.211.203:3478,181.215.211.203,1.047263,200,none,2,196607,BR,Chapecó,Ferenz Networks,AS266400 Ferenz Networks,False,True,PASS
-turn://87.128.16.156:3478,87.128.16.156,0.990085,200,none,1,218073,DE,Berlin,Deutsche Telekom AG,AS3320 Deutsche Telekom AG,False,False,PASS
+turn://157.230.140.236:3478,157.230.140.236,0.571491,200,none,1,887889,US,Santa Clara,"DigitalOcean, LLC","AS14061 DigitalOcean, LLC",False,True,PASS
+turn://140.82.48.55:3478,140.82.48.55,0.294443,200,none,1,455946,US,Santa Clara,The Constant Company,"AS20473 The Constant Company, LLC",False,True,PASS
+turn://129.151.22.230:3478,129.151.22.230,0.400333,200,none,1,505080,US,Phoenix,Oracle Corporation,AS31898 Oracle Corporation,False,True,PASS
+turn://172.234.231.32:3478,172.234.231.32,0.304403,200,none,1,707707,US,Tukwila,"Akamai Technologies, Inc.",AS63949 Akamai Connected Cloud,False,True,PASS
+turn://178.156.251.236:3478,178.156.251.236,0.171378,200,none,2,1295561,US,Ashburn,Hetzner Online GmbH,AS213230 Hetzner Online GmbH,False,True,PASS
+turn://198.23.59.41:3478,198.23.59.41,0.401403,200,none,2,1075858,US,Coral Springs,LiquidNet US LLC,AS14555 LiquidNet US LLC,False,True,PASS
+turn://54.175.98.226:3478,54.175.98.226,0.195053,200,none,1,857772,US,Ashburn,"Amazon.com, Inc.","AS14618 Amazon.com, Inc.",False,True,PASS
+turn://162.35.180.19:3478,162.35.180.19,0.247753,200,none,2,1013639,US,Secaucus,"Interserver, Inc","AS19318 Interserver, Inc",False,True,PASS
+turn://198.23.193.141:3478,198.23.193.141,0.224173,200,none,2,638878,US,Buffalo,HostPapa,AS36352 HostPapa,False,True,PASS
+turn://212.28.189.163:3478,212.28.189.163,0.178934,200,none,1,1720767,US,St Louis,Contabo Inc.,AS40021 Contabo Inc.,False,True,PASS
+turn://179.237.86.11:3478,179.237.86.11,0.735112,200,none,1,287468,CH,Geneva,Infomaniak Network SA,AS29222 Infomaniak,False,True,PASS
+turn://74.208.72.195:3478,74.208.72.195,0.172642,200,none,2,1580847,US,Kansas City,IONOS SE,AS8560 IONOS SE,False,True,PASS
+turn://207.211.164.64:3478,170.9.255.91,0.118772,200,none,2,1814157,US,Chicago,Oracle Corporation,AS31898 Oracle Corporation,False,True,PASS
+turn://161.47.150.41:3478,161.47.150.41,0.106093,200,none,1,1763027,US,Chicago,Rackspace Hosting,AS19994 Rackspace Hosting,False,True,PASS
+turn://23.152.226.103:3478,23.152.226.103,0.185854,200,none,1,1247402,US,Roswell,Free Range Cloud Hosting Inc.,AS53356 Free Range Cloud Hosting Inc.,False,True,PASS
+turn://66.198.28.52:3478,66.198.28.52,0.230243,200,none,2,994296,US,Chicago,TATA COMMUNICATIONS (AMERICA) INC,AS6453 TATA COMMUNICATIONS (AMERICA) INC,False,False,PASS
+turn://34.67.13.92:3478,34.67.13.92,0.218256,200,none,2,1066304,US,Council Bluffs,Google LLC,AS396982 Google LLC,False,True,PASS
+turn://35.232.115.57:3478,35.232.115.57,0.210489,200,none,1,1198020,US,Council Bluffs,Google LLC,AS396982 Google LLC,False,True,PASS
+turn://47.89.134.154:3478,47.89.134.154,0.186605,200,none,1,1168434,US,Charlottesville,Alibaba.com LLC,"AS45102 Alibaba (US) Technology Co., Ltd.",False,True,PASS
+turn://40.160.62.128:3478,40.160.62.128,0.521961,200,none,1,1069699,US,Warrenton,OVH SAS,AS16276 OVH SAS,False,True,PASS
+turn://45.79.168.64:3478,45.79.168.64,0.236578,200,none,2,825508,US,Cedar Knolls,"Akamai Technologies, Inc.",AS63949 Akamai Connected Cloud,False,True,PASS
+turn://50.6.195.204:3478,50.6.195.204,0.175531,200,none,2,1438596,US,Ashburn,Oracle Corporation,AS31898 Oracle Corporation,False,True,PASS
+turn://150.136.62.165:3478,150.136.62.165,0.225616,200,none,2,1334037,US,Ashburn,Oracle Corporation,AS31898 Oracle Corporation,False,True,PASS
+turn://132.145.137.218:3478,132.145.137.218,0.192964,200,none,1,219471,US,Ashburn,Oracle Corporation,AS31898 Oracle Corporation,False,True,PASS
+turn://132.145.141.209:3478,132.145.141.209,0.211858,200,none,1,1211375,US,Ashburn,Oracle Corporation,AS31898 Oracle Corporation,False,True,PASS
+turn://74.50.66.141:3478,74.50.66.141,0.215678,200,none,2,959563,US,Englewood Cliffs,"Interserver, Inc","AS19318 Interserver, Inc",False,True,PASS
+turn://139.177.206.54:3478,139.177.206.54,0.193272,200,none,1,1077767,US,Atlanta,"Akamai Technologies, Inc.",AS63949 Akamai Connected Cloud,False,True,PASS
+turn://34.69.203.149:3478,34.69.203.149,0.221102,200,none,1,1009550,US,Council Bluffs,Google LLC,AS396982 Google LLC,False,True,PASS
+turn://54.197.180.214:3478,54.197.180.214,0.237080,200,none,2,1030061,US,Ashburn,"Amazon.com, Inc.","AS14618 Amazon.com, Inc.",False,True,PASS
+turn://178.156.184.152:3478,178.156.184.152,0.168046,200,none,1,1226641,US,Ashburn,Hetzner Online GmbH,AS213230 Hetzner Online GmbH,False,True,PASS
+turn://20.124.10.175:3478,20.124.10.175,0.195538,200,none,2,1347810,US,Boydton,Microsoft Corporation,AS8075 Microsoft Corporation,False,True,PASS
+turn://199.58.81.158:3478,199.58.81.158,0.279276,200,none,1,848638,CA,Montreal,Koumbit,AS7765 Koumbit,False,False,PASS
+turn://162.223.14.232:3478,162.223.14.232,0.242308,200,none,2,968691,US,Durham,"NetActuate, Inc","AS36236 NetActuate, Inc",False,False,PASS
+turn://172.105.101.107:3478,172.105.101.107,0.237068,200,none,1,904692,CA,Toronto,Akamai Technologies,AS63949 Akamai Connected Cloud,False,True,PASS
+turn://34.138.28.255:3478,34.138.28.255,0.314178,200,none,2,770963,US,North Charleston,Google LLC,AS396982 Google LLC,False,True,PASS
+turn://20.220.159.142:3478,20.220.159.142,0.188840,200,none,1,1280422,CA,Toronto,Microsoft Corporation,AS8075 Microsoft Corporation,False,True,PASS
+turn://15.235.29.175:3478,15.235.29.175,0.319692,200,none,2,753054,CA,Montreal,OVH SAS,AS16276 OVH SAS,False,True,PASS
+turn://165.22.46.222:3478,165.22.46.222,0.230231,200,none,2,903378,US,Clifton,"DigitalOcean, LLC","AS14061 DigitalOcean, LLC",False,True,PASS
+turn://18.102.21.158:3478,18.102.21.158,0.974559,200,none,2,280589,IT,Milan,Amazon Technologies Inc.,"AS16509 Amazon.com, Inc.",False,True,PASS
+turn://144.76.255.243:3478,144.76.255.243,0.776163,200,none,2,270025,DE,Falkenstein,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,False,True,PASS
+turn://test:test123@217.160.141.115:3478,217.160.141.115,0.722242,200,none,2,264571,DE,Frankfurt am Main,IONOS SE,AS8560 IONOS SE,False,True,PASS
+turn://89.58.18.192:3478,89.58.18.192,0.828715,200,none,1,267689,AT,Vienna,netcup GmbH,AS197540 netcup GmbH,False,True,PASS
+turn://46.225.223.140:3478,46.225.223.140,0.803223,200,none,2,285211,DE,Nuremberg,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,False,True,PASS
+turn://5.9.65.38:3478,5.9.65.38,0.768792,200,none,1,281861,DE,Falkenstein,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,False,True,PASS
+turn://128.140.43.162:3478,128.140.43.162,0.804233,200,none,1,274708,DE,Nuremberg,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,False,True,PASS
+turn://91.107.220.110:3478,91.107.220.110,0.757532,200,none,2,261280,DE,Frankfurt Am Main,Hetzner Online AG,AS24940 Hetzner Online GmbH,False,True,PASS
+turn://test:test@213.189.56.175:3478,213.189.56.175,0.813414,200,none,1,249661,PL,Warsaw,Atman Sp. z o.o.,AS57367 Atman Sp. z o.o.,False,True,PASS
+turn://93.95.230.8:3478,93.95.230.8,0.867618,200,none,1,231936,IS,Reykjavik,The 1984 ehf,AS44925 1984 ehf,False,True,PASS
+turn://5.61.218.88:3478,5.61.218.88,0.813406,200,none,2,269030,IT,Ancona,NetoIP.com srl,AS202709 NetoIP.com srl,False,False,PASS
+turn://test:test123@81.93.119.16:3478,81.93.119.1,0.819067,200,none,1,269288,DE,Munich,ProSiebenSat.1 Tech & Services GmbH,AS24786 ProSiebenSat.1 Tech & Services GmbH,False,False,PASS
+turn://test:test@42.200.87.184:3478,42.200.87.184,1.260377,200,none,1,159858,HK,Central,PCCW IMSBiz,AS4760 HKT Limited,False,False,PASS
+turn://183.110.246.65:3478,183.110.246.65,1.345783,200,none,1,208885,KR,Seongnam-si,Korea Telecom,AS4766 Korea Telecom,False,False,PASS
+turn://91.215.239.20:3478,91.215.239.20,0.943827,200,none,2,238842,PL,Bestwina,ORION Blazej Hess Connected by T-Mobile Polska S.A.,AS196776 Orion Blazej Hess,False,False,PASS
+turn://185.47.205.27:3478,185.47.205.27,0.901479,200,none,2,232160,RU,Moscow,Selectel,AS50340 JSC Selectel,False,False,PASS
+turn://45.83.222.99:3478,45.83.222.99,0.755780,200,none,2,245119,SE,Malmö,31173 Services AB,AS39351 31173 Services AB,True,False,PASS
+turn://185.181.63.150:3478,185.181.63.150,0.938037,200,none,1,295409,NO,Sandefjord,TERRAHOST,AS56655 Gigahost AS,False,True,PASS
+turn://116.203.95.221:3478,116.203.95.221,0.812926,200,none,1,270048,DE,Nuremberg,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,False,True,PASS
+turn://103.162.1.118:3478,DEAD,,,,,,,,,,,,,,FAIL
+turn://212.66.105.99:3478,212.66.105.99,0.842389,200,none,2,238421,IT,Latina,"Giuliano Claudio Peritore trading as ""Panservice s.a.s. di Cuseo Fabrizio & C.""",AS20912 Giuliano Claudio Peritore trading as Panservice s.a.s. di Cuseo Fabrizio & C.,False,False,PASS
+turn://test:test@148.178.17.24:3478,DEAD,,,,,,,,,,,,,,FAIL
+turn://185.110.23.3:3479,185.110.23.3,0.860284,200,none,1,240969,IT,Altamura,Cicorella srl,AS62093 Cicorella srl,False,True,PASS
+turn://test:test@148.178.16.56:3478,DEAD,,,,,,,,,,,,,,FAIL
+turn://185.207.104.31:3478,185.207.104.31,0.721503,200,none,2,293689,DE,Nuremberg,netcup GmbH,AS197540 netcup GmbH,False,True,PASS
+turn://46.62.133.184:3478,46.62.133.184,0.985155,200,none,2,246120,FI,Helsinki,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,False,True,PASS
+turn://142.132.214.170:3478,142.132.214.170,0.778741,200,none,1,292942,DE,Falkenstein,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,False,True,PASS
+turn://195.201.128.51:3478,195.201.128.51,0.802557,200,none,2,266245,DE,Nuremberg,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,False,True,PASS
+turn://109.71.11.162:3478,109.71.11.162,0.955470,200,none,1,216989,RU,Moscow,Selectel,AS50340 JSC Selectel,False,False,PASS
+turn://185.177.59.22:3478,185.177.59.22,0.851119,200,none,1,224972,BG,Sofia,Belcloud LTD,AS44901 Belcloud LTD,False,True,PASS
+turn://5.9.96.209:3478,5.9.96.209,0.773571,200,none,1,292582,DE,Falkenstein,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,False,True,PASS
+turn://78.46.83.79:3478,78.46.83.79,0.810899,200,none,2,262829,DE,Falkenstein,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,False,True,PASS
+turn://123.253.35.20:3478,123.253.35.20,1.241396,200,none,1,162744,MY,Cyberjaya,Gigabit Hosting Sdn Bhd,AS55720 Gigabit Hosting Sdn Bhd,False,True,PASS
+turn://47.236.247.28:3478,47.236.247.28,1.196003,200,none,2,167902,SG,Singapore,"Alibaba (US) Technology Co., Ltd.","AS45102 Alibaba (US) Technology Co., Ltd.",False,True,PASS
+turn://test:test@164.92.167.25:3478,164.92.167.25,0.749158,200,none,1,285682,DE,Frankfurt am Main,"DigitalOcean, LLC","AS14061 DigitalOcean, LLC",False,True,PASS
+turn://138.199.164.93:3478,138.199.164.93,0.969709,200,none,2,293765,DE,Falkenstein,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,False,True,PASS
+turn://168.119.179.208:3478,168.119.179.208,0.762036,200,none,2,294829,DE,Falkenstein,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,False,True,PASS
+turn://82.202.225.3:3478,82.202.225.3,0.945108,200,none,1,222964,RU,Moscow,Selectel,AS50340 JSC Selectel,False,False,PASS
+turn://95.131.149.128:3478,95.131.149.128,0.917414,200,none,1,214857,RU,Moscow,Lealta Ltd,AS41275 Lovitel LLC,False,False,PASS
+turn://62.109.25.47:3478,62.109.25.47,1.059744,200,none,2,221196,RU,Kokoshkino,JSC IOT,AS29182 JSC IOT,True,True,PASS
+turn://test:test123@165.232.85.81:3478,165.232.85.81,0.704742,200,none,2,312743,NL,Amsterdam,"DigitalOcean, LLC","AS14061 DigitalOcean, LLC",False,True,PASS
+turn://85.192.20.72:3478,85.192.20.72,1.076900,200,none,1,213811,RU,Moscow,LLC Digital Network,AS12695 LLC Digital Network,False,False,PASS
+turn://188.191.160.226:3478,188.191.160.134,1.216187,200,none,1,202057,RU,Ramenskoye,Intelsc Ltd.,AS50577 Intelsc Ltd.,False,False,PASS
+turn://91.103.140.177:3478,91.103.140.177,0.963873,200,none,1,185878,FI,Helsinki,Aeza International LTD,AS210644 AEZA GROUP LLC,False,True,PASS
+turn://194.87.214.175:3478,194.87.214.175,1.049380,200,none,2,214218,RU,Korolyov,JSC Mediasoft ekspert,AS48347 JSC Mediasoft ekspert,False,True,PASS
+turn://152.228.189.153:3478,152.228.189.153,1.263504,200,none,2,219567,FR,Paris,OVH SAS,AS16276 OVH SAS,False,True,PASS
+turn://77.20.212.9:3478,77.20.212.9,0.838034,200,none,1,247810,DE,Berlin,Vodafone Kabel Deutschland,AS3209 Vodafone GmbH,False,False,PASS
+turn://65.21.105.78:3478,65.21.105.78,0.984261,200,none,1,241617,FI,Helsinki,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,True,True,PASS
+turn://178.130.50.203:3478,178.130.50.203,0.949486,200,none,2,225531,RU,Moscow,JSC Selectel,AS50340 JSC Selectel,False,False,PASS
+turn://14.225.44.241:3478,14.225.44.241,1.519909,200,none,1,142554,VN,Haiphong,Vietnam Posts and Telecommunications Group,AS135905 VIETNAM POSTS AND TELECOMMUNICATIONS GROUP,False,False,PASS
+turn://62.113.98.131:3478,62.113.98.131,1.076511,200,none,1,217999,RU,St Petersburg,BEGET.RU,AS198610 Beget LLC,False,False,PASS
+turn://176.109.80.226:3478,176.109.80.226,1.085741,200,none,2,220592,RU,Moscow,MTS PJSC,AS209024 MTS PJSC,False,True,PASS
+turn://185.13.44.11:3478,185.13.44.11,1.058427,200,none,1,225879,RU,Istra,OOO Istranet,AS42291 Istranet LLC AS,False,False,PASS
+turn://156.226.106.27:3478,156.226.104.194,1.291502,200,none,2,176049,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
+turn://185.250.44.111:3478,185.250.44.111,0.989754,200,none,2,225374,RU,Moscow,AdminVPS OOO,AS211183 AdminVPS OOO,False,True,PASS
+turn://200.211.62.54:3478,200.211.62.51,0.924753,200,none,1,227338,BR,Votorantim,Claro S.A,AS4230 CLARO S.A.,False,False,PASS
+turn://195.142.6.170:3478,195.142.6.170,1.029500,200,none,1,207543,TR,Beyoğlu,Superonline Iletisim Hizmetleri A.S.,AS34984 Superonline Iletisim Hizmetleri A.S.,False,False,PASS
+turn://82.202.173.6:3478,82.202.173.6,0.993192,200,none,2,237977,RU,Khimki,JSC IOT,AS29182 JSC IOT,True,True,PASS
+turn://110.4.40.110:3478,110.4.40.110,1.235035,200,none,2,174561,MY,Kuala Lumpur,Exa Bytes Network Sdn.Bhd.,AS46015 Exa Bytes Network Sdn.Bhd.,False,True,PASS
+turn://81.163.80.14:3478,81.163.80.14,1.060143,200,none,1,205200,RU,Vytegra,TELESERVISRU,AS41616 Teleservis-plus LLC,False,False,PASS
+turn://217.67.121.120:3478,217.67.121.120,1.078640,200,none,2,195170,RU,Moscow,"Telecommunications center UMOS, LLC","AS5429 Telecommunications center UMOS, LLC",False,False,PASS
+turn://109.172.88.223:3478,109.172.88.223,1.039581,200,none,2,209801,RU,Moscow,Hosting technology LTD,AS48282 Hosting technology LTD,False,True,PASS
+turn://193.32.191.139:3478,193.32.191.139,1.058120,200,none,1,222097,RU,Moscow,LLC 3data DC,AS198769 LLC 3data DC,False,False,PASS
+turn://118.70.144.77:3478,118.70.144.77,1.489015,200,none,1,146622,VN,Hanoi,FPT Telecom Company,AS18403 FPT Telecom Company,False,False,PASS
+turn://138.204.96.6:3478,138.204.96.6,0.913294,200,none,2,230557,BR,Bom Jardim,Infotech de Bom Jardim C. de material de inf. Ltda,AS263884 Infotech de Bom Jardim C. de material de inf. Ltda,False,False,PASS
+turn://47.84.1.64:3478,47.84.1.64,1.208168,200,none,2,178420,SG,Singapore,Alibaba.com LLC,"AS45102 Alibaba (US) Technology Co., Ltd.",False,True,PASS
+turn://178.20.47.179:3478,178.20.47.179,1.084086,200,none,1,212693,RU,Moscow,Hosting technology LTD,AS48282 Hosting technology LTD,False,True,PASS
+turn://135.181.250.119:3478,135.181.250.119,0.939745,200,none,1,243761,FI,Helsinki,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,False,True,PASS
+turn://195.2.70.36:3478,195.2.70.36,1.095119,200,none,1,210160,RU,Moscow,VDSINA,AS48282 Hosting technology LTD,False,True,PASS
+turn://89.248.192.182:3478,89.248.192.182,0.919072,200,none,1,216216,RU,Moscow,JSC Selectel,AS49505 JSC Selectel,False,False,PASS
+turn://213.184.131.218:3478,194.156.65.66,1.483761,200,none,0,204365,NL,Amsterdam,Foxcloud LLP,AS200904 FOXCLOUD LLP,False,True,PASS
+turn://185.22.154.208:3478,185.22.154.208,1.083078,200,none,1,209726,RU,Moscow,LLC Baxet,AS51659 LLC Baxet,False,False,PASS
+turn://83.217.213.94:3478,83.217.213.94,1.263048,200,none,2,198510,RU,Moscow,Hosting technology LTD,AS48282 Hosting technology LTD,False,True,PASS
+turn://65.21.240.166:3478,65.21.240.166,0.965136,200,none,2,242230,FI,Helsinki,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,False,True,PASS
+turn://79.173.89.166:3478,79.173.89.166,0.923903,200,none,2,250216,RU,Gatchina,IT Region Network,AS43966 OOO IT-Region,False,False,PASS
+turn://156.226.106.9:3478,156.226.104.194,1.106372,200,none,1,179107,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
+turn://89.169.155.107:3478,89.169.155.107,1.052950,200,none,1,242600,RU,Moscow,Yandex.Cloud LLC,AS200350 Yandex.Cloud LLC,False,True,PASS
+turn://89.167.93.194:3478,89.167.93.194,0.964122,200,none,2,249187,DE,Gunzenhausen,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,False,True,PASS
+turn://62.217.182.25:3478,62.217.182.25,1.127039,200,none,2,195358,RU,St Petersburg,Beget LLC,AS198610 Beget LLC,False,False,PASS
+turn://81.222.121.205:3478,81.222.121.205,1.040217,200,none,1,208069,RU,Moscow,"PJSC ""Vimpelcom""",AS3216 PJSC Vimpelcom,False,False,PASS
+turn://37.235.169.38:3478,37.235.169.38,1.123264,200,none,1,217290,RU,Tambov,Lanta Networks,AS41268 Sesameware FZ-LLC,False,False,PASS
+turn://test:test@116.203.70.128:80,116.203.70.128,0.785106,200,none,2,265776,DE,Nuremberg,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,False,True,PASS
+turn://83.68.35.165:3478,83.68.35.165,1.012246,200,none,1,211176,RU,St Petersburg,SeaExpress Ltd,AS31444 SeaExpress Ltd.,False,False,PASS
+turn://190.8.18.8:3478,190.8.18.8,1.067513,200,none,1,210358,BR,Goiânia,LV Consultoria Eireli,AS270767 LV Consultoria Eireli,False,False,PASS
+turn://113.23.35.22:3478,113.23.35.22,1.452019,200,none,1,164978,VN,Hanoi,FPT Telecom Company,AS18403 FPT Telecom Company,False,False,PASS
+turn://181.215.211.203:3478,181.215.211.203,1.047714,200,none,2,200586,BR,Chapecó,Ferenz Networks,AS266400 Ferenz Networks,False,True,PASS
+turn://87.128.16.156:3478,87.128.16.156,0.995268,200,none,1,224561,DE,Berlin,Deutsche Telekom AG,AS3320 Deutsche Telekom AG,False,False,PASS
 turn://103.134.85.75:3478,DEAD,,,,,,,,,,,,,,FAIL
-turn://103.154.112.220:3478,103.154.112.220,1.661981,200,none,2,155019,ID,Tangerang,MORATELINDONAP,AS131111 PT Mora Telematika Indonesia,False,False,PASS
-turn://test:test@185.181.228.243:3478,185.181.228.243,0.976344,200,none,1,202202,MD,Chisinau,Inovare-Prim SRL,AS60602 Inovare-Prim SRL,False,True,PASS
-turn://89.252.178.98:3478,89.252.178.98,1.181247,200,none,2,146269,TR,Zeytinburnu,GNET Internet Telekomunikasyon A.S.,AS42846 GNET Internet Telekomunikasyon A.S.,False,True,PASS
-turn://test:test@195.58.34.98:3478,195.58.34.98,0.926989,200,none,2,203979,RU,Moscow,"JSC ""TIMEWEB""",AS9123 JSC TIMEWEB,False,False,PASS
-turn://177.125.244.38:3478,177.125.244.38,1.022941,200,none,2,206461,BR,Itapiranga,Nedel Telecom,AS262360 NEDEL TELECOM,False,False,PASS
-turn://91.234.180.253:3478,91.234.180.253,1.135125,200,none,1,144835,RU,Moscow,"""INTRAST"" Ltd.",AS198438 INTRAST Ltd.,False,False,PASS
-turn://42.192.111.73:3478,42.192.111.73,2.761060,000,none,,0,CN,Shanghai,China Internet Network Information Center,AS45090 Shenzhen Tencent Computer Systems Company Limited,False,True,FAIL
-turn://89.207.255.110:3478,89.207.255.110,1.519908,200,none,0,163742,KZ,Almaty,"LLP ""Kompaniya Hoster.KZ""",AS202958 Hoster.KZ - Almaty,False,True,PASS
-turn://221.122.73.157:3478,221.122.73.157,1.836916,000,none,,0,CN,Beijing,"IDC, China Telecommunications Corporation","AS23724 IDC, China Telecommunications Corporation",False,False,FAIL
-turn://115.190.239.167:3478,115.190.239.167,2.570740,000,none,,0,CN,Beijing,GWBN-WUHAN's IP,"AS137718 Beijing Volcano Engine Technology Co., Ltd.",False,False,FAIL
-turn://58.97.196.21:3478,58.97.196.21,1.607148,200,none,1,132019,KH,Phnom Penh,OpenNet ISP Cambodia,"AS131178 EZECOM CO., LTD.",False,False,PASS
-turn://45.86.183.186:3478,45.86.183.186,1.329052,200,none,1,170703,RU,Yekaterinburg,INTERNET-PRO,AS44128 Internet-Pro LLC,False,False,PASS
-turn://175.27.252.23:3478,175.27.252.23,2.105131,000,none,,0,CN,Nanjing,China Internet Network Information Center,AS45090 Shenzhen Tencent Computer Systems Company Limited,False,True,FAIL
-turn://157.148.128.218:3478,59.36.97.228,2.132964,000,none,,0,CN,Guangzhou,CHINANET Guangdong province network,AS134763 CHINANET Guangdong province network,False,False,FAIL
-turn://106.52.170.219:3478,106.52.170.219,3.167292,000,none,,0,CN,Guangzhou,Shenzhen Tencent Computer Systems Company Limited,AS45090 Shenzhen Tencent Computer Systems Company Limited,False,True,FAIL
-turn://test:test@183.240.137.19:3478,183.240.137.19,1.775445,000,none,,0,CN,Guangzhou,China Mobile communications corporation,"AS9808 China Mobile Communications Group Co., Ltd.",False,False,FAIL
-turn://49.233.77.77:3478,49.233.77.77,1.941633,000,none,,0,CN,Beijing,Shenzhen Tencent Computer Systems Company Limited,AS45090 Shenzhen Tencent Computer Systems Company Limited,True,True,FAIL
-turn://test:test@183.131.178.70:3478,183.131.178.70,2.178086,000,none,,0,CN,Huzhou,Chinanet,AS58461 CT HangZhou IDC,False,False,FAIL
-turn://139.199.57.190:3478,139.199.57.190,1.902945,000,none,,0,CN,Shenzhen,Shenzhen Tencent Computer Systems Company Limited,AS45090 Shenzhen Tencent Computer Systems Company Limited,False,True,FAIL
-turn://175.178.51.179:3478,175.178.51.179,2.570672,000,none,,0,CN,Guangzhou,Shenzhen Tencent Computer Systems Company Limited,AS45090 Shenzhen Tencent Computer Systems Company Limited,False,True,FAIL
-turn://101.43.233.17:3478,101.43.233.17,2.088872,000,none,,0,CN,Beijing,Shenzhen Tencent Computer Systems Company Limited,AS45090 Shenzhen Tencent Computer Systems Company Limited,False,True,FAIL
-turn://59.36.97.220:3478,59.36.97.220,1.889209,000,none,,0,CN,Guangzhou,CHINANET Guangdong province network,AS134763 CHINANET Guangdong province network,False,False,FAIL
-turn://113.142.208.103:3478,113.142.208.103,1.982026,000,none,,0,CN,Xincheng,CHINANET SHAANXI province Cloud Base network,AS134768 CHINANET SHAANXI province Cloud Base network,False,True,FAIL
-turn://123.138.124.90:3478,113.142.208.103,1.858108,000,none,,0,CN,Xincheng,CHINANET SHAANXI province Cloud Base network,AS134768 CHINANET SHAANXI province Cloud Base network,False,True,FAIL
-turn://112.90.177.11:3478,112.90.177.11,2.285319,000,none,,0,CN,Shiqi,China Unicom CHINA169 Guangdong Province Network,AS17816 China Unicom IP network China169 Guangdong province,False,False,FAIL
-turn://101.35.226.128:3478,101.34.50.119,2.087983,000,none,,0,CN,Shanghai,Shenzhen Tencent Computer Systems Company Limited,AS45090 Shenzhen Tencent Computer Systems Company Limited,False,True,FAIL
-turn://14.29.213.103:3478,14.29.213.103,1.942623,000,none,,0,CN,Guangzhou,Chinanet,AS4134 CHINANET BACKBONE,False,False,FAIL
-turn://14.18.92.180:3478,14.18.92.180,1.862856,000,none,,0,CN,Guangzhou,CHINANET Guangdong province network,AS58466 CHINANET Guangdong province network,False,False,FAIL
-turn://124.95.163.82:3478,42.248.143.213,2.198445,000,none,,0,CN,Shenyang,Chinanet,AS4134 CHINANET BACKBONE,False,False,FAIL
-turn://14.116.154.107:3478,14.116.154.107,3.172259,000,none,,0,CN,Guangzhou,Chinanet,AS4134 CHINANET BACKBONE,False,False,FAIL
-turn://222.184.112.237:3478,222.184.112.237,3.062540,000,none,,0,CN,Nanjing,Chinanet,AS4134 CHINANET BACKBONE,False,False,FAIL
-turn://106.55.225.47:3478,106.55.225.47,2.158733,000,none,,0,CN,Guangzhou,Shenzhen Tencent Computer Systems Company Limited,AS45090 Shenzhen Tencent Computer Systems Company Limited,False,True,FAIL
-turn://106.55.41.58:3478,106.55.41.58,1.979945,000,none,,0,CN,Guangzhou,Shenzhen Tencent Computer Systems Company Limited,AS45090 Shenzhen Tencent Computer Systems Company Limited,False,True,FAIL
-turn://183.6.18.42:3478,183.6.18.42,1.875325,000,none,,0,CN,Guangzhou,Chinanet,AS4134 CHINANET BACKBONE,False,False,FAIL
-turn://177.130.50.61:3478,177.130.50.61,1.279671,200,none,1,180726,BR,Itaituba,Wsp Serviços de Telecomunicações Ltda,AS52747 Wsp Serviços de Telecomunicações Ltda,False,False,PASS
-turn://157.148.128.209:3478,59.36.97.220,2.101930,000,none,,0,CN,Guangzhou,CHINANET Guangdong province network,AS134763 CHINANET Guangdong province network,False,False,FAIL
-turn://103.204.200.67:3478,103.204.200.67,1.470194,200,none,1,135678,BD,Dhaka,BDPEER,AS134983 BDPEER,False,False,PASS
-turn://test:123456@106.55.145.166:3478,106.55.145.166,1.825420,000,none,,0,CN,Guangzhou,Shenzhen Tencent Computer Systems Company Limited,AS45090 Shenzhen Tencent Computer Systems Company Limited,False,True,FAIL
-turn://60.204.249.48:3478,60.204.249.48,2.182373,000,none,,0,CN,Shanghai,Huawei Cloud Service data center,AS55990 Huawei Cloud Service data center,False,True,FAIL
-turn://164.52.200.75:3478,164.52.200.75,1.591634,200,none,1,130265,IN,Noida,E2E Networks Limited,AS132420 E2E NETWORKS,False,True,PASS
-turn://103.203.224.18:3478,103.203.224.18,1.406957,200,none,1,130620,IN,Gurugram,R2 Net Solutions Pvt Ltd,AS134337 R2 Net Solutions Pvt Ltd,False,False,PASS
-turn://123.138.124.87:3478,113.142.208.82,1.827456,000,none,,0,CN,Xincheng,CHINANET SHAANXI province Cloud Base network,AS134768 CHINANET SHAANXI province Cloud Base network,False,True,FAIL
-turn://42.186.10.25:3478,42.186.10.25,1.830951,000,none,,0,CN,Beijing,NetEase Building No.16 Ke Yun Road,AS45062 Netease Network,False,False,FAIL
-turn://116.153.58.252:3478,117.44.75.129,2.824457,000,none,,0,CN,Taohua,Chinanet,AS4134 CHINANET BACKBONE,False,False,FAIL
-turn://103.150.136.131:3478,103.150.136.131,1.429224,200,none,2,145982,IN,New Delhi,Micro Hosting Private Limited,AS134926 Micro Hosting Private Limited,False,True,PASS
-turn://112.90.177.12:3478,112.90.177.12,1.970891,000,none,,0,CN,Shiqi,China Unicom CHINA169 Guangdong Province Network,AS17816 China Unicom IP network China169 Guangdong province,False,False,FAIL
-turn://211.91.75.140:3478,117.68.46.163,1.975527,000,none,,0,CN,Hefei,China Telecom,AS134425 China Telecom,False,False,FAIL
-turn://110.41.80.42:3478,110.41.80.42,2.209170,000,none,,0,CN,Guangzhou,Huawei Cloud Service data center,AS55990 Huawei Cloud Service data center,False,True,FAIL
-turn://test:test@124.132.98.115:3478,124.132.98.115,2.295901,000,none,,0,CN,Beijing,CHINA UNICOM China169 Backbone,AS4837 CHINA UNICOM China169 Backbone,False,False,FAIL
-turn://36.49.31.79:3478,36.49.31.79,2.430867,000,none,,0,CN,Changchun,Chinanet,AS4134 CHINANET BACKBONE,False,False,FAIL
-turn://115.190.244.160:3478,115.190.244.160,2.090123,000,none,,0,CN,Beijing,GWBN-WUHAN's IP,"AS137718 Beijing Volcano Engine Technology Co., Ltd.",False,False,FAIL
-turn://112.90.177.10:3478,112.90.177.10,2.058103,000,none,,0,CN,Shiqi,China Unicom CHINA169 Guangdong Province Network,AS17816 China Unicom IP network China169 Guangdong province,False,False,FAIL
-turn://36.152.171.82:3478,36.152.171.82,1.585499,000,none,,0,CN,Nanjing,China Mobile Communications Corporation,AS56046 China Mobile communications corporation,False,False,FAIL
-turn://218.208.86.13:3478,218.208.86.13,2.324482,200,none,1,141568,MY,Kuala Lumpur,TM TECHNOLOGY SERVICES SDN BHD,AS4788 TM TECHNOLOGY SERVICES SDN. BHD.,False,False,PASS
-turn://1.94.216.161:3478,1.94.216.161,1.817566,000,none,,0,CN,Beijing,Huawei Cloud Service data center,AS55990 Huawei Cloud Service data center,False,True,FAIL
-turn://112.64.170.98:3478,112.64.170.98,1.871649,000,none,,0,CN,Yangpu,China Unicom CHINA169 Shanghai Province Network,AS17621 China Unicom Shanghai network,False,False,FAIL
-turn://114.116.87.242:3478,114.116.87.242,1.815908,000,none,,0,CN,Beijing,"IDC, China Telecommunications Corporation","AS23724 IDC, China Telecommunications Corporation",False,True,FAIL
-turn://156.226.106.18:3478,156.226.104.194,1.152513,200,none,2,181095,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
-turn://220.168.47.186:3478,220.168.47.186,2.003437,000,none,,0,CN,Shangli,Chinanet,AS4134 CHINANET BACKBONE,False,False,FAIL
-turn://103.31.82.171:3478,103.31.82.171,1.836549,200,none,1,114489,PK,Karachi,Multinet 103-82/24,AS9260 Multinet Pakistan Pvt. Ltd.,False,False,PASS
-turn://114.116.123.14:3478,114.116.123.14,2.841085,000,none,,0,CN,Beijing,"IDC, China Telecommunications Corporation","AS23724 IDC, China Telecommunications Corporation",False,True,FAIL
-turn://112.90.50.11:3478,112.90.50.11,1.957936,000,none,,0,CN,Guangzhou,China Unicom CHINA169 Guangdong Province Network,AS17816 China Unicom IP network China169 Guangdong province,False,False,FAIL
-turn://182.150.6.48:3478,182.150.6.48,3.387216,000,none,,0,CN,Chengdu,CHINANET SiChuan Telecom Internet Data Center,AS38283 CHINANET SiChuan Telecom Internet Data Center,False,True,FAIL
-turn://117.68.46.166:3478,117.68.46.166,3.174814,000,none,,0,CN,Hefei,China Telecom,AS134425 China Telecom,False,False,FAIL
-turn://test:123456@182.139.182.55:3478,182.148.114.168,2.091027,000,none,,0,CN,Chengdu,Chinanet,AS4134 CHINANET BACKBONE,False,False,FAIL
-turn://183.36.29.85:3478,183.36.29.12,1.944481,000,none,,0,CN,Guangzhou,Chinanet,AS4134 CHINANET BACKBONE,False,False,FAIL
-turn://test:test@101.64.176.58:3478,101.64.176.58,2.484465,000,none,,0,CN,Hangzhou,China Unicom Zhejiang Province Network,AS4837 CHINA UNICOM China169 Backbone,False,False,FAIL
-turn://116.178.71.162:3478,49.119.136.146,2.944078,000,none,,0,CN,Xingfulu,Chinanet,AS4134 CHINANET BACKBONE,False,False,FAIL
-turn://42.192.43.33:3478,42.192.43.33,1.877490,000,none,,0,CN,Shanghai,China Internet Network Information Center,AS45090 Shenzhen Tencent Computer Systems Company Limited,False,True,FAIL
-turn://41.76.110.231:3478,41.76.110.231,1.446161,200,none,1,136561,ZA,Johannesburg,Diamatrix C.C,AS327979 DIAMATRIX C.C,False,True,PASS
-turn://219.139.42.60:3478,219.139.42.60,3.808982,000,none,,0,CN,Wuhan,Chinanet,AS4134 CHINANET BACKBONE,False,False,FAIL
-turn://test:test@106.55.135.141:3478,106.55.135.141,3.453021,000,none,,0,CN,Guangzhou,Shenzhen Tencent Computer Systems Company Limited,AS45090 Shenzhen Tencent Computer Systems Company Limited,False,True,FAIL
-turn://42.186.97.216:3478,42.186.97.216,2.164929,000,none,,0,CN,Beijing,NetEase Building No.16 Ke Yun Road,AS45062 Netease Network,False,False,FAIL
-turn://81.69.173.68:3478,81.69.173.68,2.240151,000,none,,0,CN,Shanghai,Shenzhen Tencent Computer Systems Company Limited,AS45090 Shenzhen Tencent Computer Systems Company Limited,False,True,FAIL
-turn://test:test@119.188.237.99:3478,119.188.237.99,3.932968,000,none,,0,CN,Jinan,CNC Group CHINA169 Shandong Province Network,AS4837 CHINA UNICOM China169 Backbone,False,False,FAIL
-turn://124.221.5.161:3478,124.221.5.161,2.318606,000,none,,0,CN,Shanghai,China Internet Network Information Center,AS45090 Shenzhen Tencent Computer Systems Company Limited,False,True,FAIL
-turn://test:test@58.56.66.214:3478,58.56.66.214,2.063081,000,none,,0,CN,Liaocheng,"Jinan, ",AS58540 CHINATELECOM SHANDONG JINAN IDC,False,False,FAIL
-turn://120.233.122.208:3478,59.36.97.228,2.789568,000,none,,0,CN,Guangzhou,CHINANET Guangdong province network,AS134763 CHINANET Guangdong province network,False,False,FAIL
-turn://157.148.128.249:3478,59.36.97.223,1.927463,000,none,,0,CN,Guangzhou,CHINANET Guangdong province network,AS134763 CHINANET Guangdong province network,False,False,FAIL
-turn://110.42.99.121:3478,110.42.99.121,3.712605,000,none,,0,CN,Ningbo,China Telecom,"AS136188 NINGBO, ZHEJIANG Province, P.R.China.",False,False,FAIL
-turn://test:test@119.188.237.100:3478,119.188.237.100,3.627621,000,none,,0,CN,Jinan,CNC Group CHINA169 Shandong Province Network,AS4837 CHINA UNICOM China169 Backbone,False,False,FAIL
-turn://106.75.237.48:3478,106.75.237.48,2.410792,000,none,,0,CN,Yangpu,UCLOUD,AS17621 China Unicom Shanghai network,False,True,FAIL
-turn://119.45.223.9:3478,119.45.223.9,1.947508,000,none,,0,CN,Nanjing,China Unicom Guangdong Province network,AS45090 Shenzhen Tencent Computer Systems Company Limited,False,True,FAIL
-turn://112.28.219.154:3478,117.68.46.166,2.028887,000,none,,0,CN,Hefei,China Telecom,AS134425 China Telecom,False,False,FAIL
-turn://1.117.217.137:3478,1.117.217.137,2.339076,000,none,,0,CN,Shanghai,China Internet Network Information Center,AS45090 Shenzhen Tencent Computer Systems Company Limited,False,True,FAIL
-turn://106.12.47.32:3478,106.12.47.32,3.056695,000,none,,0,CN,Beijing,"Beijing Baidu Netcom Science and Technology Co., Ltd.","AS38365 Beijing Baidu Netcom Science and Technology Co., Ltd.",False,True,FAIL
-turn://101.126.134.70:3478,101.126.134.70,1.973392,000,none,,0,CN,Haidian,"Beijing Volcano Engine Technology Co., Ltd.","AS137718 Beijing Volcano Engine Technology Co., Ltd.",False,False,FAIL
-turn://123.249.88.38:3478,123.249.88.38,2.840714,000,none,,0,CN,Beijing,Huawei Cloud Service data center,AS55990 Huawei Cloud Service data center,False,True,FAIL
-turn://60.168.145.192:3478,60.168.145.192,5.405585,000,none,,0,CN,Hefei,Chinanet,AS4134 CHINANET BACKBONE,False,False,FAIL
-turn://121.37.88.162:3478,121.37.88.162,1.867129,000,none,,0,CN,Beijing,Huawei Cloud Service data center,AS55990 Huawei Cloud Service data center,False,True,FAIL
-turn://39.91.177.243:3478,182.40.49.77,1.990665,000,none,,0,CN,Jinan,"Jinan, ",AS58540 CHINATELECOM SHANDONG JINAN IDC,False,False,FAIL
-turn://117.157.224.148:3478,61.178.53.188,1.705129,000,none,,0,CN,Lanzhou,Chinanet,AS4134 CHINANET BACKBONE,False,False,FAIL
-turn://106.227.75.42:3478,106.227.75.42,2.011127,000,none,,0,CN,Taohua,China Telecom,AS149837 China Telecom,False,False,FAIL
-turn://test:123456@180.140.114.7:3478,180.140.114.7,3.302956,000,none,,0,CN,Liuzhou,Chinanet,AS4134 CHINANET BACKBONE,False,False,FAIL
-turn://115.85.212.12:3478,61.178.53.188,1.955579,000,none,,0,CN,Lanzhou,Chinanet,AS4134 CHINANET BACKBONE,False,False,FAIL
-turn://test:test@58.56.66.212:3478,58.56.66.212,2.971833,000,none,,0,CN,Liaocheng,"Jinan, ",AS58540 CHINATELECOM SHANDONG JINAN IDC,False,False,FAIL
-turn://116.211.126.31:3478,116.211.126.31,3.561343,000,none,,0,CN,Shizishan,CHINANET Hubei province network,AS58563 CHINANET Hubei province network,False,False,FAIL
-turn://61.169.97.58:3478,61.169.97.58,2.208783,000,none,,0,CN,Shanghai,China Telecom (Group),AS4812 China Telecom (Group),False,False,FAIL
-turn://49.234.57.131:3478,49.234.57.131,2.612498,000,none,,0,CN,Shanghai,Shenzhen Tencent Computer Systems Company Limited,AS45090 Shenzhen Tencent Computer Systems Company Limited,False,True,FAIL
-turn://111.11.105.70:3478,111.11.105.70,1.801831,000,none,,0,CN,Shijiazhuang,China Mobile communications corporation,AS24547 Hebei Mobile Communication Company Limited,False,False,FAIL
-turn://162.14.119.252:3478,162.14.119.252,2.165718,000,none,,0,CN,Chengdu,Shenzhen Tencent Computer Systems Company Limited,AS45090 Shenzhen Tencent Computer Systems Company Limited,False,True,FAIL
-turn://114.116.146.102:3478,114.116.146.102,1.881540,000,none,,0,CN,Beijing,"IDC, China Telecommunications Corporation","AS23724 IDC, China Telecommunications Corporation",False,True,FAIL
-turn://27.155.88.95:3478,27.155.88.95,4.050972,000,none,,0,CN,Wenquan,Fuzhou,AS133774 Fuzhou,False,False,FAIL
-turn://61.164.124.177:3478,61.164.124.177,2.441111,000,none,,0,CN,Wenzhou,China Telecom,"AS134771 WENZHOU, ZHEJIANG Province, P.R.China.",False,False,FAIL
-turn://test:test@120.221.151.179:3478,120.221.151.179,1.833347,000,none,,0,CN,Guangzhou,China Mobile communications corporation,"AS9808 China Mobile Communications Group Co., Ltd.",False,False,FAIL
-turn://test:test@113.108.13.101:3478,113.108.13.101,2.260636,000,none,,0,CN,Guangzhou,Chinanet,AS4134 CHINANET BACKBONE,False,False,FAIL
-turn://test:test@120.221.151.181:3478,120.221.151.181,2.283987,000,none,,0,CN,Guangzhou,China Mobile communications corporation,"AS9808 China Mobile Communications Group Co., Ltd.",False,False,FAIL
-turn://1.94.125.161:3478,1.94.125.161,2.803654,000,none,,0,CN,Shanghai,Huawei Cloud Service data center,AS55990 Huawei Cloud Service data center,False,True,FAIL
-turn://118.25.186.93:3478,118.25.186.93,2.256890,000,none,,0,CN,Shanghai,Shenzhen Tencent Computer Systems Company Limited,AS45090 Shenzhen Tencent Computer Systems Company Limited,False,True,FAIL
-turn://182.240.160.37:3478,182.240.160.37,2.006163,000,none,,0,CN,Kunming,CHINANET Yunnan province IDC2 network,AS134766 CHINANET Yunnan province IDC2 network,False,False,FAIL
-turn://121.4.111.95:3478,121.4.111.95,2.668473,000,none,,0,CN,Shanghai,China Internet Network Information Center,AS45090 Shenzhen Tencent Computer Systems Company Limited,False,True,FAIL
-turn://test:test@183.131.178.69:3478,DEAD,,,,,,,,,,,,,,FAIL
-turn://test:test@183.131.178.71:3478,183.131.178.71,4.527638,000,none,,0,CN,Huzhou,Chinanet,AS58461 CT HangZhou IDC,False,False,FAIL
-turn://222.185.123.174:3478,222.185.123.174,3.473903,000,none,,0,CN,Nanjing,Chinanet,AS4134 CHINANET BACKBONE,False,False,FAIL
-turn://180.102.135.166:3478,180.102.135.166,1.881267,000,none,,0,CN,Nanjing,China Telecom,AS134756 CHINANET Nanjing Jishan IDC network,False,False,FAIL
-turn://116.211.127.136:3478,116.211.127.136,2.986865,000,none,,0,CN,Shizishan,CHINANET Hubei province network,AS58563 CHINANET Hubei province network,False,False,FAIL
-turn://112.28.219.158:3478,117.68.46.163,2.782340,000,none,,0,CN,Hefei,China Telecom,AS134425 China Telecom,False,False,FAIL
-turn://89.179.245.34:3478,89.179.245.34,1.042227,200,none,2,177922,RU,Moscow,CORBINA-BROADBAND,AS8402 PJSC Vimpelcom,False,False,PASS
-turn://160.238.216.40:3478,160.238.216.40,0.994052,200,none,2,219216,BR,Palhoça,WIUP Internet LTDA,AS274516 WIUP Internet LTDA,False,False,PASS
-turn://87.98.159.3:3478,87.98.159.3,1.126248,200,none,2,279320,FR,Gravelines,MCPECloud SAS,AS16276 OVH SAS,False,True,PASS
-turn://108.181.66.218:3478,108.181.66.218,0.678629,200,none,2,293500,GB,City of London,Psychz Networks,AS40676 Psychz Networks,False,True,PASS
-turn://152.228.189.149:3478,152.228.189.149,0.731919,200,none,1,249582,FR,Paris,OVH SAS,AS16276 OVH SAS,False,True,PASS
-turn://94.23.23.10:3478,94.23.23.10,0.717671,200,none,1,314591,FR,Roubaix,OVH SAS,AS16276 OVH SAS,False,True,PASS
-turn://54.36.100.113:3478,54.36.100.113,0.662394,200,none,1,304543,FR,Gravelines,OVH SAS,AS16276 OVH SAS,False,True,PASS
-turn://54.37.81.111:3478,54.37.81.111,0.761936,200,none,1,298307,NL,Amsterdam,OVH SAS,AS16276 OVH SAS,False,True,PASS
-turn://209.97.136.105:3478,209.97.136.105,0.652051,200,none,2,321853,GB,Slough,"DigitalOcean, LLC","AS14061 DigitalOcean, LLC",True,True,PASS
-turn://54.37.31.168:3478,54.37.31.168,0.747186,200,none,2,255019,FR,Wattrelos,OVH SAS,AS16276 OVH SAS,False,True,PASS
-turn://101.32.40.105:3478,101.32.40.105,1.053399,200,none,1,189479,HK,Hong Kong,Aceville Pte.ltd,"AS132203 Tencent Building, Kejizhongyi Avenue",False,True,PASS
-turn://217.28.19.25:3478,217.28.19.25,0.724623,200,none,1,301807,GB,Manchester,NWIP Ltd,AS25582 NWIP Ltd,False,False,PASS
-turn://156.226.106.12:3478,156.226.104.194,1.120848,200,none,1,174940,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
-turn://156.226.109.120:3478,156.226.104.194,1.194822,200,none,2,176837,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
-turn://156.226.106.8:3478,156.226.104.194,1.094634,200,none,2,160956,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
-turn://156.226.106.2:3478,156.226.104.194,1.116911,200,none,1,181376,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
-turn://156.226.111.181:3478,156.226.104.194,1.207597,200,none,1,172304,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
-turn://156.226.109.119:3478,156.226.104.194,1.198183,200,none,1,165176,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
-turn://156.226.105.237:3478,156.226.104.194,1.103169,200,none,1,114709,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
-turn://156.226.105.246:3478,156.226.104.194,1.128661,200,none,1,180200,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
-turn://156.226.111.163:3478,156.226.104.194,1.100148,200,none,2,172640,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
-turn://156.226.111.168:3478,156.226.104.194,1.200303,200,none,1,152064,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
-turn://156.226.106.11:3478,156.226.104.194,1.156113,200,none,2,162333,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
-turn://156.226.105.227:3478,156.226.104.194,1.161160,200,none,1,179946,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
-turn://156.226.111.164:3478,156.226.104.194,1.109242,200,none,1,154970,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
-turn://3.26.25.12:3478,3.26.25.12,1.062275,200,none,2,190899,AU,Sydney,Amazon Technologies Inc.,"AS16509 Amazon.com, Inc.",False,True,PASS
-turn://156.226.106.6:3478,156.226.104.194,1.115623,200,none,2,181388,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
-turn://156.226.111.166:3478,156.226.104.194,1.458697,200,none,2,176424,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
-turn://156.226.105.234:3478,156.226.104.194,1.120444,200,none,1,181242,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
-turn://156.226.106.26:3478,156.226.104.194,1.110395,200,none,2,134580,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
-turn://156.226.109.116:3478,156.226.104.194,1.354325,200,none,2,109406,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
-turn://134.0.27.125:3478,134.0.27.125,0.717002,200,none,1,282866,DE,Aachen,TWOOIT-GMBH,AS48823 Hosting.de GmbH,False,True,PASS
-turn://156.226.109.98:3478,156.226.104.194,1.122896,200,none,1,163007,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
-turn://156.226.106.7:3478,156.226.104.194,1.212668,200,none,1,164713,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
-turn://156.226.106.15:3478,156.226.104.194,1.217297,200,none,2,180355,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
-turn://156.226.106.4:3478,156.226.104.194,1.135439,200,none,1,181330,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
-turn://43.134.207.253:3478,43.134.207.253,1.064289,200,none,2,190313,HK,Hong Kong,Shenzhen Tencent Computer Systems Company Limited,"AS132203 Tencent Building, Kejizhongyi Avenue",False,True,PASS
-turn://156.226.111.171:3478,156.226.104.194,1.136683,200,none,2,175695,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
-turn://156.226.111.186:3478,156.226.104.194,1.093459,200,none,1,138416,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
-turn://173.212.194.146:3478,173.212.194.146,1.121429,200,none,1,218957,FR,Lauterbourg,Contabo GmbH,AS51167 Contabo GmbH,False,True,PASS
-turn://156.226.109.101:3478,156.226.104.194,1.170721,200,none,2,176199,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
-turn://156.226.105.226:3478,156.226.104.194,1.201901,200,none,1,179620,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
-turn://156.226.105.242:3478,156.226.104.194,1.112686,200,none,1,178339,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
-turn://156.226.111.182:3478,156.226.104.194,1.091114,200,none,2,166154,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
-turn://156.226.106.5:3478,156.226.104.194,1.120769,200,none,2,144829,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
-turn://156.226.111.167:3478,156.226.104.194,1.146615,200,none,2,181139,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
-turn://156.226.105.232:3478,156.226.104.194,1.121940,200,none,2,179113,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
-turn://156.226.110.152:3478,156.226.104.194,1.122487,200,none,2,165741,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
-turn://156.226.106.13:3478,156.226.104.194,1.110230,200,none,1,146498,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
-turn://156.226.111.175:3478,156.226.104.194,1.119699,200,none,1,181069,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
-turn://156.226.111.170:3478,156.226.104.194,1.128188,200,none,2,165287,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
-turn://156.226.109.112:3478,156.226.104.194,1.190396,200,none,2,173351,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
-turn://156.226.111.165:3478,156.226.104.194,1.441784,200,none,1,179078,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
-turn://156.226.109.99:3478,156.226.104.194,1.102107,200,none,1,166989,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
-turn://156.226.110.134:3478,156.226.104.194,1.110449,200,none,1,130268,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
-turn://156.226.111.169:3478,156.226.104.194,1.096899,200,none,1,180978,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
-turn://156.226.105.239:3478,156.226.104.194,2.469060,200,none,1,174371,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
-turn://156.226.111.178:3478,156.226.104.194,1.095828,200,none,1,179382,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
-turn://156.226.105.231:3478,156.226.104.194,1.215650,200,none,2,142544,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
-turn://156.226.105.252:3478,156.226.104.194,1.116952,200,none,2,163162,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
-turn://156.226.111.187:3478,156.226.104.194,1.109010,200,none,2,164372,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
-turn://156.226.106.28:3478,156.226.104.194,1.185583,200,none,1,162753,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
-turn://195.80.16.8:3478,195.80.16.8,0.683527,200,none,1,299176,GB,Haywards Heath,BNW TECHNOLOGY LTD,AS34442 BNW TECHNOLOGY LTD,False,False,PASS
-turn://156.226.106.19:3478,156.226.104.194,1.114360,200,none,2,181742,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
-turn://101.32.29.6:3478,101.32.29.6,1.069721,200,none,2,168824,HK,Hong Kong,Aceville Pte.ltd,"AS132203 Tencent Building, Kejizhongyi Avenue",False,True,PASS
-turn://217.197.91.175:3478,217.197.91.175,0.795006,200,none,1,258376,DE,Berlin,IN-BERLIN,"AS29670 Individual Network Berlin (""IN-Berlin"") e.V.",False,False,PASS
-turn://109.228.61.173:3478,109.228.61.173,0.719244,200,none,2,288250,GB,London,IONOS SE,AS8560 IONOS SE,False,True,PASS
-turn://212.90.141.34:3478,212.90.141.34,0.720896,200,none,2,279508,DE,Steinau an der Straße,MK Netzdienste Verwaltungs GmbH trading as GmbH & Co. KG,AS25394 MK Netzdienste Verwaltungs GmbH trading as MK Netzdienste GmbH & Co. KG,False,False,PASS
-turn://51.75.76.248:3478,51.75.76.248,0.757354,200,none,1,254585,DE,Limburg an der Lahn,OVH SAS,AS16276 OVH SAS,False,True,PASS
-turn://62.210.65.94:3478,62.210.65.94,0.685901,200,none,2,287400,FR,Paris,Scaleway SAS,AS12876 Scaleway SAS,False,True,PASS
-turn://144.91.103.218:3478,144.91.103.218,0.773333,200,none,2,263963,FR,Lauterbourg,Contabo GmbH,AS51167 Contabo GmbH,False,True,PASS
-turn://82.165.116.181:3478,82.165.116.181,0.774925,200,none,2,271717,DE,Essen,IONOS SE,AS8560 IONOS SE,False,True,PASS
-turn://195.88.109.142:3478,195.88.109.133,0.761940,200,none,2,271575,DE,Gäufelden,CK Software GmbH,AS57407 CK Software GmbH,False,False,PASS
-turn://194.147.58.230:3478,194.147.58.230,0.738956,200,none,2,272433,FR,Lauterbourg,Contabo GmbH,AS51167 Contabo GmbH,False,True,PASS
-turn://162.19.220.83:3478,162.19.220.83,0.793639,200,none,1,254576,DE,Limburg an der Lahn,OVH SAS,AS16276 OVH SAS,False,True,PASS
-turn://212.111.42.230:3478,212.111.42.230,0.683272,200,none,2,319140,GB,London,"Akamai Technologies, Inc.",AS63949 Akamai Connected Cloud,False,True,PASS
-turn://163.47.131.236:3478,163.47.131.237,1.081287,200,none,1,198670,NZ,Auckland,Vetta Group,AS64073 Vetta Group,False,False,PASS
-turn://151.245.106.16:3478,151.245.106.16,2.703196,200,none,1,157997,KR,Seoul,HostHatch,"AS63473 HostHatch, LLC",True,True,PASS
-turn://5.45.111.153:3478,5.45.111.153,0.822633,200,none,1,241643,DE,Nuremberg,netcup GmbH,AS197540 netcup GmbH,False,True,PASS
-turn://144.91.90.143:3478,144.91.90.143,0.736508,200,none,2,268756,FR,Lauterbourg,Contabo GmbH,AS51167 Contabo GmbH,False,True,PASS
-turn://57.129.81.3:3478,57.129.81.3,0.770501,200,none,1,296123,DE,Frankfurt am Main,OVH SAS,AS16276 OVH SAS,False,True,PASS
-turn://37.205.8.43:3478,37.205.8.43,0.780220,200,none,2,242484,CZ,Liberec,RELBIT-VPSFREE,AS24971 MasterDC s.r.o.,False,True,PASS
-turn://139.59.136.246:3478,139.59.136.246,0.763987,200,none,1,273733,DE,Frankfurt am Main,DIGITALOCEAN,"AS14061 DigitalOcean, LLC",False,True,PASS
-turn://118.163.170.1:3478,118.163.170.1,1.201001,200,none,1,205750,TW,Douliu,"Chunghwa Telecom Co., Ltd.",AS3462 Data Communication Business Group,False,False,PASS
-turn://37.120.169.118:3478,37.120.169.118,0.872110,200,none,2,231598,DE,Nuremberg,netcup GmbH,AS197540 netcup GmbH,False,True,PASS
-turn://91.99.131.189:3478,91.99.131.189,0.789272,200,none,2,271331,DE,Nuremberg,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,False,True,PASS
-turn://13.209.67.50:3478,13.209.67.50,0.973291,200,none,2,192761,KR,Incheon,Amazon Technologies Inc.,"AS16509 Amazon.com, Inc.",False,True,PASS
-turn://75.119.136.62:3478,75.119.136.62,0.762035,200,none,2,269302,FR,Lauterbourg,BroadbandONE,AS51167 Contabo GmbH,False,True,PASS
-turn://152.53.144.165:3478,152.53.144.165,0.773066,200,none,2,249855,DE,Nuremberg,netcup GmbH,AS197540 netcup GmbH,False,True,PASS
-turn://95.142.104.174:3478,95.142.104.174,0.700342,200,none,1,280735,DK,Glostrup Municipality,Microdata Aps,AS204866 Microdata Aps,False,False,PASS
-turn://5.133.114.21:3478,5.133.114.21,0.842637,200,none,2,244996,IT,Milan,Connectlife SPA,AS212602 CONNECTLIFE SPA,False,False,PASS
-turn://208.82.73.233:3478,208.82.73.233,0.831250,200,none,1,244852,DE,Düsseldorf,myLoc managed IT AG,AS205411 WIIT AG,False,False,PASS
-turn://89.58.26.249:3478,89.58.26.249,0.878587,200,none,2,249922,DE,Nuremberg,netcup GmbH,AS197540 netcup GmbH,False,True,PASS
-turn://3.67.80.213:3478,3.67.80.213,0.763602,200,none,1,169767,DE,Frankfurt,Amazon Technologies Inc.,"AS16509 Amazon.com, Inc.",False,True,PASS
-turn://145.40.178.125:3478,145.40.178.125,0.692814,200,none,2,297370,GB,Southampton,Toob Limited,AS60377 toob limited,False,False,PASS
-turn://195.46.61.20:3478,195.46.61.20,0.672996,200,none,2,296420,GB,London,Public Internet Limited,AS28792 Public Internet Ltd,False,False,PASS
-turn://test:1234@34.80.79.85:80,34.80.79.85,1.065001,200,none,1,182094,TW,Taipei,Google LLC,AS396982 Google LLC,False,True,PASS
-turn://37.97.245.158:3478,37.97.245.158,0.718672,200,none,2,312780,NL,Baarlo,TransIP BV,AS20857 Signet B.V.,False,True,PASS
-turn://198.211.126.45:3478,198.211.126.45,0.715554,200,none,2,286732,NL,Amsterdam,"DigitalOcean, LLC","AS14061 DigitalOcean, LLC",True,True,PASS
-turn://94.136.71.45:3478,94.136.71.45,0.749798,200,none,1,253367,SE,Stockholm,GlobalConnect AB,AS12552 GlobalConnect AB,False,False,PASS
-turn://test:test123@51.75.142.187:3478,51.75.142.187,0.804019,200,none,1,284151,FR,Roubaix,OVH SAS,AS16276 OVH SAS,False,True,PASS
-turn://45.59.125.94:3478,45.59.125.94,0.818160,200,none,1,245355,CH,Bern,RouterHosting LLC,AS14956 RouterHosting LLC,False,True,PASS
-turn://116.203.34.229:3478,116.203.34.229,1.197663,200,none,2,276614,DE,Nuremberg,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,False,True,PASS
-turn://89.28.236.165:3478,89.28.236.165,0.822636,200,none,2,243133,DK,Nørre Åby,Webdock.io ApS,AS44803 Webdock.io ApS,False,False,PASS
-turn://test:test123@211.20.1.40:3478,211.20.1.40,1.174822,200,none,2,198053,TW,Zhongzheng,"Chunghwa Telecom Co., Ltd.",AS3462 Data Communication Business Group,False,False,PASS
-turn://77.200.201.104:3478,77.200.201.104,0.734475,200,none,1,299958,FR,Paris,Societe Francaise Du Radiotelephone - SFR SA,AS15557 Societe Francaise Du Radiotelephone - SFR SA,False,False,PASS
-turn://132.226.238.84:3478,132.226.238.84,0.949227,200,none,1,208716,KR,Seoul,Oracle Corporation,AS31898 Oracle Corporation,False,True,PASS
-turn://144.76.229.226:3478,144.76.229.226,0.791510,200,none,2,263594,DE,Falkenstein,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,False,True,PASS
-turn://168.119.171.185:3478,168.119.171.185,0.810774,200,none,1,282960,DE,Nuremberg,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,False,True,PASS
-turn://157.245.58.157:3478,157.245.58.157,1.207606,200,none,1,175866,SG,Singapore,"DigitalOcean, LLC","AS14061 DigitalOcean, LLC",False,True,PASS
-turn://3.70.224.86:3478,3.70.224.86,0.712820,200,none,2,297104,DE,Frankfurt,Amazon Technologies Inc.,"AS16509 Amazon.com, Inc.",False,True,PASS
-turn://57.128.214.60:3478,57.128.214.60,0.818031,200,none,1,201628,PL,Warsaw,OVH SAS,AS16276 OVH SAS,False,True,PASS
-turn://49.12.191.123:3478,49.12.191.123,0.769770,200,none,2,275109,DE,Falkenstein,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,False,True,PASS
-turn://139.59.234.68:3478,139.59.234.68,1.200381,200,none,1,179478,SG,Singapore,DIGITALOCEAN,"AS14061 DigitalOcean, LLC",False,True,PASS
-turn://213.227.128.40:3478,213.227.128.40,0.701107,200,none,1,305567,NL,Amsterdam,Leaseweb NL,AS60781 LeaseWeb Netherlands B.V.,False,True,PASS
-turn://46.4.57.175:3478,46.4.57.175,0.789713,200,none,2,263354,DE,Falkenstein,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,False,True,PASS
-turn://116.203.99.87:3478,116.203.99.87,0.774073,200,none,1,264513,DE,Nuremberg,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,False,True,PASS
-turn://test:test@150.109.123.236:3478,150.109.123.236,1.059124,200,none,2,187051,HK,Hong Kong,Aceville Pte.ltd,"AS132203 Tencent Building, Kejizhongyi Avenue",False,True,PASS
-turn://159.195.29.126:3478,159.195.29.126,0.760297,200,none,1,262296,DE,Nuremberg,netcup GmbH,AS197540 netcup GmbH,False,True,PASS
-turn://195.222.16.82:3478,195.222.16.82,0.886528,200,none,2,196423,EE,Tallinn,SKINNYMOB-HOUSING4,AS3327 CITIC Telecom CPC Netherlands B.V.,False,False,PASS
-turn://93.123.84.45:3478,93.123.84.45,0.763943,200,none,1,282458,DE,Frankfurt am Main,Play2go International Limited,AS215439 PLAY2GO INTERNATIONAL LIMITED,False,False,PASS
-turn://49.12.3.77:3478,49.12.3.77,0.769679,200,none,2,196175,DE,Falkenstein,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,False,True,PASS
-turn://49.12.130.123:3478,49.12.130.123,0.785927,200,none,1,253574,DE,Falkenstein,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,False,True,PASS
-turn://209.38.190.27:3478,209.38.190.27,0.737024,200,none,2,262257,DE,Frankfurt am Main,"DigitalOcean, LLC","AS14061 DigitalOcean, LLC",False,True,PASS
-turn://85.214.120.233:3478,85.214.120.233,0.755933,200,none,2,255645,DE,Berlin,Strato AG,AS6724 Strato GmbH,False,True,PASS
-turn://85.10.201.49:3478,85.10.201.49,0.793562,200,none,2,273910,DE,Nuremberg,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,False,True,PASS
-turn://188.245.197.136:3478,188.245.197.136,0.796956,200,none,1,272228,DE,Falkenstein,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,False,True,PASS
-turn://167.235.29.34:3478,167.235.29.34,1.163159,200,none,1,255152,DE,Nuremberg,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,False,True,PASS
-turn://146.190.194.217:3478,146.190.194.217,1.193800,200,none,1,177079,SG,Singapore,"DigitalOcean, LLC","AS14061 DigitalOcean, LLC",False,True,PASS
-turn://81.169.243.207:3478,81.169.243.207,0.766251,200,none,2,258885,DE,Berlin,Strato AG,AS6724 Strato GmbH,False,True,PASS
-turn://213.240.239.49:3478,213.240.239.49,0.866308,200,none,1,274248,BG,Sofia,A1 Bulgaria EAD,AS29580 A1 Bulgaria EAD,False,False,PASS
-turn://203.12.0.153:3478,203.12.0.153,1.161291,200,none,1,184215,AU,Brisbane,Launtel PTY LTD,AS134697 Launtel,False,False,PASS
-turn://94.130.143.50:3478,94.130.143.50,0.785917,200,none,2,273504,DE,Falkenstein,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,False,True,PASS
-turn://88.99.142.45:3478,88.99.142.45,0.782214,200,none,2,264544,DE,Falkenstein,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,False,True,PASS
-turn://43.159.38.237:3478,43.159.38.237,1.249973,200,none,2,152241,SG,Singapore,Shenzhen Tencent Computer Systems Company Limited,"AS132203 Tencent Building, Kejizhongyi Avenue",False,True,PASS
-turn://91.146.180.91:3478,91.146.180.91,0.835715,200,none,2,261865,HU,Bonyhád,TARR Ltd.,AS8462 Tarr Kft.,False,False,PASS
-turn://89.104.114.62:3478,89.104.114.62,0.958636,200,none,2,200797,RU,Moscow,Mediaoperator LLC,AS39033 Mediaoperator LLC,False,False,PASS
-turn://18.102.21.158:3478,18.102.21.158,0.745898,200,none,1,261580,IT,Milan,Amazon Technologies Inc.,"AS16509 Amazon.com, Inc.",False,True,PASS
-turn://144.76.255.243:3478,144.76.255.243,0.793712,200,none,1,220003,DE,Falkenstein,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,False,True,PASS
-turn://test:test123@217.160.141.115:3478,217.160.141.115,0.768628,200,none,2,262444,DE,Frankfurt am Main,IONOS SE,AS8560 IONOS SE,False,True,PASS
-turn://89.58.18.192:3478,89.58.18.192,0.806067,200,none,2,270931,AT,Vienna,netcup GmbH,AS197540 netcup GmbH,False,True,PASS
-turn://46.225.223.140:3478,46.225.223.140,0.797512,200,none,1,243080,DE,Nuremberg,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,False,True,PASS
-turn://5.9.65.38:3478,5.9.65.38,0.779529,200,none,2,276582,DE,Falkenstein,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,False,True,PASS
-turn://128.140.43.162:3478,128.140.43.162,0.808239,200,none,2,274830,DE,Nuremberg,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,False,True,PASS
-turn://91.107.220.110:3478,91.107.220.110,0.809220,200,none,1,261513,DE,Frankfurt Am Main,Hetzner Online AG,AS24940 Hetzner Online GmbH,False,True,PASS
-turn://test:test@213.189.56.175:3478,213.189.56.175,0.731798,200,none,2,268901,PL,Warsaw,Atman Sp. z o.o.,AS57367 Atman Sp. z o.o.,False,True,PASS
-turn://93.95.230.8:3478,93.95.230.8,0.863690,200,none,2,243419,IS,Reykjavik,The 1984 ehf,AS44925 1984 ehf,False,True,PASS
-turn://5.61.218.88:3478,5.61.218.88,0.866843,200,none,1,251259,IT,Ancona,NetoIP.com srl,AS202709 NetoIP.com srl,False,False,PASS
-turn://test:test123@81.93.119.16:3478,81.93.119.1,0.795492,200,none,1,249867,DE,Munich,ProSiebenSat.1 Tech & Services GmbH,AS24786 ProSiebenSat.1 Tech & Services GmbH,False,False,PASS
-turn://test:test@42.200.87.184:3478,42.200.87.184,1.258902,200,none,2,136633,HK,Central,PCCW IMSBiz,AS4760 HKT Limited,False,False,PASS
-turn://183.110.246.65:3478,183.110.246.65,1.349843,200,none,1,211084,KR,Seongnam-si,Korea Telecom,AS4766 Korea Telecom,False,False,PASS
-turn://91.215.239.20:3478,91.215.239.20,1.246777,200,none,2,182896,PL,Bestwina,ORION Blazej Hess Connected by T-Mobile Polska S.A.,AS196776 Orion Blazej Hess,False,False,PASS
-turn://185.47.205.27:3478,185.47.205.27,0.961793,200,none,1,212584,RU,Moscow,Selectel,AS50340 JSC Selectel,False,False,PASS
-turn://45.83.222.99:3478,45.83.222.99,0.827140,200,none,1,215141,SE,Malmö,31173 Services AB,AS39351 31173 Services AB,True,False,PASS
-turn://185.181.63.150:3478,185.181.63.150,0.778704,200,none,2,184367,NO,Sandefjord,TERRAHOST,AS56655 Gigahost AS,False,True,PASS
-turn://116.203.95.221:3478,116.203.95.221,0.821080,200,none,1,276244,DE,Nuremberg,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,False,True,PASS
-turn://103.162.1.118:3478,103.162.1.118,1.217539,200,none,1,167970,ID,Jakarta,Sintegrasi Networks,AS141634 PT Satu Sistem Integrasi,True,False,PASS
-turn://212.66.105.99:3478,212.66.105.99,0.891737,200,none,1,205589,IT,Latina,"Giuliano Claudio Peritore trading as ""Panservice s.a.s. di Cuseo Fabrizio & C.""",AS20912 Giuliano Claudio Peritore trading as Panservice s.a.s. di Cuseo Fabrizio & C.,False,False,PASS
-turn://test:test@148.178.17.24:3478,148.178.17.24,1.096804,200,none,1,188696,US,New York,Zillion Network Inc.,AS54801 Zillion Network Inc.,False,False,PASS
-turn://185.110.23.3:3479,185.110.23.3,0.895968,200,none,1,223699,IT,Altamura,Cicorella srl,AS62093 Cicorella srl,False,True,PASS
-turn://test:test@148.178.16.56:3478,148.178.16.56,1.133209,200,none,1,189722,US,New York,Zillion Network Inc.,AS54801 Zillion Network Inc.,False,False,PASS
-turn://185.207.104.31:3478,185.207.104.31,0.745717,200,none,2,288008,DE,Nuremberg,netcup GmbH,AS197540 netcup GmbH,False,True,PASS
-turn://46.62.133.184:3478,46.62.133.184,0.965448,200,none,1,239530,FI,Helsinki,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,False,True,PASS
-turn://142.132.214.170:3478,142.132.214.170,0.783464,200,none,1,192662,DE,Falkenstein,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,False,True,PASS
-turn://195.201.128.51:3478,195.201.128.51,0.803697,200,none,1,260479,DE,Nuremberg,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,False,True,PASS
-turn://109.71.11.162:3478,109.71.11.162,0.956901,200,none,2,224316,RU,Moscow,Selectel,AS50340 JSC Selectel,False,False,PASS
-turn://185.177.59.22:3478,185.177.59.22,0.855586,200,none,1,250410,BG,Sofia,Belcloud LTD,AS44901 Belcloud LTD,False,True,PASS
-turn://5.9.96.209:3478,5.9.96.209,0.783059,200,none,1,251354,DE,Falkenstein,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,False,True,PASS
-turn://78.46.83.79:3478,78.46.83.79,0.758467,200,none,1,252730,DE,Falkenstein,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,False,True,PASS
-turn://123.253.35.20:3478,123.253.35.20,1.266527,200,none,1,162285,MY,Cyberjaya,Gigabit Hosting Sdn Bhd,AS55720 Gigabit Hosting Sdn Bhd,False,True,PASS
-turn://47.236.247.28:3478,47.236.247.28,1.221150,200,none,1,166283,SG,Singapore,"Alibaba (US) Technology Co., Ltd.","AS45102 Alibaba (US) Technology Co., Ltd.",False,True,PASS
-turn://test:test@164.92.167.25:3478,164.92.167.25,0.748223,200,none,2,278521,DE,Frankfurt am Main,"DigitalOcean, LLC","AS14061 DigitalOcean, LLC",False,True,PASS
-turn://138.199.164.93:3478,138.199.164.93,0.802184,200,none,2,269292,DE,Falkenstein,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,False,True,PASS
-turn://168.119.179.208:3478,168.119.179.208,0.794239,200,none,1,272368,DE,Falkenstein,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,False,True,PASS
-turn://82.202.225.3:3478,82.202.225.3,0.999246,200,none,2,203854,RU,Moscow,Selectel,AS50340 JSC Selectel,False,False,PASS
-turn://95.131.149.128:3478,95.131.149.128,1.401616,200,none,1,215545,RU,Moscow,Lealta Ltd,AS41275 Lovitel LLC,False,False,PASS
-turn://62.109.25.47:3478,62.109.25.47,1.108922,200,none,1,202658,RU,Kokoshkino,JSC IOT,AS29182 JSC IOT,True,True,PASS
-turn://test:test123@165.232.85.81:3478,165.232.85.81,0.725270,200,none,1,312542,NL,Amsterdam,"DigitalOcean, LLC","AS14061 DigitalOcean, LLC",False,True,PASS
-turn://85.192.20.72:3478,85.192.20.72,1.093077,200,none,2,187648,RU,Moscow,LLC Digital Network,AS12695 LLC Digital Network,False,False,PASS
-turn://188.191.160.226:3478,188.191.160.134,1.190378,200,none,2,190076,RU,Ramenskoye,Intelsc Ltd.,AS50577 Intelsc Ltd.,False,False,PASS
-turn://91.103.140.177:3478,91.103.140.177,0.891386,200,none,2,155654,FI,Helsinki,Aeza International LTD,AS210644 AEZA GROUP LLC,False,True,PASS
-turn://194.87.214.175:3478,194.87.214.175,1.074998,200,none,2,214435,RU,Korolyov,JSC Mediasoft ekspert,AS48347 JSC Mediasoft ekspert,False,True,PASS
-turn://152.228.189.153:3478,152.228.189.153,4.100425,200,none,2,237776,FR,Paris,OVH SAS,AS16276 OVH SAS,False,True,PASS
-turn://77.20.212.9:3478,77.20.212.9,0.842632,200,none,2,246174,DE,Berlin,Vodafone Kabel Deutschland,AS3209 Vodafone GmbH,False,False,PASS
-turn://65.21.105.78:3478,65.21.105.78,0.939716,200,none,1,221977,FI,Helsinki,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,True,True,PASS
-turn://178.130.50.203:3478,178.130.50.203,0.981429,200,none,2,229363,RU,Moscow,JSC Selectel,AS50340 JSC Selectel,False,False,PASS
-turn://14.225.44.241:3478,14.225.44.241,1.448931,200,none,1,149716,VN,Haiphong,Vietnam Posts and Telecommunications Group,AS135905 VIETNAM POSTS AND TELECOMMUNICATIONS GROUP,False,False,PASS
-turn://62.113.98.131:3478,62.113.98.131,1.030543,200,none,1,195327,RU,St Petersburg,BEGET.RU,AS198610 Beget LLC,False,False,PASS
-turn://176.109.80.226:3478,176.109.80.226,1.063636,200,none,1,224227,RU,Moscow,MTS PJSC,AS209024 MTS PJSC,False,True,PASS
-turn://185.13.44.11:3478,185.13.44.11,1.094113,200,none,1,185410,RU,Istra,OOO Istranet,AS42291 Istranet LLC AS,False,False,PASS
-turn://156.226.106.27:3478,156.226.104.194,1.116455,200,none,1,181579,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
-turn://185.250.44.111:3478,185.250.44.111,1.042165,200,none,1,195207,RU,Moscow,AdminVPS OOO,AS211183 AdminVPS OOO,False,True,PASS
-turn://200.211.62.54:3478,200.211.62.51,0.928130,200,none,1,212154,BR,Votorantim,Claro S.A,AS4230 CLARO S.A.,False,False,PASS
-turn://195.142.6.170:3478,195.142.6.170,1.043181,200,none,2,195330,TR,Beyoğlu,Superonline Iletisim Hizmetleri A.S.,AS34984 Superonline Iletisim Hizmetleri A.S.,False,False,PASS
-turn://82.202.173.6:3478,82.202.173.6,1.109362,200,none,2,132156,RU,Khimki,JSC IOT,AS29182 JSC IOT,True,True,PASS
-turn://110.4.40.110:3478,110.4.40.110,1.228165,200,none,1,173726,MY,Kuala Lumpur,Exa Bytes Network Sdn.Bhd.,AS46015 Exa Bytes Network Sdn.Bhd.,False,True,PASS
-turn://81.163.80.14:3478,81.163.80.14,1.131827,200,none,2,192055,RU,Vytegra,TELESERVISRU,AS41616 Teleservis-plus LLC,False,False,PASS
-turn://217.67.121.120:3478,217.67.121.120,1.084602,200,none,1,196361,RU,Moscow,"Telecommunications center UMOS, LLC","AS5429 Telecommunications center UMOS, LLC",False,False,PASS
-turn://109.172.88.223:3478,109.172.88.223,1.126647,200,none,2,206562,RU,Moscow,Hosting technology LTD,AS48282 Hosting technology LTD,False,True,PASS
-turn://193.32.191.139:3478,193.32.191.139,1.061153,200,none,1,133807,RU,Moscow,LLC 3data DC,AS198769 LLC 3data DC,False,False,PASS
+turn://103.154.112.220:3478,DEAD,,,,,,,,,,,,,,FAIL
+turn://test:test@185.181.228.243:3478,185.181.228.243,0.937364,200,none,2,218460,MD,Chisinau,Inovare-Prim SRL,AS60602 Inovare-Prim SRL,False,True,PASS
+turn://89.252.178.98:3478,89.252.178.98,1.365778,200,none,1,199286,TR,Zeytinburnu,GNET Internet Telekomunikasyon A.S.,AS42846 GNET Internet Telekomunikasyon A.S.,False,True,PASS
+turn://test:test@195.58.34.98:3478,195.58.34.98,0.962102,200,none,2,214887,RU,Moscow,"JSC ""TIMEWEB""",AS9123 JSC TIMEWEB,False,False,PASS
+turn://177.125.244.38:3478,177.125.244.38,1.106449,200,none,2,169924,BR,Itapiranga,Nedel Telecom,AS262360 NEDEL TELECOM,False,False,PASS
+turn://91.234.180.253:3478,91.234.180.253,1.057859,200,none,2,224059,RU,Moscow,"""INTRAST"" Ltd.",AS198438 INTRAST Ltd.,False,False,PASS
+turn://89.207.255.110:3478,89.207.255.110,1.322369,200,none,1,170974,KZ,Almaty,"LLP ""Kompaniya Hoster.KZ""",AS202958 Hoster.KZ - Almaty,False,True,PASS
+turn://58.97.196.21:3478,58.97.196.21,1.545312,200,none,1,139651,KH,Phnom Penh,OpenNet ISP Cambodia,"AS131178 EZECOM CO., LTD.",False,False,PASS
+turn://45.86.183.186:3478,45.86.183.186,1.263272,200,none,2,177768,RU,Yekaterinburg,INTERNET-PRO,AS44128 Internet-Pro LLC,False,False,PASS
+turn://177.130.50.61:3478,177.130.50.61,1.264099,200,none,1,168364,BR,Itaituba,Wsp Serviços de Telecomunicações Ltda,AS52747 Wsp Serviços de Telecomunicações Ltda,False,False,PASS
+turn://103.204.200.67:3478,103.204.200.67,1.461039,200,none,2,138118,BD,Dhaka,BDPEER,AS134983 BDPEER,False,False,PASS
+turn://164.52.200.75:3478,164.52.200.75,1.419418,200,none,2,147387,IN,Noida,E2E Networks Limited,AS132420 E2E NETWORKS,False,True,PASS
+turn://103.203.224.18:3478,103.203.224.18,1.407900,200,none,1,146492,IN,Gurugram,R2 Net Solutions Pvt Ltd,AS134337 R2 Net Solutions Pvt Ltd,False,False,PASS
+turn://103.150.136.131:3478,103.150.136.131,1.311259,200,none,2,141868,IN,New Delhi,Micro Hosting Private Limited,AS134926 Micro Hosting Private Limited,False,True,PASS
+turn://218.208.86.13:3478,218.208.86.13,1.319612,200,none,1,163177,MY,Kuala Lumpur,TM TECHNOLOGY SERVICES SDN BHD,AS4788 TM TECHNOLOGY SERVICES SDN. BHD.,False,False,PASS
+turn://156.226.106.18:3478,156.226.104.194,1.144118,200,none,1,181288,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
+turn://103.31.82.171:3478,103.31.82.171,1.621549,200,none,1,145950,PK,Karachi,Multinet 103-82/24,AS9260 Multinet Pakistan Pvt. Ltd.,False,False,PASS
+turn://41.76.110.231:3478,41.76.110.231,1.457023,200,none,2,137579,ZA,Johannesburg,Diamatrix C.C,AS327979 DIAMATRIX C.C,False,True,PASS
+turn://89.179.245.34:3478,89.179.245.34,1.048496,200,none,2,199611,RU,Moscow,CORBINA-BROADBAND,AS8402 PJSC Vimpelcom,False,False,PASS
+turn://160.238.216.40:3478,160.238.216.40,1.020151,200,none,2,183639,BR,Palhoça,WIUP Internet LTDA,AS274516 WIUP Internet LTDA,False,False,PASS
+turn://198.50.202.92:3478,198.50.202.92,0.611056,200,none,2,848268,CO,Bogotá,OVH SAS,AS16276 OVH SAS,False,True,PASS
+turn://158.69.34.65:3478,158.69.34.65,0.316914,200,none,2,732442,CA,Montreal,OVH SAS,AS16276 OVH SAS,False,True,PASS
+turn://54.237.42.1:3478,54.237.42.1,0.216725,200,none,2,1041408,US,Ashburn,"Amazon.com, Inc.","AS14618 Amazon.com, Inc.",False,True,PASS
+turn://38.49.209.111:3478,38.49.209.111,0.252444,200,none,1,889784,CA,Montreal,Rica Web Services,AS26832 Rica Web Services,False,True,PASS
+turn://85.119.82.185:3478,85.119.82.185,0.692572,200,none,2,297640,GB,London,Bitfolk Ltd,AS8943 Jump Networks Ltd,False,False,PASS
+turn://193.169.105.14:3478,193.169.105.14,0.666940,200,none,2,299467,NL,Oude Meer,Podaon SIA,AS211381 Podaon SIA,False,False,PASS
+turn://45.90.162.238:3478,45.90.162.238,0.692469,200,none,1,305357,FR,Paris,Sapinet SAS,AS39421 Sapinet SAS,False,False,PASS
+turn://87.106.188.155:3478,87.106.188.155,0.689377,200,none,1,316929,GB,Worcester,IONOS SE,AS8560 IONOS SE,False,True,PASS
+turn://152.228.189.159:3478,152.228.189.159,0.711115,200,none,2,292280,FR,Paris,OVH SAS,AS16276 OVH SAS,False,True,PASS
+turn://152.228.189.155:3478,152.228.189.155,0.737563,200,none,1,292685,FR,Paris,OVH SAS,AS16276 OVH SAS,False,True,PASS
+turn://37.187.148.116:3478,37.187.148.116,0.749912,200,none,1,290637,FR,Roubaix,OVH SAS,AS16276 OVH SAS,False,True,PASS
+turn://94.231.205.158:3478,94.231.205.158,0.709324,200,none,2,281453,DE,Frankfurt am Main,Mvps LTD,AS202448 MVPS LTD,False,True,PASS
+turn://152.228.189.157:3478,152.228.189.157,0.689768,200,none,1,288796,FR,Paris,OVH SAS,AS16276 OVH SAS,False,True,PASS
+turn://87.98.159.3:3478,87.98.159.3,0.758800,200,none,2,309475,FR,Gravelines,MCPECloud SAS,AS16276 OVH SAS,False,True,PASS
+turn://108.181.66.218:3478,108.181.66.218,0.693671,200,none,1,327170,GB,City of London,Psychz Networks,AS40676 Psychz Networks,False,True,PASS
+turn://152.228.189.149:3478,152.228.189.149,0.711733,200,none,1,267157,FR,Paris,OVH SAS,AS16276 OVH SAS,False,True,PASS
+turn://94.23.23.10:3478,94.23.23.10,0.753606,200,none,2,283579,FR,Roubaix,OVH SAS,AS16276 OVH SAS,False,True,PASS
+turn://54.36.100.113:3478,54.36.100.113,0.744676,200,none,1,306266,FR,Gravelines,OVH SAS,AS16276 OVH SAS,False,True,PASS
+turn://54.37.81.111:3478,54.37.81.111,0.758115,200,none,1,292512,NL,Amsterdam,OVH SAS,AS16276 OVH SAS,False,True,PASS
+turn://209.97.136.105:3478,209.97.136.105,0.933715,200,none,1,303426,GB,Slough,"DigitalOcean, LLC","AS14061 DigitalOcean, LLC",True,True,PASS
+turn://54.37.31.168:3478,54.37.31.168,0.712567,200,none,2,294123,FR,Wattrelos,OVH SAS,AS16276 OVH SAS,False,True,PASS
+turn://101.32.40.105:3478,101.32.40.105,1.057419,200,none,1,201912,HK,Hong Kong,Aceville Pte.ltd,"AS132203 Tencent Building, Kejizhongyi Avenue",False,True,PASS
+turn://217.28.19.25:3478,217.28.19.25,0.721714,200,none,2,308488,GB,Manchester,NWIP Ltd,AS25582 NWIP Ltd,False,False,PASS
+turn://156.226.106.12:3478,156.226.104.194,1.121673,200,none,1,177660,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
+turn://156.226.109.120:3478,156.226.104.194,1.117249,200,none,1,182841,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
+turn://156.226.106.8:3478,156.226.104.194,1.162940,200,none,2,178312,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
+turn://156.226.106.2:3478,156.226.104.194,1.127514,200,none,2,178889,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
+turn://156.226.111.181:3478,156.226.104.194,1.116988,200,none,2,177057,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
+turn://156.226.109.119:3478,156.226.104.194,1.128973,200,none,2,181380,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
+turn://156.226.105.237:3478,156.226.104.194,1.099140,200,none,1,182486,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
+turn://156.226.105.246:3478,156.226.104.194,1.116378,200,none,2,178981,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
+turn://156.226.111.163:3478,156.226.104.194,1.192120,200,none,1,176839,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
+turn://156.226.111.168:3478,156.226.104.194,1.112102,200,none,2,180682,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
+turn://156.226.106.11:3478,156.226.104.194,1.123250,200,none,2,170098,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
+turn://156.226.105.227:3478,156.226.104.194,1.106689,200,none,2,182259,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
+turn://156.226.111.164:3478,156.226.104.194,1.117587,200,none,2,181371,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
+turn://3.26.25.12:3478,3.26.25.12,1.058044,200,none,1,202298,AU,Sydney,Amazon Technologies Inc.,"AS16509 Amazon.com, Inc.",False,True,PASS
+turn://156.226.106.6:3478,156.226.104.194,1.295331,200,none,1,174600,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
+turn://156.226.111.166:3478,156.226.104.194,1.126598,200,none,1,177473,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
+turn://156.226.105.234:3478,156.226.104.194,1.152146,200,none,1,180231,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
+turn://156.226.106.26:3478,156.226.104.194,1.153246,200,none,2,182202,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
+turn://156.226.109.116:3478,156.226.104.194,1.102459,200,none,1,160679,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
+turn://134.0.27.125:3478,134.0.27.125,0.670642,200,none,2,290928,DE,Aachen,TWOOIT-GMBH,AS48823 Hosting.de GmbH,False,True,PASS
+turn://156.226.109.98:3478,156.226.104.194,1.154486,200,none,2,177262,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
+turn://156.226.106.7:3478,156.226.104.194,1.117493,200,none,1,99072,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
+turn://156.226.106.15:3478,156.226.104.194,1.096651,200,none,1,176602,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
+turn://156.226.106.4:3478,156.226.104.194,1.111325,200,none,1,181777,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
+turn://43.134.207.253:3478,43.134.207.253,1.053400,200,none,1,188596,HK,Hong Kong,Shenzhen Tencent Computer Systems Company Limited,"AS132203 Tencent Building, Kejizhongyi Avenue",False,True,PASS
+turn://156.226.111.171:3478,156.226.104.194,1.152733,200,none,2,180635,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
+turn://156.226.111.186:3478,156.226.104.194,1.183827,200,none,2,166035,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
+turn://173.212.194.146:3478,173.212.194.146,0.738908,200,none,2,292109,FR,Lauterbourg,Contabo GmbH,AS51167 Contabo GmbH,False,True,PASS
+turn://156.226.109.101:3478,156.226.104.194,1.113119,200,none,1,172948,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
+turn://156.226.105.226:3478,156.226.104.194,1.175964,200,none,1,181008,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
+turn://156.226.105.242:3478,156.226.104.194,1.102781,200,none,1,176284,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
+turn://156.226.111.182:3478,156.226.104.194,1.103896,200,none,1,182411,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
+turn://156.226.106.5:3478,156.226.104.194,1.288326,200,none,2,178062,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
+turn://156.226.111.167:3478,156.226.104.194,1.195408,200,none,2,177970,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
+turn://156.226.105.232:3478,156.226.104.194,1.198583,200,none,1,181223,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
+turn://156.226.110.152:3478,156.226.104.194,1.117733,200,none,1,181819,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
+turn://156.226.106.13:3478,156.226.104.194,1.124003,200,none,2,167671,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
+turn://156.226.111.175:3478,156.226.104.194,1.118946,200,none,2,180438,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
+turn://156.226.111.170:3478,156.226.104.194,1.104726,200,none,2,179003,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
+turn://156.226.109.112:3478,156.226.104.194,1.114575,200,none,2,173438,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
+turn://156.226.111.165:3478,156.226.104.194,1.115442,200,none,1,181928,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
+turn://156.226.109.99:3478,156.226.104.194,1.121383,200,none,1,180254,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
+turn://156.226.110.134:3478,156.226.104.194,1.112433,200,none,1,172662,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
+turn://156.226.111.169:3478,156.226.104.194,1.119908,200,none,2,175131,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
+turn://156.226.105.239:3478,156.226.104.194,1.142013,200,none,1,174881,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
+turn://156.226.111.178:3478,156.226.104.194,1.142186,200,none,1,178323,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
+turn://156.226.105.231:3478,156.226.104.194,1.105120,200,none,2,182085,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
+turn://156.226.105.252:3478,156.226.104.194,1.102465,200,none,1,182915,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
+turn://156.226.111.187:3478,156.226.104.194,1.120068,200,none,1,180093,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
+turn://156.226.106.28:3478,156.226.104.194,1.114965,200,none,2,180707,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
+turn://195.80.16.8:3478,195.80.16.8,0.909295,200,none,1,318958,GB,Haywards Heath,BNW TECHNOLOGY LTD,AS34442 BNW TECHNOLOGY LTD,False,False,PASS
+turn://156.226.106.19:3478,156.226.104.194,1.276202,200,none,1,177331,HK,Hong Kong,CloudFly Net Inc,AS135097 LUOGELANG (FRANCE) LIMITED,False,True,PASS
+turn://101.32.29.6:3478,101.32.29.6,1.062587,200,none,1,188944,HK,Hong Kong,Aceville Pte.ltd,"AS132203 Tencent Building, Kejizhongyi Avenue",False,True,PASS
+turn://217.197.91.175:3478,217.197.91.175,0.782588,200,none,2,287408,DE,Berlin,IN-BERLIN,"AS29670 Individual Network Berlin (""IN-Berlin"") e.V.",False,False,PASS
+turn://109.228.61.173:3478,109.228.61.173,0.691411,200,none,2,295566,GB,London,IONOS SE,AS8560 IONOS SE,False,True,PASS
+turn://212.90.141.34:3478,212.90.141.34,0.744693,200,none,2,268231,DE,Steinau an der Straße,MK Netzdienste Verwaltungs GmbH trading as GmbH & Co. KG,AS25394 MK Netzdienste Verwaltungs GmbH trading as MK Netzdienste GmbH & Co. KG,False,False,PASS
+turn://51.75.76.248:3478,51.75.76.248,0.727690,200,none,1,249171,DE,Limburg an der Lahn,OVH SAS,AS16276 OVH SAS,False,True,PASS
+turn://62.210.65.94:3478,62.210.65.94,0.712133,200,none,2,307077,FR,Paris,Scaleway SAS,AS12876 Scaleway SAS,False,True,PASS
+turn://144.91.103.218:3478,144.91.103.218,0.714048,200,none,1,280120,FR,Lauterbourg,Contabo GmbH,AS51167 Contabo GmbH,False,True,PASS
+turn://82.165.116.181:3478,82.165.116.181,0.735394,200,none,2,289791,DE,Essen,IONOS SE,AS8560 IONOS SE,False,True,PASS
+turn://195.88.109.142:3478,195.88.109.133,0.736260,200,none,1,289670,DE,Gäufelden,CK Software GmbH,AS57407 CK Software GmbH,False,False,PASS
+turn://194.147.58.230:3478,194.147.58.230,0.768905,200,none,2,286537,FR,Lauterbourg,Contabo GmbH,AS51167 Contabo GmbH,False,True,PASS
+turn://162.19.220.83:3478,162.19.220.83,0.745117,200,none,2,288169,DE,Limburg an der Lahn,OVH SAS,AS16276 OVH SAS,False,True,PASS
+turn://212.111.42.230:3478,212.111.42.230,0.644191,200,none,1,321229,GB,London,"Akamai Technologies, Inc.",AS63949 Akamai Connected Cloud,False,True,PASS
+turn://163.47.131.236:3478,163.47.131.237,1.090812,200,none,1,184578,NZ,Auckland,Vetta Group,AS64073 Vetta Group,False,False,PASS
+turn://151.245.106.16:3478,151.245.106.16,1.221325,200,none,2,115578,KR,Seoul,HostHatch,"AS63473 HostHatch, LLC",True,True,PASS
+turn://5.45.111.153:3478,5.45.111.153,0.812638,200,none,2,277243,DE,Nuremberg,netcup GmbH,AS197540 netcup GmbH,False,True,PASS
+turn://144.91.90.143:3478,144.91.90.143,0.726940,200,none,2,281920,FR,Lauterbourg,Contabo GmbH,AS51167 Contabo GmbH,False,True,PASS
+turn://57.129.81.3:3478,57.129.81.3,0.731357,200,none,2,308524,DE,Frankfurt am Main,OVH SAS,AS16276 OVH SAS,False,True,PASS
+turn://37.205.8.43:3478,37.205.8.43,0.969771,200,none,1,276685,CZ,Liberec,RELBIT-VPSFREE,AS24971 MasterDC s.r.o.,False,True,PASS
+turn://139.59.136.246:3478,139.59.136.246,0.747893,200,none,2,286648,DE,Frankfurt am Main,DIGITALOCEAN,"AS14061 DigitalOcean, LLC",False,True,PASS
+turn://118.163.170.1:3478,118.163.170.1,1.218693,200,none,2,208312,TW,Douliu,"Chunghwa Telecom Co., Ltd.",AS3462 Data Communication Business Group,False,False,PASS
+turn://37.120.169.118:3478,37.120.169.118,0.792723,200,none,2,241613,DE,Nuremberg,netcup GmbH,AS197540 netcup GmbH,False,True,PASS
+turn://91.99.131.189:3478,91.99.131.189,0.785787,200,none,2,275885,DE,Nuremberg,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,False,True,PASS
+turn://13.209.67.50:3478,13.209.67.50,0.978008,200,none,2,216993,KR,Incheon,Amazon Technologies Inc.,"AS16509 Amazon.com, Inc.",False,True,PASS
+turn://75.119.136.62:3478,75.119.136.62,0.772873,200,none,2,302480,FR,Lauterbourg,BroadbandONE,AS51167 Contabo GmbH,False,True,PASS
+turn://152.53.144.165:3478,152.53.144.165,0.698824,200,none,1,292756,DE,Nuremberg,netcup GmbH,AS197540 netcup GmbH,False,True,PASS
+turn://95.142.104.174:3478,95.142.104.174,0.843007,200,none,2,265789,DK,Glostrup Municipality,Microdata Aps,AS204866 Microdata Aps,False,False,PASS
+turn://5.133.114.21:3478,5.133.114.22,0.826193,200,none,1,257595,IT,Milan,Connectlife SPA,AS212602 CONNECTLIFE SPA,False,False,PASS
+turn://208.82.73.233:3478,208.82.73.233,0.785218,200,none,1,291400,DE,Düsseldorf,myLoc managed IT AG,AS205411 WIIT AG,False,False,PASS
+turn://89.58.26.249:3478,89.58.26.249,0.762368,200,none,2,248606,DE,Nuremberg,netcup GmbH,AS197540 netcup GmbH,False,True,PASS
+turn://3.67.80.213:3478,DEAD,,,,,,,,,,,,,,FAIL
+turn://145.40.178.125:3478,145.40.178.125,0.714815,200,none,2,312546,GB,Southampton,Toob Limited,AS60377 toob limited,False,False,PASS
+turn://195.46.61.20:3478,195.46.61.20,0.650490,200,none,1,303616,GB,London,Public Internet Limited,AS28792 Public Internet Ltd,False,False,PASS
+turn://test:1234@34.80.79.85:80,34.80.79.85,1.039134,200,none,2,185318,TW,Taipei,Google LLC,AS396982 Google LLC,False,True,PASS
+turn://37.97.245.158:3478,37.97.245.158,0.664004,200,none,1,321220,NL,Baarlo,TransIP BV,AS20857 Signet B.V.,False,True,PASS
+turn://198.211.126.45:3478,198.211.126.45,0.685167,200,none,1,297145,NL,Amsterdam,"DigitalOcean, LLC","AS14061 DigitalOcean, LLC",True,True,PASS
+turn://94.136.71.45:3478,94.136.71.45,0.758331,200,none,2,268556,SE,Stockholm,GlobalConnect AB,AS12552 GlobalConnect AB,False,False,PASS
+turn://test:test123@51.75.142.187:3478,51.75.142.187,0.936785,200,none,2,287397,FR,Roubaix,OVH SAS,AS16276 OVH SAS,False,True,PASS
+turn://45.59.125.94:3478,45.59.125.94,0.826306,200,none,1,246408,CH,Bern,RouterHosting LLC,AS14956 RouterHosting LLC,False,True,PASS
+turn://116.203.34.229:3478,116.203.34.229,0.804727,200,none,2,253244,DE,Nuremberg,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,False,True,PASS
+turn://89.28.236.165:3478,89.28.236.165,0.866125,200,none,2,233086,DK,Nørre Åby,Webdock.io ApS,AS44803 Webdock.io ApS,False,False,PASS
+turn://test:test123@211.20.1.40:3478,211.20.1.40,1.185564,200,none,1,209203,TW,Zhongzheng,"Chunghwa Telecom Co., Ltd.",AS3462 Data Communication Business Group,False,False,PASS
+turn://77.200.201.104:3478,77.200.201.104,0.711698,200,none,1,284121,FR,Paris,Societe Francaise Du Radiotelephone - SFR SA,AS15557 Societe Francaise Du Radiotelephone - SFR SA,False,False,PASS
+turn://132.226.238.84:3478,132.226.238.84,0.948035,200,none,1,214293,KR,Seoul,Oracle Corporation,AS31898 Oracle Corporation,False,True,PASS
+turn://144.76.229.226:3478,144.76.229.226,0.793152,200,none,2,260390,DE,Falkenstein,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,False,True,PASS
+turn://168.119.171.185:3478,168.119.171.185,0.786269,200,none,2,273614,DE,Nuremberg,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,False,True,PASS
+turn://157.245.58.157:3478,157.245.58.157,1.190539,200,none,1,179691,SG,Singapore,"DigitalOcean, LLC","AS14061 DigitalOcean, LLC",False,True,PASS
+turn://3.70.224.86:3478,3.70.224.86,0.704319,200,none,1,297926,DE,Frankfurt,Amazon Technologies Inc.,"AS16509 Amazon.com, Inc.",False,True,PASS
+turn://57.128.214.60:3478,57.128.214.60,0.861057,200,none,2,237450,PL,Warsaw,OVH SAS,AS16276 OVH SAS,False,True,PASS
+turn://49.12.191.123:3478,49.12.191.123,0.780785,200,none,2,290146,DE,Falkenstein,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,False,True,PASS
+turn://139.59.234.68:3478,139.59.234.68,1.195542,200,none,2,180469,SG,Singapore,DIGITALOCEAN,"AS14061 DigitalOcean, LLC",False,True,PASS
+turn://213.227.128.40:3478,213.227.128.40,0.670443,200,none,1,325003,NL,Amsterdam,Leaseweb NL,AS60781 LeaseWeb Netherlands B.V.,False,True,PASS
+turn://46.4.57.175:3478,46.4.57.175,0.761300,200,none,1,252152,DE,Falkenstein,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,False,True,PASS
+turn://116.203.99.87:3478,116.203.99.87,0.775506,200,none,2,265009,DE,Nuremberg,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,False,True,PASS
+turn://test:test@150.109.123.236:3478,150.109.123.236,1.060413,200,none,2,189201,HK,Hong Kong,Aceville Pte.ltd,"AS132203 Tencent Building, Kejizhongyi Avenue",False,True,PASS
+turn://159.195.29.126:3478,159.195.29.126,0.951010,200,none,2,269733,DE,Nuremberg,netcup GmbH,AS197540 netcup GmbH,False,True,PASS
+turn://195.222.16.82:3478,195.222.16.82,0.835205,200,none,2,255456,EE,Tallinn,SKINNYMOB-HOUSING4,AS3327 CITIC Telecom CPC Netherlands B.V.,False,False,PASS
+turn://93.123.84.45:3478,93.123.84.45,0.753297,200,none,2,272118,DE,Frankfurt am Main,Play2go International Limited,AS215439 PLAY2GO INTERNATIONAL LIMITED,False,False,PASS
+turn://49.12.3.77:3478,49.12.3.77,0.750463,200,none,2,276857,DE,Falkenstein,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,False,True,PASS
+turn://49.12.130.123:3478,49.12.130.123,0.774887,200,none,1,260815,DE,Falkenstein,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,False,True,PASS
+turn://209.38.190.27:3478,209.38.190.27,0.734705,200,none,1,302266,DE,Frankfurt am Main,"DigitalOcean, LLC","AS14061 DigitalOcean, LLC",False,True,PASS
+turn://85.214.120.233:3478,85.214.120.233,0.739101,200,none,1,270569,DE,Berlin,Strato AG,AS6724 Strato GmbH,False,True,PASS
+turn://85.10.201.49:3478,85.10.201.49,0.788561,200,none,1,267790,DE,Nuremberg,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,False,True,PASS
+turn://188.245.197.136:3478,188.245.197.136,0.769312,200,none,1,278997,DE,Falkenstein,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,False,True,PASS
+turn://167.235.29.34:3478,167.235.29.34,0.811677,200,none,1,256604,DE,Nuremberg,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,False,True,PASS
+turn://146.190.194.217:3478,146.190.194.217,1.185596,200,none,2,181103,SG,Singapore,"DigitalOcean, LLC","AS14061 DigitalOcean, LLC",False,True,PASS
+turn://81.169.243.207:3478,81.169.243.207,0.739871,200,none,1,275069,DE,Berlin,Strato AG,AS6724 Strato GmbH,False,True,PASS
+turn://213.240.239.49:3478,213.240.239.49,0.857143,200,none,2,254624,BG,Sofia,A1 Bulgaria EAD,AS29580 A1 Bulgaria EAD,False,False,PASS
+turn://203.12.0.153:3478,203.12.0.153,1.221194,200,none,1,182554,AU,Brisbane,Launtel PTY LTD,AS134697 Launtel,False,False,PASS
+turn://94.130.143.50:3478,94.130.143.50,0.750977,200,none,2,294340,DE,Falkenstein,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,False,True,PASS
+turn://88.99.142.45:3478,88.99.142.45,0.776790,200,none,2,269204,DE,Falkenstein,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,False,True,PASS
+turn://43.159.38.237:3478,43.159.38.237,1.242496,200,none,1,175112,SG,Singapore,Shenzhen Tencent Computer Systems Company Limited,"AS132203 Tencent Building, Kejizhongyi Avenue",False,True,PASS
+turn://91.146.180.91:3478,91.146.180.91,0.826541,200,none,2,263070,HU,Bonyhád,TARR Ltd.,AS8462 Tarr Kft.,False,False,PASS
+turn://89.104.114.62:3478,89.104.114.62,0.859703,200,none,2,258442,RU,Moscow,Mediaoperator LLC,AS39033 Mediaoperator LLC,False,False,PASS
