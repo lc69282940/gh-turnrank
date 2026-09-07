@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 # mail_top5.py — 海选结束后把 Top5 表格 + 全量 rank.csv 附件发到邮箱
 # 凭据来自 GitHub Secrets: SMTP_HOST / SMTP_PORT / SMTP_USER / SMTP_PASS / MAIL_TO
+# 列布局对应 sweep.sh v3: relay,exit_ip,latency_s,google_code,google_redirect,burst_ok,bw_Bps,
+#                         country,city,isp,as,proxy_flag,hosting_flag,verdict
 import csv, os, smtplib, ssl, sys
 from datetime import datetime, timedelta, timezone
 from email.mime.application import MIMEApplication
@@ -61,26 +63,27 @@ with open(RANK, newline="") as f:
     rows = [x for x in csv.reader(f) if x]
 
 alive = len([x for x in rows if len(x) > 1 and x[1] not in ("DEAD", "AUTH_REQUIRED", "UNREACHABLE")])
-pass_rows = [x for x in rows if len(x) >= 16 and x[-1] == "PASS"]
-pass_rows.sort(key=lambda x: fnum(x[8]), reverse=True)
+pass_rows = [x for x in rows if len(x) >= 14 and x[-1] == "PASS"]
+pass_rows.sort(key=lambda x: fnum(x[6]), reverse=True)
 top5 = pass_rows[:5]
+cn = len([x for x in rows if len(x) > 4 and x[4] == "CN_REDIRECT"])
 
-subject = f"【TURN海选】Top{len(top5)} + 全量排名 {now}（PASS {len(pass_rows)} / 存活 {alive} / 总 {len(rows)}）"
+subject = f"【TURN海选】Top{len(top5)} + 全量排名 {now}（PASS {len(pass_rows)} / 存活 {alive} / 总 {len(rows)} / 大陆判定 {cn}）"
 
 trs = ""
 for i, x in enumerate(top5, 1):
-    bw_mb = fnum(x[8]) / 1048576
+    bw_mb = fnum(x[6]) / 1048576
     trs += (f"<tr><td>{i}</td><td><code>{x[0]}</code></td><td>{x[1]}</td>"
-            f"<td>{x[9]}</td><td>{x[10]}</td><td>{x[11]}</td>"
-            f"<td>{x[2]}</td><td>{bw_mb:.2f}</td><td>{x[5]} / {x[6]}</td>"
+            f"<td>{x[7]}</td><td>{x[8]}</td><td>{x[9]}</td>"
+            f"<td>{x[2]}</td><td>{bw_mb:.2f}</td><td>{x[3]} / {x[4]}</td>"
             f"<td>{'✅' if x[-1] == 'PASS' else x[-1]}</td></tr>")
 
 html = f"""
 <h3>TURN 中继海选 Top{len(top5)}</h3>
-<p>总候选 {len(rows)} · 存活 {alive} · PASS {len(pass_rows)} · 生成时间 {now}（北京时间）</p>
+<p>总候选 {len(rows)} · 存活 {alive} · PASS {len(pass_rows)} · 判定大陆 {cn} · 生成时间 {now}（北京时间）</p>
 <table border="1" cellpadding="6" style="border-collapse:collapse;font-family:monospace">
 <tr><th>#</th><th>relay</th><th>exit_ip</th><th>国家</th><th>城市</th><th>ISP</th>
-<th>延迟s</th><th>带宽MB/s</th><th>Gemini(码/拦截)</th><th>verdict</th></tr>
+<th>延迟s</th><th>带宽MB/s</th><th>Google(码/跳转)</th><th>verdict</th></tr>
 {trs}
 </table>
 <p>附件为全量 rank.csv（含纯净度标记 proxy/hosting）。VPS 侧复核：把 top5 粘进
@@ -89,6 +92,6 @@ html = f"""
 
 if os.path.exists("pruned_today.txt"):
     with open("pruned_today.txt") as f:
-        html += "<h4>淘汰榜（连续 3 天不通，已移入 retired.txt）</h4><p>" + f.read() + "</p>"
+        html += "<h4>淘汰榜（连续 3 天不合格，已直接移除）</h4><p>" + f.read() + "</p>"
 
 send(subject, html)

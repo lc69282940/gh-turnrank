@@ -1,16 +1,15 @@
 #!/usr/bin/env python3
-# prune_state.py — 连续 3 天不通的中继自动移出 candidates.txt（归档到 retired.txt）
-# 不通的定义 = 拨测拿不到出口（DEAD / AUTH_REQUIRED / UNREACHABLE）、带宽为 0、
-#              或 verdict 非 PASS（Google 或 Gemini 不通）——连续 3 天即淘汰
+# prune_state.py — 连续 3 天不合格的中继自动移出 candidates.txt（直接移除）
+# 不合格的定义 = 拨测拿不到出口（DEAD / AUTH_REQUIRED / UNREACHABLE）、带宽为 0、
+#                verdict 非 PASS——连续 3 天即淘汰
+# 例外：Google 判定为中国大陆（CN_REDIRECT）的中继一经发现立即移除，不等 3 天
 # 状态文件 failed_days.json 记录每个中继的连续失败天数，成功一次即清零
 import csv, json, os, sys
-from datetime import datetime, timedelta, timezone
 
 CAND = sys.argv[1] if len(sys.argv) > 1 else "candidates.txt"
 RANK = sys.argv[2] if len(sys.argv) > 2 else "rank.csv"
 STATE = sys.argv[3] if len(sys.argv) > 3 else "failed_days.json"
-RETIRED = sys.argv[4] if len(sys.argv) > 4 else "retired.txt"
-TODAY = sys.argv[5] if len(sys.argv) > 5 else "pruned_today.txt"
+TODAY = sys.argv[4] if len(sys.argv) > 4 else "pruned_today.txt"
 THRESHOLD = 3
 BAD = ("DEAD", "AUTH_REQUIRED", "UNREACHABLE")
 
@@ -35,14 +34,16 @@ def unusable(row):
         return True
     if row[1] in BAD:
         return True
-    if len(row) > 8:
+    if len(row) > 4 and row[4] == "CN_REDIRECT":
+        return True  # 被判中国大陆，直接淘汰
+    if len(row) > 6:
         try:
-            if float(row[8]) == 0:
+            if float(row[6]) == 0:
                 return True
         except ValueError:
             return True
-    if len(row) >= 16 and row[-1] != "PASS":
-        return True  # Google 或 Gemini 不通，对本案而言等同不可用
+    if len(row) >= 14 and row[-1] != "PASS":
+        return True  # Google 不通或异常跳转
     return False
 
 
@@ -66,6 +67,9 @@ for raw in open(CAND):
         active.append(raw)
         continue
     row = results.get(n)
+    if row is not None and len(row) > 4 and row[4] == "CN_REDIRECT":
+        removed.append((raw, "CN"))    # 被判中国大陆：一经发现立即移除，不等 3 天
+        continue
     if row is None:
         cnt = state.get(n, 0)          # 本轮没有数据（如 sweep 失败）→ 计数保持不变
     elif unusable(row):
@@ -79,19 +83,13 @@ for raw in open(CAND):
         new_state[n] = cnt
     active.append(raw)
 
-if removed:
-    stamp = datetime.now(timezone(timedelta(hours=8))).strftime("%Y-%m-%d")
-    with open(RETIRED, "a") as f:
-        for raw, cnt in removed:
-            f.write(f"{raw}\t# retired {stamp} ({cnt} consecutive failed days)\n")
-
 with open(CAND, "w") as f:
     f.write("\n".join(active).rstrip("\n") + "\n")
 json.dump(new_state, open(STATE, "w"), indent=0, sort_keys=True)
 
 with open(TODAY, "w") as f:
     if removed:
-        f.write(f"本次移除 {len(removed)} 个连续 {THRESHOLD} 天不通的中继（已归档到 retired.txt）：<br>")
+        f.write(f"本次移除 {len(removed)} 个连续 {THRESHOLD} 天不通的中继（已直接移除）：<br>")
         for raw, cnt in removed:
             f.write(f"<code>{raw}</code>（连续失败 {cnt} 天）<br>")
     else:
