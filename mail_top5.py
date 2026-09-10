@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
-# mail_top5.py — 海选结束后把 Top5 表格 + 全量 rank.csv 附件发到邮箱
+# mail_top5.py — 海选结束后把 Top5 表格 + 全量 rank.csv 附件发到邮箱（中文列版）
 # 凭据来自 GitHub Secrets: SMTP_HOST / SMTP_PORT / SMTP_USER / SMTP_PASS / MAIL_TO
-# 列布局对应 sweep.sh v3: relay,exit_ip,latency_s,google_code,google_redirect,burst_ok,bw_Bps,
-#                         country,city,isp,as,proxy_flag,hosting_flag,verdict
+# 列布局对应 sweep.sh v3.1（18 列，全中文表头）
 import csv, os, smtplib, ssl, sys
 from datetime import datetime, timedelta, timezone
 from email.mime.application import MIMEApplication
@@ -62,31 +61,31 @@ if not os.path.exists(RANK):
 with open(RANK, newline="") as f:
     rows = [x for x in csv.reader(f) if x]
 
-alive = len([x for x in rows if len(x) > 1 and x[1] not in ("DEAD", "AUTH_REQUIRED", "UNREACHABLE")])
-pass_rows = [x for x in rows if len(x) >= 14 and x[-1] == "PASS"]
+alive = len([x for x in rows if len(x) > 1 and x[1] not in ("不通", "需要账密", "不可达")])
+pass_rows = [x for x in rows if len(x) >= 18 and x[-1] == "正常"]
 pass_rows.sort(key=lambda x: fnum(x[6]), reverse=True)
 top5 = pass_rows[:5]
-cn = len([x for x in rows if len(x) > 4 and x[4] == "CN_REDIRECT"])
+cn = len([x for x in rows if len(x) > 4 and x[4] == "大陆判定"])
 
-subject = f"【TURN海选】Top{len(top5)} + 全量排名 {now}（PASS {len(pass_rows)} / 存活 {alive} / 总 {len(rows)} / 大陆判定 {cn}）"
+subject = f"【TURN海选】Top{len(top5)} + 全量排名 {now}（正常 {len(pass_rows)} / 存活 {alive} / 总 {len(rows)} / 大陆判定 {cn}）"
 
 trs = ""
 for i, x in enumerate(top5, 1):
     bw_mb = fnum(x[6]) / 1048576
     trs += (f"<tr><td>{i}</td><td><code>{x[0]}</code></td><td>{x[1]}</td>"
-            f"<td>{x[7]}</td><td>{x[8]}</td><td>{x[9]}</td>"
-            f"<td>{x[2]}</td><td>{bw_mb:.2f}</td><td>{x[3]} / {x[4]}</td>"
-            f"<td>{'✅' if x[-1] == 'PASS' else x[-1]}</td></tr>")
+            f"<td>{x[10]}</td><td>{x[11]}</td><td>{x[12]}</td>"
+            f"<td>{x[2]}</td><td>{bw_mb:.2f}</td><td>{x[7]}</td><td>{x[3]} / {x[4]}</td>"
+            f"<td>{'✅' if x[-1] == '正常' else x[-1]}</td></tr>")
 
 html = f"""
 <h3>TURN 中继海选 Top{len(top5)}</h3>
-<p>总候选 {len(rows)} · 存活 {alive} · PASS {len(pass_rows)} · 判定大陆 {cn} · 生成时间 {now}（北京时间）</p>
+<p>总候选 {len(rows)} · 存活 {alive} · 正常 {len(pass_rows)} · 判定大陆 {cn} · 生成时间 {now}（北京时间）</p>
 <table border="1" cellpadding="6" style="border-collapse:collapse;font-family:monospace">
-<tr><th>#</th><th>relay</th><th>exit_ip</th><th>国家</th><th>城市</th><th>ISP</th>
-<th>延迟s</th><th>带宽MB/s</th><th>Google(码/跳转)</th><th>verdict</th></tr>
+<tr><th>#</th><th>中继</th><th>出口IP</th><th>国家</th><th>城市</th><th>运营商</th>
+<th>延迟s</th><th>带宽MB/s</th><th>风控值</th><th>Google(码/跳转)</th><th>判定</th></tr>
 {trs}
 </table>
-<p>附件为全量 rank.csv（含纯净度标记 proxy/hosting）。VPS 侧复核：把 top5 粘进
+<p>附件为全量 rank.csv（含纯净度/是否家宽/是否原生/代理标记）。VPS 侧复核：把 top5 粘进
 <code>/root/turn-candidates.txt</code> 跑 <code>turnrank.sh</code>，达标后 <code>turn-swap &lt;冠军&gt;</code>。</p>
 """
 

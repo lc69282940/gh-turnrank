@@ -11,7 +11,7 @@ RANK = sys.argv[2] if len(sys.argv) > 2 else "rank.csv"
 STATE = sys.argv[3] if len(sys.argv) > 3 else "failed_days.json"
 TODAY = sys.argv[4] if len(sys.argv) > 4 else "pruned_today.txt"
 THRESHOLD = 3
-BAD = ("DEAD", "AUTH_REQUIRED", "UNREACHABLE")
+BAD = ("不通", "需要账密", "不可达")
 
 
 def normalize(line):
@@ -34,15 +34,15 @@ def unusable(row):
         return True
     if row[1] in BAD:
         return True
-    if len(row) > 4 and row[4] == "CN_REDIRECT":
-        return True  # 被判中国大陆，直接淘汰
+    if len(row) > 4 and row[4] == "大陆判定":
+        return True  # 被 Google 判定中国大陆，直接淘汰
     if len(row) > 6:
         try:
             if float(row[6]) == 0:
                 return True
         except ValueError:
             return True
-    if len(row) >= 14 and row[-1] != "PASS":
+    if len(row) >= 18 and row[-1] != "正常":
         return True  # Google 不通或异常跳转
     return False
 
@@ -57,7 +57,7 @@ if os.path.exists(STATE):
 results = {}
 if os.path.exists(RANK):
     for row in csv.reader(open(RANK)):
-        if row and row[0] != "relay":
+        if row and row[0] not in ("relay", "中继"):
             results[row[0]] = row
 
 active, removed, new_state = [], [], {}
@@ -67,7 +67,7 @@ for raw in open(CAND):
         active.append(raw)
         continue
     row = results.get(n)
-    if row is not None and len(row) > 4 and row[4] == "CN_REDIRECT":
+    if row is not None and len(row) > 4 and row[4] == "大陆判定":
         removed.append((raw, "CN"))    # 被判中国大陆：一经发现立即移除，不等 3 天
         continue
     if row is None:

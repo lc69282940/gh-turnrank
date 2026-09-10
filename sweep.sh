@@ -1,7 +1,7 @@
 #!/bin/bash
-# sweep.sh v3 — TURN 中继海选（GitHub Actions / 任意 Linux）
-# 每台中继测：出口IP/延迟 → Google 单请求（可达性+大陆跳转判定）→ 并发突发 → 带宽
-# verdict: PASS = Google 200 且无大陆跳转；CN_REDIRECT = 被判中国大陆（当天直接淘汰）
+# sweep.sh v3.1 — TURN 中继海选（GitHub Actions / 任意 Linux）中文输出版
+# 每台中继测：出口IP+纯净度(IPPure) → Google 单请求（可达性+大陆跳转判定）→ 并发突发 → 带宽
+# 判定: 正常 = Google 200 且无大陆跳转；大陆判定 = 被 Google 判定中国大陆（当天直接移除候选）
 # 凭据：仅使用 candidates.txt 中显式书写的账密（turn://user:pass@ 格式），无任何内置字典
 # 用法: bash sweep.sh [candidates.txt] [rank.csv] [workers]
 set -u
@@ -42,9 +42,9 @@ test_one() {
   fi
   host=${hostport%%:*}; port=${hostport##*:}
 
-  # TCP 预检，死中继 3 秒内跳过
+  # TCP 预检，死中继快速跳过
   if ! timeout 3 bash -c "</dev/tcp/$host/$port" 2>/dev/null; then
-    echo "$URI,DEAD,,,,,,," >> "$OUTW"
+    echo "$URI,不通,,,,,,,,," >> "$OUTW"
     return
   fi
 
@@ -54,15 +54,23 @@ test_one() {
   local TPID=$!
   sleep 0.8
 
-  # 出口 IP + 延迟
-  local R EXITIP LAT
-  R=$(curl -s --max-time 6 -x "socks5h://127.0.0.1:$LP" -w '|%{time_total}' https://api.ip.sb/ip 2>/dev/null | tr -d '\n')
-  EXITIP=${R%%|*}; LAT=${R##*|}
+  # 出口 IP + 延迟 + 纯净度（IPPure 公开接口，无需 key；失败回退 api.ip.sb）
+  local R EXITIP LAT FSCORE RESI BCAST
+  R=$(curl -s --max-time 8 -x "socks5h://127.0.0.1:$LP" -w '|%{time_total}' https://my.ippure.com/v1/info 2>/dev/null | tr -d '\n')
+  EXITIP=$(printf '%s' "$R" | sed -nE 's/.*"ip":[ ]?"([^"]+)".*/\1/p')
+  FSCORE=$(printf '%s' "$R" | sed -nE 's/.*"fraudScore":[ ]?([0-9]+).*/\1/p')
+  RESI=$(printf '%s' "$R" | sed -nE 's/.*"isResidential":[ ]?(true|false).*/\1/p')
+  BCAST=$(printf '%s' "$R" | sed -nE 's/.*"isBroadcast":[ ]?(true|false).*/\1/p')
+  LAT=${R##*|}
   if [ -z "$EXITIP" ]; then
-    local ST=DEAD
-    grep -q "relay returned 401" "$WORK/tb_$LP.log" 2>/dev/null && ST=AUTH_REQUIRED
-    grep -q "dial relay" "$WORK/tb_$LP.log" 2>/dev/null && ST=UNREACHABLE
-    echo "$URI,$ST,,,,,,," >> "$OUTW"
+    R=$(curl -s --max-time 6 -x "socks5h://127.0.0.1:$LP" -w '|%{time_total}' https://api.ip.sb/ip 2>/dev/null | tr -d '\n')
+    EXITIP=${R%%|*}; LAT=${R##*|}
+  fi
+  if [ -z "$EXITIP" ]; then
+    local ST=需要账密
+    grep -q "relay returned 401" "$WORK/tb_$LP.log" 2>/dev/null && ST=需要账密
+    grep -q "dial relay" "$WORK/tb_$LP.log" 2>/dev/null && ST=不通
+    echo "$URI,$ST,,,,,,,,," >> "$OUTW"
     kill $TPID 2>/dev/null; wait $TPID 2>/dev/null
     return
   fi
@@ -73,22 +81,22 @@ test_one() {
   GCODE=${GRAW%%|*}
   GLOC=${GRAW#*|}
   case "$GLOC" in
-    *google.com.hk*) GLOC=CN_REDIRECT ;;
-    "") GLOC=none ;;
+    *google.com.hk*) GLOC=大陆判定 ;;
+    "") GLOC=无 ;;
   esac
 
   # 被判中国大陆 → 当场淘汰，不再测带宽/并发
-  if [ "$GLOC" = "CN_REDIRECT" ]; then
-    echo "$URI,$EXITIP,$LAT,$GCODE,CN_REDIRECT,,0" >> "$OUTW"
-    echo "[$(date +%T)] CN_REDIRECT $hostport (直接淘汰)"
+  if [ "$GLOC" = "大陆判定" ]; then
+    echo "$URI,$EXITIP,$LAT,$GCODE,大陆判定,,0,${FSCORE:-},${RESI:-},${BCAST:-}" >> "$OUTW"
+    echo "[$(date +%T)] 大陆判定 $hostport (直接淘汰)"
     kill $TPID 2>/dev/null; wait $TPID 2>/dev/null
     return
   fi
 
   # Google 不通 → 判死
   if [ "$GCODE" != "200" ]; then
-    echo "$URI,$EXITIP,$LAT,$GCODE,$GLOC,,0" >> "$OUTW"
-    echo "[$(date +%T)] DEAD-FOR-GOOGLE $hostport"
+    echo "$URI,$EXITIP,$LAT,$GCODE,$GLOC,,0,${FSCORE:-},${RESI:-},${BCAST:-}" >> "$OUTW"
+    echo "[$(date +%T)] Google不可达 $hostport"
     kill $TPID 2>/dev/null; wait $TPID 2>/dev/null
     return
   fi
@@ -107,8 +115,8 @@ test_one() {
   BW=$(curl -s --max-time 10 -x "socks5h://127.0.0.1:$LP" -o /dev/null -w '%{speed_download}' "https://speed.cloudflare.com/__down?bytes=500000" 2>/dev/null)
   BW=${BW%%.*}
 
-  echo "$URI,$EXITIP,$LAT,$GCODE,$GLOC,$P_OK,${BW:-0}" >> "$OUTW"
-  echo "[$(date +%T)] OK $hostport bw=${BW:-0}"
+  echo "$URI,$EXITIP,$LAT,$GCODE,$GLOC,$P_OK,${BW:-0},${FSCORE:-},${RESI:-},${BCAST:-}" >> "$OUTW"
+  echo "[$(date +%T)] 正常 $hostport bw=${BW:-0}"
   kill $TPID 2>/dev/null
   wait $TPID 2>/dev/null
 }
@@ -132,18 +140,17 @@ done
 wait
 
 # ---------- 合并 ----------
-HDR="relay,exit_ip,latency_s,google_code,google_redirect,burst_ok,bw_Bps"
+HDR="中继,出口IP,延迟秒,Google状态码,Google跳转,并发,带宽Bps,风控值,纯净度,是否家宽,是否原生,国家,城市,运营商,AS,代理标记,机房标记,判定"
 cat "$WORK"/out.*.csv > "$WORK/merged.csv"
-ALIVE=$(grep -vc ',DEAD,' "$WORK/merged.csv" || true)
-ALIVE=$((ALIVE - 0))
-echo "alive: $ALIVE / $TOTAL"
+ALIVE=$(tail -n +2 "$WORK/merged.csv" | grep -cvE ',(不通|需要账密|不可达|大陆判定),' || true)
+echo "存活: $ALIVE / $TOTAL"
 
-# ---------- IP 纯净度补全（ip-api 批量） ----------
+# ---------- IP 纯净度补全（ip-api 批量：归属/运营商/代理标记） ----------
 python3 - "$WORK/merged.csv" "$OUT" "$HDR" <<'PYEOF'
 import csv, json, sys, time, urllib.request
 inp, outp, hdr = sys.argv[1], sys.argv[2], sys.argv[3].split(",")
 rows = [r for r in csv.reader(open(inp)) if r]
-ips = sorted({r[1] for r in rows if len(r) > 1 and r[1] not in ("", "DEAD", "AUTH_REQUIRED", "UNREACHABLE")})
+ips = sorted({r[1] for r in rows if len(r) > 1 and r[1].replace(".", "").isdigit()})
 geo = {}
 for i in range(0, len(ips), 15):
     chunk = ips[i:i+15]
@@ -157,27 +164,31 @@ for i in range(0, len(ips), 15):
     except Exception as e:
         print("geo batch failed:", e, file=sys.stderr)
     time.sleep(1.2)
-w = csv.writer(open(outp, "w", newline=""))
-w.writerow(hdr + ["country", "city", "isp", "as", "proxy_flag", "hosting_flag", "verdict"])
+
+def flag(v):
+    return "是" if v in (True, "true", "True") else "否"
+
+w = csv.writer(open(outp, "w", newline="", encoding="utf-8-sig"))
+w.writerow(hdr)
 for r in rows:
     g = geo.get(r[1], {}) if len(r) > 1 else {}
     code = r[3] if len(r) > 3 else ""
     loc = r[4] if len(r) > 4 else ""
-    if loc == "CN_REDIRECT":
-        verdict = "CN_REDIRECT"
-    elif code == "200" and loc == "none":
-        verdict = "PASS"
+    if loc == "大陆判定":
+        verdict = "大陆判定"
+    elif code == "200" and loc == "无":
+        verdict = "正常"
     elif code == "200":
-        verdict = "PARTIAL"
+        verdict = "跳转异常"
     else:
-        verdict = "FAIL"
+        verdict = "不通"
     w.writerow(r + [g.get("countryCode", ""), g.get("city", ""), g.get("isp", ""),
-                    g.get("as", ""), g.get("proxy", ""), g.get("hosting", ""), verdict])
+                    g.get("as", ""), flag(g.get("proxy")), flag(g.get("hosting")), verdict])
 PYEOF
 
-echo "=== verdict 统计 ==="
-awk -F, 'NR>1 {c[$NF]++} END {for (v in c) print c[v], v}' "$OUT" | sort -rn
-echo "=== TOP 15 by bandwidth (verdict=PASS only) ==="
+echo "=== 判定统计 ==="
+awk -F, 'NR>1 {c[$NF]++} END {for (v in c) print v, c[v]}' "$OUT" | sort -rn
+echo "=== TOP 15（仅判定=正常，按带宽） ==="
 head -1 "$OUT"
-awk -F, 'NR>1 && $NF=="PASS"' "$OUT" | sort -t, -k7,7nr | head -15
+awk -F, 'NR>1 && $NF=="正常"' "$OUT" | sort -t, -k7,7nr | head -15
 echo "=== DONE ==="
