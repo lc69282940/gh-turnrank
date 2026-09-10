@@ -165,8 +165,20 @@ for i in range(0, len(ips), 15):
         print("geo batch failed:", e, file=sys.stderr)
     time.sleep(1.2)
 
-def flag(v):
-    return "是" if v in (True, "true", "True") else "否"
+def purity(fs):
+    try:
+        v = int(float(fs))
+    except Exception:
+        return ""
+    return "纯净" if v <= 25 else ("中性" if v <= 60 else "风险")
+
+def yn(v):
+    s = str(v).lower()
+    if s == "true":
+        return "是"
+    if s == "false":
+        return "否"
+    return ""
 
 w = csv.writer(open(outp, "w", newline="", encoding="utf-8-sig"))
 w.writerow(hdr)
@@ -174,6 +186,7 @@ for r in rows:
     g = geo.get(r[1], {}) if len(r) > 1 else {}
     code = r[3] if len(r) > 3 else ""
     loc = r[4] if len(r) > 4 else ""
+    fs = r[7] if len(r) > 7 else ""
     if loc == "大陆判定":
         verdict = "大陆判定"
     elif code == "200" and loc == "无":
@@ -182,8 +195,11 @@ for r in rows:
         verdict = "跳转异常"
     else:
         verdict = "不通"
-    w.writerow(r + [g.get("countryCode", ""), g.get("city", ""), g.get("isp", ""),
-                    g.get("as", ""), flag(g.get("proxy")), flag(g.get("hosting")), verdict])
+    resi = yn(r[8]) if len(r) > 8 else ""
+    bcast = yn(r[9]) if len(r) > 9 else ""
+    w.writerow(r[:8] + [purity(fs), resi, bcast] +
+               [g.get("countryCode", ""), g.get("city", ""), g.get("isp", ""),
+                g.get("as", ""), yn(g.get("proxy")), yn(g.get("hosting")), verdict])
 PYEOF
 
 echo "=== 判定统计 ==="
