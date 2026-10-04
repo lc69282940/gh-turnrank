@@ -1,25 +1,25 @@
 ﻿中继,出口IP,延迟秒,Google状态码,Google跳转,并发,带宽Bps,风控值,纯净度,是否家宽,是否原生,国家,城市,运营商,AS,代理标记,机房标记,判定
-turn://185.181.8.15:3478,185.181.8.15,1.533224,200,无,2,215610,63,风险,否,是,NL,Amsterdam,Kamatera Inc,AS41436 Kamatera Inc,否,是,正常
-turn://78.47.22.85:3478,78.47.22.85,0.804161,200,无,1,258875,,,,,DE,Nuremberg,Hetzner,AS24940 Hetzner Online GmbH,否,是,正常
-turn://178.105.100.112:3478,178.105.100.112,1.263063,200,无,2,166106,,,,,DE,Falkenstein,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,否,否,正常
-turn://83.164.41.249:3478,83.164.41.249,1.393342,200,无,2,236804,6,纯净,否,否,AT,Traun,lagis Internet Serviceprovider GmbH,AS12605 LIWEST Kabelmedien GmbH,否,否,正常
-turn://107.161.168.118:3478,107.161.168.118,0.427041,200,无,1,969928,65,风险,否,是,US,New York,YottaSrc,AS213535 YottaSrc,否,是,正常
-turn://195.226.194.24:3478,195.226.194.24,1.145397,200,无,2,305309,28,中性,否,是,NL,Amsterdam,Hostkey B.V.,AS57043 HOSTKEY B.V.,是,是,正常
-turn://172.240.32.124:3478,172.240.32.124,0.289214,200,无,1,976915,30,中性,否,否,US,Sterling,"Servers.com, Inc.","AS7979 Servers.com, Inc.",否,是,正常
-turn://107.152.36.168:3478,107.152.36.168,0.616367,200,无,2,236875,52,中性,否,否,US,Chicago,"tzulo, inc.","AS11878 tzulo, inc.",否,是,正常
-turn://86.129.254.59:3478,86.129.254.59,1.214531,200,无,2,306432,0,纯净,是,否,GB,Kettering,BT Public Internet Service,AS2856 British Telecommunications Limited,否,否,正常
-turn://54.169.67.101:3478,54.169.67.101,1.263792,200,无,2,171990,,,,,SG,Singapore,"Amazon.com, Inc.","AS16509 Amazon.com, Inc.",否,是,正常
-turn://159.69.148.238:3478,159.69.148.238,0.755945,200,无,1,276032,,,,,DE,Nuremberg,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,否,是,正常
-turn://35.86.20.110:3478,35.86.20.110,1.319060,200,无,1,687177,,,,,US,Boardman,"Amazon.com, Inc.","AS16509 Amazon.com, Inc.",否,是,正常
-turn://37.27.134.107:3478,37.27.134.107,1.293310,200,无,2,251537,,,,,FI,Helsinki,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,否,是,正常
-turn://137.184.249.176:3478,137.184.249.176,2.303475,200,无,1,191595,61,风险,否,是,SG,Singapore,"DigitalOcean, LLC","AS14061 DigitalOcean, LLC",否,是,正常
-turn://178.105.90.222:3478,178.105.90.222,0.805720,200,无,1,289504,,,,,DE,Nuremberg,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,否,否,正常
-turn://103.174.102.232:3478,103.174.102.232,2.486654,200,无,2,163999,54,中性,否,否,IN,Nashik,Idigitalcamp Web Services,AS133719 IDIGITALCAMP WEB SERVICES,否,否,正常
-turn://5.45.100.83:3478,5.45.100.83,1.257375,200,无,1,290408,39,中性,否,否,DE,Nuremberg,netcup GmbH,AS197540 netcup GmbH,否,是,正常
-turn://34.168.252.217:3478,34.168.252.217,0.791348,200,无,1,668456,29,中性,否,否,US,The Dalles,Google LLC,AS396982 Google LLC,否,是,正常
-turn://34.122.96.66:3478,34.122.96.66,0.493844,200,无,1,1322023,30,中性,否,否,US,Council Bluffs,Google LLC,AS396982 Google LLC,否,是,正常
-turn://84.46.100.20:3478,84.46.100.20,1.283839,200,无,1,292024,0,纯净,是,否,DE,Hamburg,wilhelm.tel GmbH,AS15943 wilhelm.tel GmbH,否,否,正常
-turn://45.145.225.168:3478,45.145.225.168,1.166107,200,无,1,316084,52,中性,否,否,DE,Offenbach,"Oliver Horscht is trading as ""SYNLINQ""",AS44486 synlinq.de,否,是,正常
-turn://148.163.225.222:3478,148.163.225.222,0.933222,200,无,2,412328,13,纯净,否,是,CO,Bogotá,"NetActuate, Inc","AS36236 NetActuate, Inc",否,否,正常
-turn://84.151.74.151:3478,84.151.74.151,1.320146,200,无,2,281940,4,纯净,是,否,DE,Karlsruhe,Deutsche Telekom AG,AS3320 Deutsche Telekom AG,否,否,正常
-turn://54.38.221.251:3478,54.38.221.251,0.721141,200,无,1,291155,,,,,DE,Limburg an der Lahn,OVH SAS,AS16276 OVH SAS,否,是,正常
+turn://185.181.8.15:3478,185.181.8.15,1.503185,200,无,2,214909,70,风险,否,是,NL,Amsterdam,Kamatera Inc,AS41436 Kamatera Inc,否,是,正常
+turn://78.47.22.85:3478,78.47.22.85,0.773228,200,无,2,245364,,,,,DE,Nuremberg,Hetzner,AS24940 Hetzner Online GmbH,否,是,正常
+turn://178.105.100.112:3478,178.105.100.112,1.284683,200,无,2,270499,,,,,DE,Falkenstein,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,否,否,正常
+turn://83.164.41.249:3478,83.164.41.249,1.389192,200,无,2,225714,6,纯净,否,否,AT,Traun,lagis Internet Serviceprovider GmbH,AS12605 LIWEST Kabelmedien GmbH,否,否,正常
+turn://107.161.168.118:3478,107.161.168.118,0.438732,200,无,2,989948,71,风险,否,是,US,New York,YottaSrc,AS213535 YottaSrc,否,是,正常
+turn://195.226.194.24:3478,195.226.194.24,1.228493,200,无,2,304966,28,中性,否,是,NL,Amsterdam,Hostkey B.V.,AS57043 HOSTKEY B.V.,是,是,正常
+turn://172.240.32.124:3478,172.240.32.124,0.290932,200,无,2,1037449,32,中性,否,否,US,Sterling,"Servers.com, Inc.","AS7979 Servers.com, Inc.",否,是,正常
+turn://107.152.36.168:3478,107.152.36.168,0.420395,200,无,2,1006676,57,中性,否,否,US,Chicago,"tzulo, inc.","AS11878 tzulo, inc.",否,是,正常
+turn://86.129.254.59:3478,86.129.254.59,1.090372,200,无,2,343575,0,纯净,是,否,GB,Kettering,BT Public Internet Service,AS2856 British Telecommunications Limited,否,否,正常
+turn://54.169.67.101:3478,54.169.67.101,1.232410,200,无,1,173201,,,,,SG,Singapore,"Amazon.com, Inc.","AS16509 Amazon.com, Inc.",否,是,正常
+turn://159.69.148.238:3478,159.69.148.238,0.768826,200,无,1,283329,,,,,DE,Nuremberg,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,否,是,正常
+turn://35.86.20.110:3478,35.86.20.110,1.283650,200,无,1,638541,,,,,US,Boardman,"Amazon.com, Inc.","AS16509 Amazon.com, Inc.",否,是,正常
+turn://37.27.134.107:3478,37.27.134.107,1.234980,200,无,2,236228,,,,,FI,Helsinki,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,否,是,正常
+turn://137.184.249.176:3478,137.184.249.176,2.206254,200,无,1,179628,65,风险,否,是,SG,Singapore,"DigitalOcean, LLC","AS14061 DigitalOcean, LLC",否,是,正常
+turn://178.105.90.222:3478,178.105.90.222,0.788151,200,无,2,279381,,,,,DE,Nuremberg,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,否,否,正常
+turn://103.174.102.232:3478,103.174.102.232,2.482343,200,无,2,165139,62,风险,否,否,IN,Nashik,Idigitalcamp Web Services,AS133719 IDIGITALCAMP WEB SERVICES,否,否,正常
+turn://5.45.100.83:3478,5.45.100.83,1.342783,200,无,2,283533,42,中性,否,否,DE,Nuremberg,netcup GmbH,AS197540 netcup GmbH,否,是,正常
+turn://34.168.252.217:3478,34.168.252.217,0.794137,200,无,1,625775,29,中性,否,否,US,The Dalles,Google LLC,AS396982 Google LLC,否,是,正常
+turn://34.122.96.66:3478,34.122.96.66,0.519708,200,无,1,1019708,32,中性,否,否,US,Council Bluffs,Google LLC,AS396982 Google LLC,否,是,正常
+turn://84.46.100.20:3478,84.46.100.20,1.296270,200,无,1,296451,0,纯净,是,否,DE,Hamburg,wilhelm.tel GmbH,AS15943 wilhelm.tel GmbH,否,否,正常
+turn://45.145.225.168:3478,45.145.225.168,1.134788,200,无,1,317830,55,中性,否,否,DE,Offenbach,"Oliver Horscht is trading as ""SYNLINQ""",AS44486 synlinq.de,否,是,正常
+turn://148.163.225.222:3478,148.163.225.222,0.946659,200,无,2,408308,13,纯净,否,是,CO,Bogotá,"NetActuate, Inc","AS36236 NetActuate, Inc",否,否,正常
+turn://84.151.74.151:3478,84.151.74.151,1.245406,200,无,1,280389,4,纯净,是,否,DE,Karlsruhe,Deutsche Telekom AG,AS3320 Deutsche Telekom AG,否,否,正常
+turn://54.38.221.251:3478,54.38.221.251,0.756513,200,无,1,299406,,,,,DE,Limburg an der Lahn,OVH SAS,AS16276 OVH SAS,否,是,正常
