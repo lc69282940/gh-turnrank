@@ -1,5 +1,6 @@
 # turnrank — TURN 中继海选
-
+##海选名单
+rank里的csv文档为海选结果
 
 ## candidates.txt 格式
 
