@@ -1,13 +1,5 @@
 # turnrank — TURN 中继海选
 
-600+ 台中继的海选在 GitHub 上跑，VPS 只负责复核冠军和正式服务。
-
-## 文件
-
-- `turnbridge.go` — TURN→SOCKS5 桥（测试引擎本体）
-- `sweep.sh` — 海选脚本：存活 → 延迟 → Google/Gemini 探测 → 并发突发 → 带宽 → IP 纯净度
-- `candidates.txt` — 候选名单（把你的 600+ 条粘进来）
-- `.github/workflows/sweep.yml` — 每周一自动跑 + 支持手动触发
 
 ## candidates.txt 格式
 
