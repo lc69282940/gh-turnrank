@@ -4,14 +4,17 @@
 # 输出 rank.csv：带宽列统一为 MB/s（由 B/s 换算）
 # 判定: 正常 = Google 200 且无大陆跳转；大陆判定 = 被 Google 判定中国大陆（当天直接移除候选）
 # 凭据：仅使用 candidates.txt 中显式书写的账密（turn://user:pass@ 格式），无任何内置字典
-# 用法: bash sweep.sh [candidates.txt] [rank.csv] [workers]
+# 用法: bash sweep.sh [candidates.txt] [rank.csv] [workers] [rank-clean.csv]
+#   第4参数可选：干净版输出（只含判定=正常且带宽>0，按带宽降序），供 rank/rank-latest.csv 使用
 set -u
 CAND=${1:-candidates.txt}
 OUT=${2:-rank.csv}
 W=${3:-16}
+CLEAN=${4:-}
 BASE=9400
 WORK=$(mktemp -d)
 mkdir -p "$WORK"
+[ -n "$CLEAN" ] && mkdir -p "$(dirname "$CLEAN")"
 trap 'pkill -f "turnbridge -listen 127.0.0.1:94" 2>/dev/null' EXIT
 
 # ---------- 归一化候选 ----------
@@ -147,9 +150,11 @@ ALIVE=$(grep -cvE ',(不通|需要账密|不可达|大陆判定),' "$WORK/merged
 echo "存活: $ALIVE / $TOTAL"
 
 # ---------- IP 纯净度补全（ip-api 批量：归属/运营商/代理标记） ----------
-python3 - "$WORK/merged.csv" "$OUT" "$HDR" <<'PYEOF'
+# 可选第4参数 = 干净版输出路径：只写判定=正常且带宽>0的行（按带宽降序），不通/需要账密/Google不通一律不进干净表
+python3 - "$WORK/merged.csv" "$OUT" "$HDR" ${CLEAN:+"$CLEAN"} <<'PYEOF'
 import csv, json, sys, time, urllib.request
 inp, outp, hdr = sys.argv[1], sys.argv[2], sys.argv[3].split(",")
+cleanp = sys.argv[4] if len(sys.argv) > 4 else ""
 rows = [r for r in csv.reader(open(inp)) if r and r[0] not in ("relay", "中继")]
 ips = sorted({r[1] for r in rows if len(r) > 1 and r[1].replace(".", "").isdigit()})
 geo = {}
@@ -189,6 +194,7 @@ def yn(v):
 
 w = csv.writer(open(outp, "w", newline="", encoding="utf-8-sig"))
 w.writerow(hdr)
+clean_rows = {}
 for r in rows:
     g = geo.get(r[1], {}) if len(r) > 1 else {}
     code = r[3] if len(r) > 3 else ""
@@ -205,9 +211,27 @@ for r in rows:
     resi = yn(r[8]) if len(r) > 8 else ""
     bcast = yn(r[9]) if len(r) > 9 else ""
     bw = to_mb(r[6]) if len(r) > 6 else ""
-    w.writerow(r[:6] + [bw] + r[7:8] + [purity(fs), resi, bcast] +
-               [g.get("countryCode", ""), g.get("city", ""), g.get("isp", ""),
-                g.get("as", ""), yn(g.get("proxy")), yn(g.get("hosting")), verdict])
+    out = (r[:6] + [bw] + r[7:8] + [purity(fs), resi, bcast] +
+           [g.get("countryCode", ""), g.get("city", ""), g.get("isp", ""),
+            g.get("as", ""), yn(g.get("proxy")), yn(g.get("hosting")), verdict])
+    w.writerow(out)
+    # 干净版：仅 判定=正常 且带宽>0；同一中继重复候选只保留带宽最高的一行
+    if verdict == "正常" and out[6]:
+        try:
+            bwv = float(out[6])
+        except ValueError:
+            continue
+        if bwv > 0:
+            old = clean_rows.get(out[0])
+            if old is None or bwv > float(old[6]):
+                clean_rows[out[0]] = out
+
+if cleanp:
+    rows_clean = sorted(clean_rows.values(), key=lambda x: float(x[6]), reverse=True)
+    cw = csv.writer(open(cleanp, "w", newline="", encoding="utf-8-sig"))
+    cw.writerow(hdr)
+    cw.writerows(rows_clean)
+    print(f"clean: {len(rows_clean)} -> {cleanp}")
 PYEOF
 
 echo "=== 判定统计 ==="
