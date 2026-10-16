@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # mail_top5.py — 海选结束后把 Top5 表格 + 全量 rank.csv 附件发到邮箱（中文列版）
 # 凭据来自 GitHub Secrets: SMTP_HOST / SMTP_PORT / SMTP_USER / SMTP_PASS / MAIL_TO
-# 列布局对应 sweep.sh v3.1（18 列，全中文表头）
+# 列布局对应 sweep.sh v3.2（18 列，全中文表头，带宽列 = MB/s）
 import csv, os, smtplib, ssl, sys
 from datetime import datetime, timedelta, timezone
 from email.mime.application import MIMEApplication
@@ -58,12 +58,35 @@ if not os.path.exists(RANK):
          "<p>sweep 未产生 rank.csv，请到 Actions 页面查看日志。</p>")
     sys.exit(0)
 
-with open(RANK, newline="") as f:
-    rows = [x for x in csv.reader(f) if x]
+with open(RANK, newline="", encoding="utf-8-sig") as f:
+    raw = [x for x in csv.reader(f) if x]
+hdr = raw[0] if raw and raw[0][0] in ("relay", "中继") else []
+rows = [x for x in raw if x and x[0] not in ("relay", "中继")]
+BW_IS_MB = ("MB/s" in " ".join(hdr)) if hdr else None   # True=已是MB/s；False=旧版B/s；None=无表头→按数值判断
 
-alive = len([x for x in rows if len(x) > 1 and x[1] not in ("不通", "需要账密", "不可达")])
+
+def bw_mb(x):
+    """统一取 MB/s：新版直接读，旧版按 B/s 换算，无表头按数值大小判断。"""
+    v = fnum(x[6]) if len(x) > 6 else 0.0
+    if BW_IS_MB is True:
+        return v
+    if BW_IS_MB is False:
+        return v / 1048576
+    return v / 1048576 if v > 1000 else v
+
+
+# 同一中继出现多行（候选表重复）只保留带宽最高的一行，避免 Top5 重复列出
+best = {}
+for x in rows:
+    cur = best.get(x[0])
+    if cur is None or bw_mb(x) > bw_mb(cur):
+        best[x[0]] = x
+rows = list(best.values())
+
+DEAD = ("不通", "需要账密", "不可达")
+alive = len([x for x in rows if len(x) > 1 and x[1] not in DEAD])
 pass_rows = [x for x in rows if len(x) >= 18 and x[-1] == "正常"]
-pass_rows.sort(key=lambda x: fnum(x[6]), reverse=True)
+pass_rows.sort(key=bw_mb, reverse=True)
 top5 = pass_rows[:5]
 cn = len([x for x in rows if len(x) > 4 and x[4] == "大陆判定"])
 
@@ -71,10 +94,9 @@ subject = f"【TURN海选】Top{len(top5)} + 全量排名 {now}（正常 {len(pa
 
 trs = ""
 for i, x in enumerate(top5, 1):
-    bw_mb = fnum(x[6]) / 1048576
     trs += (f"<tr><td>{i}</td><td><code>{x[0]}</code></td><td>{x[1]}</td>"
-            f"<td>{x[10]}</td><td>{x[11]}</td><td>{x[12]}</td>"
-            f"<td>{x[2]}</td><td>{bw_mb:.2f}</td><td>{x[7]}</td><td>{x[3]} / {x[4]}</td>"
+            f"<td>{x[11]}</td><td>{x[12]}</td><td>{x[13]}</td>"
+            f"<td>{x[2]}</td><td>{bw_mb(x):.2f}</td><td>{x[7]}</td><td>{x[3]} / {x[4]}</td>"
             f"<td>{'✅' if x[-1] == '正常' else x[-1]}</td></tr>")
 
 html = f"""
@@ -91,6 +113,7 @@ html = f"""
 
 if os.path.exists("pruned_today.txt"):
     with open("pruned_today.txt") as f:
-        html += "<h4>淘汰榜（连续 3 天不合格，已直接移除）</h4><p>" + f.read() + "</p>"
+        html += ("<h4>本轮淘汰（不通/需要账密/大陆判定即时移除；其余连续 3 天不合格）</h4>"
+                 + "<p>" + f.read() + "</p>")
 
 send(subject, html)

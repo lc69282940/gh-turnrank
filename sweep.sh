@@ -1,6 +1,7 @@
 #!/bin/bash
-# sweep.sh v3.1 — TURN 中继海选（GitHub Actions / 任意 Linux）中文输出版
+# sweep.sh v3.2 — TURN 中继海选（GitHub Actions / 任意 Linux）中文输出版
 # 每台中继测：出口IP+纯净度(IPPure) → Google 单请求（可达性+大陆跳转判定）→ 并发突发 → 带宽
+# 输出 rank.csv：带宽列统一为 MB/s（由 B/s 换算）
 # 判定: 正常 = Google 200 且无大陆跳转；大陆判定 = 被 Google 判定中国大陆（当天直接移除候选）
 # 凭据：仅使用 candidates.txt 中显式书写的账密（turn://user:pass@ 格式），无任何内置字典
 # 用法: bash sweep.sh [candidates.txt] [rank.csv] [workers]
@@ -140,16 +141,16 @@ done
 wait
 
 # ---------- 合并 ----------
-HDR="中继,出口IP,延迟秒,Google状态码,Google跳转,并发,带宽Bps,风控值,纯净度,是否家宽,是否原生,国家,城市,运营商,AS,代理标记,机房标记,判定"
+HDR="中继,出口IP,延迟秒,Google状态码,Google跳转,并发,带宽MB/s,风控值,纯净度,是否家宽,是否原生,国家,城市,运营商,AS,代理标记,机房标记,判定"
 cat "$WORK"/out.*.csv > "$WORK/merged.csv"
-ALIVE=$(tail -n +2 "$WORK/merged.csv" | grep -cvE ',(不通|需要账密|不可达|大陆判定),' || true)
+ALIVE=$(grep -cvE ',(不通|需要账密|不可达|大陆判定),' "$WORK/merged.csv" || true)
 echo "存活: $ALIVE / $TOTAL"
 
 # ---------- IP 纯净度补全（ip-api 批量：归属/运营商/代理标记） ----------
 python3 - "$WORK/merged.csv" "$OUT" "$HDR" <<'PYEOF'
 import csv, json, sys, time, urllib.request
 inp, outp, hdr = sys.argv[1], sys.argv[2], sys.argv[3].split(",")
-rows = [r for r in csv.reader(open(inp)) if r]
+rows = [r for r in csv.reader(open(inp)) if r and r[0] not in ("relay", "中继")]
 ips = sorted({r[1] for r in rows if len(r) > 1 and r[1].replace(".", "").isdigit()})
 geo = {}
 for i in range(0, len(ips), 15):
@@ -171,6 +172,12 @@ def purity(fs):
     except Exception:
         return ""
     return "纯净" if v <= 25 else ("中性" if v <= 60 else "风险")
+
+def to_mb(v):
+    try:
+        return f"{float(v) / 1048576:.2f}"
+    except (TypeError, ValueError):
+        return v
 
 def yn(v):
     s = str(v).lower()
@@ -197,14 +204,15 @@ for r in rows:
         verdict = "不通"
     resi = yn(r[8]) if len(r) > 8 else ""
     bcast = yn(r[9]) if len(r) > 9 else ""
-    w.writerow(r[:8] + [purity(fs), resi, bcast] +
+    bw = to_mb(r[6]) if len(r) > 6 else ""
+    w.writerow(r[:6] + [bw] + r[7:8] + [purity(fs), resi, bcast] +
                [g.get("countryCode", ""), g.get("city", ""), g.get("isp", ""),
                 g.get("as", ""), yn(g.get("proxy")), yn(g.get("hosting")), verdict])
 PYEOF
 
 echo "=== 判定统计 ==="
-awk -F, 'NR>1 {c[$NF]++} END {for (v in c) print v, c[v]}' "$OUT" | sort -rn
-echo "=== TOP 15（仅判定=正常，按带宽） ==="
+awk -F, '{sub(/\r$/, "")} NR>1 {c[$NF]++} END {for (v in c) print v, c[v]}' "$OUT" | sort -rn
+echo "=== TOP 15（仅判定=正常，按带宽 MB/s） ==="
 head -1 "$OUT"
-awk -F, 'NR>1 && $NF=="正常"' "$OUT" | sort -t, -k7,7nr | head -15
+awk -F, '{sub(/\r$/, "")} NR>1 && $NF=="正常"' "$OUT" | sort -t, -k7,7nr | head -15
 echo "=== DONE ==="
