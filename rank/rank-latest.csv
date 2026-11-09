@@ -1,226 +1,223 @@
 ﻿中继,出口IP,延迟秒,Google状态码,Google跳转,并发,带宽MB/s,风控值,纯净度,是否家宽,是否原生,国家,城市,运营商,AS,代理标记,机房标记,判定
-turn://4.149.74.16:3478,4.149.74.16,0.049573,200,无,1,4.42,,,,,US,Quincy,Microsoft Corporation,AS8075 Microsoft Corporation,否,是,正常
-turn://172.179.90.244:3478,172.179.90.244,0.041905,200,无,2,4.29,,,,,US,Quincy,Microsoft,AS8075 Microsoft Corporation,否,是,正常
-turn://5.78.156.77:3478,5.78.156.77,0.090434,200,无,1,3.14,79,风险,否,是,US,Hillsboro,Hetzner Online GmbH,AS212317 Hetzner Online GmbH,否,是,正常
-turn://35.86.20.110:3478,35.86.20.110,0.109837,200,无,1,2.31,,,,,US,Boardman,"Amazon.com, Inc.","AS16509 Amazon.com, Inc.",否,是,正常
-turn://54.202.133.170:3478,54.202.133.170,0.106501,200,无,2,2.24,,,,,US,Boardman,"Amazon.com, Inc.","AS16509 Amazon.com, Inc.",否,是,正常
-turn://35.230.1.124:3478,35.230.1.124,0.501975,200,无,2,2.14,24,纯净,否,否,US,The Dalles,Google LLC,AS396982 Google LLC,否,是,正常
-turn://52.10.14.24:3478,52.10.14.24,0.112266,200,无,1,2.07,,,,,US,Boardman,"Amazon.com, Inc.","AS16509 Amazon.com, Inc.",否,是,正常
-turn://35.230.88.149:3478,35.230.88.149,0.140894,200,无,2,2.06,36,中性,否,否,US,The Dalles,Google LLC,AS396982 Google LLC,否,是,正常
-turn://85.239.234.131:3478,85.239.234.131,0.110579,200,无,1,2.04,57,中性,否,是,US,Seattle,Casablanca INT fraction,AS40021 Contabo Inc.,否,是,正常
-turn://184.34.31.136:3478,184.34.31.136,0.114933,200,无,2,1.65,,,,,US,Boardman,BellSouth.net Inc.,"AS16509 Amazon.com, Inc.",否,是,正常
-turn://167.99.166.244:3478,167.99.166.244,0.180767,200,无,1,1.38,27,中性,否,否,US,Santa Clara,"DigitalOcean, LLC","AS14061 DigitalOcean, LLC",否,是,正常
-turn://64.23.159.57:3478,64.23.159.57,0.566777,200,无,2,1.36,44,中性,否,否,US,Santa Clara,"DigitalOcean, LLC","AS14061 DigitalOcean, LLC",否,是,正常
-turn://140.82.48.55:3478,140.82.48.55,0.530852,200,无,2,1.31,43,中性,否,否,US,Santa Clara,The Constant Company,"AS20473 The Constant Company, LLC",否,是,正常
-turn://47.89.234.121:3478,47.89.234.121,0.173679,200,无,1,1.30,,,,,US,Minkler,Alibaba Cloud LLC,"AS45102 Alibaba (US) Technology Co., Ltd.",否,是,正常
-turn://23.239.23.202:3478,23.239.23.202,0.188714,200,无,1,1.30,21,纯净,否,否,US,Fremont,"Akamai Technologies, Inc.",AS63949 Akamai Connected Cloud,否,是,正常
-turn://138.197.201.154:3478,138.197.201.154,0.180635,200,无,2,1.29,28,中性,否,否,US,Santa Clara,"DigitalOcean, LLC","AS14061 DigitalOcean, LLC",否,是,正常
-turn://164.92.71.194:3478,164.92.71.194,0.179732,200,无,2,1.28,66,风险,否,否,US,Santa Clara,"DigitalOcean, LLC","AS14061 DigitalOcean, LLC",是,是,正常
-turn://49.51.199.210:3478,49.51.199.210,0.188576,200,无,1,1.28,43,中性,否,是,US,Santa Clara,OPHL,"AS132203 Tencent Building, Kejizhongyi Avenue",否,是,正常
-turn://165.227.27.153:3478,165.227.27.153,0.168820,200,无,1,1.27,38,中性,否,否,US,Santa Clara,"DigitalOcean, LLC","AS14061 DigitalOcean, LLC",否,是,正常
-turn://209.38.172.216:3478,209.38.172.216,0.625033,200,无,1,1.27,29,中性,否,否,US,Santa Clara,"DigitalOcean, LLC","AS14061 DigitalOcean, LLC",否,是,正常
-turn://143.198.234.78:3478,143.198.234.78,0.191379,200,无,2,1.26,43,中性,否,否,US,Santa Clara,"DigitalOcean, LLC","AS14061 DigitalOcean, LLC",否,是,正常
-turn://94.183.184.176:3478,94.183.184.176,0.188107,200,无,1,1.23,39,中性,否,是,US,Fremont,CGI GLOBAL LIMITED,AS56971 AS56971 Cloud,否,是,正常
-turn://23.108.190.131:3478,23.108.190.131,0.527148,200,无,1,1.23,8,纯净,否,否,US,San Francisco,"Leaseweb USA, Inc.","AS7203 Leaseweb USA, Inc.",否,是,正常
-turn://138.68.39.26:3478,138.68.39.26,0.184036,200,无,1,1.21,33,中性,否,否,US,Santa Clara,"DigitalOcean, LLC","AS14061 DigitalOcean, LLC",否,是,正常
-turn://161.35.231.217:3478,161.35.231.217,0.233348,200,无,1,1.20,46,中性,否,否,US,Santa Clara,"DigitalOcean, LLC","AS14061 DigitalOcean, LLC",否,是,正常
-turn://54.177.144.169:3478,54.177.144.169,0.180644,200,无,1,1.14,,,,,US,San Jose,"Amazon.com, Inc.","AS16509 Amazon.com, Inc.",否,是,正常
-turn://205.207.148.12:3478,205.207.148.12,0.529656,200,无,2,1.11,2,纯净,是,否,US,Helena,Montana Internet Corporation,AS4043 Montana Internet Corporation,否,否,正常
-turn://34.168.252.217:3478,34.168.252.217,0.210556,200,无,2,1.10,35,中性,否,否,US,The Dalles,Google LLC,AS396982 Google LLC,否,是,正常
-turn://156.239.242.220:3478,156.239.242.220,0.221131,200,无,1,1.07,35,中性,否,否,US,Los Angeles,VpsQuan L.L.C.,AS62468 VpsQuan L.L.C.,否,是,正常
-turn://64.64.252.96:3478,64.64.252.96,0.207482,200,无,1,1.06,29,中性,否,是,US,Los Angeles,IT7 Networks Inc,AS25820 IT7 Networks Inc,是,是,正常
-turn://154.59.103.5:3478,154.59.103.5,0.222557,200,无,1,1.05,69,风险,是,否,US,Los Angeles,Cogent Communications,"AS174 Cogent Communications, LLC",否,否,正常
-turn://157.230.140.236:3478,157.230.140.236,0.502709,200,无,1,1.02,52,中性,否,否,US,Santa Clara,"DigitalOcean, LLC","AS14061 DigitalOcean, LLC",否,是,正常
-turn://172.236.225.141:3478,172.236.225.141,0.216707,200,无,2,0.98,28,中性,否,否,US,Los Angeles,"Akamai Technologies, Inc.",AS63949 Akamai Connected Cloud,否,是,正常
-turn://208.72.189.206:3478,208.72.189.206,0.257713,200,无,1,0.97,6,纯净,是,否,US,Los Angeles,"Voxology Carrier Services, Inc.","AS40165 Voxology Carrier Services, Inc.",否,否,正常
-turn://91.209.228.162:3478,91.209.228.162,0.223281,200,无,2,0.94,33,中性,否,是,US,Los Angeles,ReliableSite.Net LLC,AS23470 ReliableSite.Net LLC,否,否,正常
-turn://34.16.144.188:3478,34.16.144.188,0.275733,200,无,1,0.86,24,纯净,否,否,US,Las Vegas,Google LLC,AS396982 Google LLC,否,是,正常
-turn://172.240.24.225:3478,172.240.24.225,0.277520,200,无,2,0.82,38,中性,否,否,US,Chicago,"Servers.com, Inc.","AS7979 Servers.com, Inc.",否,是,正常
-turn://155.138.243.241:3478,155.138.243.241,0.337879,200,无,2,0.81,49,中性,否,否,US,Dallas,The Constant Company,"AS20473 The Constant Company, LLC",否,是,正常
-turn://172.240.24.227:3478,172.240.24.227,0.281879,200,无,1,0.81,34,中性,否,否,US,Chicago,"Servers.com, Inc.","AS7979 Servers.com, Inc.",否,是,正常
-turn://192.34.102.143:3478,192.34.102.143,0.314211,200,无,1,0.81,18,纯净,否,否,US,Chicago,PureVoltage Hosting Inc.,AS26548 PureVoltage Hosting Inc.,否,是,正常
-turn://129.151.22.230:3478,129.151.22.230,0.601087,200,无,1,0.79,40,中性,否,否,US,Phoenix,Oracle Corporation,AS31898 Oracle Corporation,否,是,正常
-turn://143.42.156.56:3478,143.42.156.56,0.318505,200,无,1,0.75,21,纯净,否,否,US,Richardson,"Akamai Technologies, Inc.",AS63949 Akamai Connected Cloud,否,是,正常
-turn://24.252.175.21:3478,24.252.175.21,0.277844,200,无,2,0.72,2,纯净,是,否,US,Mesa,Cox Communications Inc.,AS22773 Cox Communications Inc.,否,否,正常
-turn://66.23.204.98:3478,66.23.204.98,0.574108,200,无,1,0.72,54,中性,否,否,US,Chicago,Dedicated.com,AS63018 Dedicated.com,否,是,正常
-turn://74.118.129.170:3478,74.118.129.170,0.313260,200,无,1,0.70,5,纯净,否,否,US,Dallas,"Opinion Researchers, L.L.C.","AS4886 Opinion Researchers, L.L.C.",否,否,正常
-turn://152.37.196.57:3478,152.37.196.57,0.351661,200,无,2,0.68,8,纯净,是,否,US,Meridian,"CABLE ONE, INC.","AS11492 CABLE ONE, INC.",否,否,正常
-turn://147.93.133.235:3478,147.93.133.235,0.362118,200,无,1,0.68,31,中性,否,是,US,St Louis,Contabo Inc.,AS40021 Contabo Inc.,否,是,正常
-turn://67.230.162.47:3478,67.230.162.47,0.576973,200,无,1,0.68,28,中性,否,是,US,Los Angeles,IT7 Networks Inc,AS25820 IT7 Networks Inc,是,是,正常
-turn://107.152.36.168:3478,107.152.36.168,0.737781,200,无,1,0.67,57,中性,否,否,US,Newark,"tzulo, inc.","AS11878 tzulo, inc.",否,是,正常
-turn://212.28.189.163:3478,212.28.189.163,0.364361,200,无,1,0.67,64,风险,否,是,US,St Louis,Contabo Inc.,AS40021 Contabo Inc.,否,是,正常
-turn://157.173.205.239:3478,157.173.205.239,0.566173,200,无,1,0.67,44,中性,否,是,US,St Louis,Contabo Inc.,AS40021 Contabo Inc.,否,是,正常
-turn://103.7.139.143:3478,103.7.139.143,0.226989,200,无,1,0.63,43,中性,否,是,US,Los Angeles,5G Network Operations Pty Ltd,AS35916 MULTACOM CORPORATION,否,否,正常
-turn://192.227.207.208:3478,192.227.207.208,0.606835,200,无,2,0.61,42,中性,否,否,US,Dallas,HostPapa,AS36352 HostPapa,否,是,正常
-turn://104.197.151.62:3478,104.197.151.62,0.594296,200,无,2,0.59,38,中性,否,否,US,Council Bluffs,Google LLC,AS396982 Google LLC,否,是,正常
-turn://34.136.208.95:3478,34.136.208.95,0.397761,200,无,2,0.59,29,中性,否,否,US,Council Bluffs,Google LLC,AS396982 Google LLC,否,是,正常
-turn://34.69.203.149:3478,34.69.203.149,0.394954,200,无,2,0.58,22,纯净,否,否,US,Council Bluffs,Google LLC,AS396982 Google LLC,否,是,正常
-turn://34.44.70.245:3478,34.44.70.245,0.550704,200,无,2,0.57,34,中性,否,否,US,Council Bluffs,Google LLC,AS396982 Google LLC,否,是,正常
-turn://198.23.200.218:3478,198.23.200.218,0.464525,200,无,1,0.57,56,中性,否,否,US,Buffalo,HostPapa,AS36352 HostPapa,否,是,正常
-turn://192.151.159.130:3478,192.151.159.130,0.729201,200,无,2,0.57,26,中性,否,否,US,Kansas City,"Nocix, LLC","AS33387 Nocix, LLC",否,是,正常
-turn://20.150.217.50:3478,20.150.217.50,0.271354,200,无,1,0.56,,,,,US,Phoenix,Microsoft Corporation,AS8075 Microsoft Corporation,否,是,正常
-turn://35.184.112.251:3478,35.184.112.251,0.442215,200,无,2,0.56,27,中性,否,否,US,Council Bluffs,Google LLC,AS396982 Google LLC,否,是,正常
-turn://198.23.59.41:3478,198.23.59.41,0.675717,200,无,1,0.55,34,中性,否,否,US,Coral Springs,LiquidNet US LLC,AS14555 LiquidNet US LLC,否,是,正常
-turn://5.161.239.143:3478,5.161.239.143,0.615410,200,无,2,0.55,88,风险,否,是,US,Ashburn,Hetzner Online GmbH,AS213230 Hetzner Online GmbH,是,是,正常
-turn://208.72.185.35:3478,208.72.185.35,0.538545,200,无,2,0.55,3,纯净,是,否,US,Chicago,"Voxology Carrier Services, Inc.","AS40165 Voxology Carrier Services, Inc.",否,否,正常
-turn://172.240.32.124:3478,172.240.32.124,0.512145,200,无,1,0.54,33,中性,否,否,US,Sterling,"Servers.com, Inc.","AS7979 Servers.com, Inc.",否,是,正常
-turn://178.156.251.236:3478,178.156.251.236,0.703755,200,无,2,0.54,39,中性,否,是,US,Ashburn,Hetzner Online GmbH,AS213230 Hetzner Online GmbH,否,是,正常
-turn://34.236.64.164:3478,34.236.64.164,0.396316,200,无,2,0.54,,,,,US,Ashburn,"Amazon.com, Inc.","AS14618 Amazon.com, Inc.",否,是,正常
-turn://135.148.149.69:3478,135.148.149.69,0.396748,200,无,2,0.54,,,,,US,Reston,OVH SAS,AS16276 OVH SAS,否,是,正常
-turn://193.122.170.23:3478,193.122.170.23,0.465444,200,无,2,0.54,41,中性,否,否,US,Ashburn,Oracle Corporation,AS31898 Oracle Corporation,否,是,正常
-turn://100.60.16.134:3478,100.60.16.134,0.393637,200,无,1,0.53,,,,,US,Ashburn,"Amazon.com, Inc.","AS14618 Amazon.com, Inc.",否,是,正常
-turn://201.79.32.127:3478,201.79.32.127,0.418615,200,无,2,0.53,34,中性,否,否,US,Kansas City,"DigitalOcean, LLC","AS14061 DigitalOcean, LLC",否,否,正常
-turn://192.3.28.12:3478,192.3.28.12,0.429737,200,无,2,0.53,22,纯净,否,否,US,Buffalo,HostPapa,AS36352 HostPapa,否,是,正常
-turn://155.138.202.133:3478,155.138.202.133,0.393192,200,无,2,0.53,52,中性,否,否,US,Atlanta,The Constant Company,"AS20473 The Constant Company, LLC",否,是,正常
-turn://45.56.103.230:3478,45.56.103.230,0.406736,200,无,1,0.53,47,中性,否,否,US,Cedar Knolls,"Akamai Technologies, Inc.",AS63949 Akamai Connected Cloud,否,是,正常
-turn://198.55.51.20:3478,198.55.51.19,0.677889,200,无,2,0.53,42,中性,否,否,CA,North York,Nuday Networks Inc.,AS1100 Nuday Networks Inc.,否,否,正常
-turn://163.192.195.246:3478,163.192.195.246,0.536816,200,无,2,0.52,50,中性,否,否,US,Chicago,Oracle Corporation,AS31898 Oracle Corporation,否,是,正常
-turn://198.12.123.44:3478,198.12.123.44,0.643782,200,无,1,0.52,40,中性,否,否,US,Buffalo,HostPapa,AS36352 HostPapa,否,是,正常
-turn://52.14.159.194:3478,52.14.159.194,0.393510,200,无,2,0.52,,,,,US,Columbus,"Amazon.com, Inc.","AS16509 Amazon.com, Inc.",否,是,正常
-turn://45.79.151.131:3478,45.79.151.131,0.413818,200,无,1,0.52,41,中性,否,否,US,Cedar Knolls,"Akamai Technologies, Inc.",AS63949 Akamai Connected Cloud,否,是,正常
-turn://209.74.85.24:3478,209.74.85.24,0.735512,200,无,1,0.52,39,中性,否,否,US,Phoenix,"Namecheap, Inc.","AS22612 Namecheap, Inc.",否,否,正常
-turn://54.175.98.226:3478,54.175.98.226,0.414381,200,无,1,0.51,,,,,US,Ashburn,"Amazon.com, Inc.","AS14618 Amazon.com, Inc.",否,是,正常
-turn://162.35.180.19:3478,162.35.180.19,0.631574,200,无,2,0.51,32,中性,否,否,US,Secaucus,"Interserver, Inc","AS19318 Interserver, Inc",否,是,正常
-turn://168.235.89.211:3478,168.235.89.211,0.520060,200,无,2,0.51,37,中性,否,否,US,Piscataway,InMotion Hosting,"AS3842 InMotion Hosting, Inc.",否,是,正常
-turn://100.49.246.146:3478,100.49.246.146,0.400444,200,无,1,0.51,,,,,US,Ashburn,"Amazon.com, Inc.","AS14618 Amazon.com, Inc.",否,是,正常
-turn://132.148.78.10:3478,132.148.78.10,0.594260,200,无,2,0.51,36,中性,否,否,US,Tempe,"GoDaddy.com, LLC","AS398101 GoDaddy.com, LLC",否,是,正常
-turn://100.49.195.68:3478,100.49.195.68,0.395784,200,无,1,0.51,,,,,US,Ashburn,"Amazon.com, Inc.","AS14618 Amazon.com, Inc.",否,是,正常
-turn://66.206.31.204:3478,66.206.31.204,0.413371,200,无,2,0.51,6,纯净,否,否,US,New York,"HIVELOCITY, Inc.","AS29802 HIVELOCITY, Inc.",否,是,正常
-turn://107.175.77.19:3478,107.175.77.19,0.764547,200,无,1,0.51,83,风险,否,否,US,Buffalo,HostPapa,AS36352 HostPapa,是,是,正常
-turn://174.129.35.123:3478,174.129.35.123,0.412337,200,无,2,0.50,,,,,US,Ashburn,"Amazon.com, Inc.","AS14618 Amazon.com, Inc.",否,是,正常
-turn://152.53.82.246:3478,152.53.82.246,0.419556,200,无,2,0.50,70,风险,否,是,US,Manassas,netcup GmbH,AS214996 netcup GmbH,否,否,正常
-turn://18.252.251.20:3478,18.254.123.255,0.563428,200,无,1,0.50,32,中性,否,否,US,Columbus,Amazon Data Services Ireland Ltd,AS8987 Amazon Technologies Inc.,否,是,正常
-turn://205.209.117.9:3478,205.209.117.9,0.480524,200,无,2,0.48,33,中性,否,否,US,Englewood Cliffs,"Interserver, Inc","AS19318 Interserver, Inc",否,是,正常
-turn://173.214.175.143:3478,173.214.175.143,0.422447,200,无,2,0.48,31,中性,否,否,US,Secaucus,"Interserver, Inc","AS19318 Interserver, Inc",否,是,正常
-turn://137.116.36.51:3478,137.116.36.51,0.440079,200,无,2,0.48,,,,,US,Boydton,Microsoft Corporation,AS8075 Microsoft Corporation,否,是,正常
-turn://52.1.155.147:3478,52.1.155.147,0.409072,200,无,2,0.48,,,,,US,Ashburn,"Amazon.com, Inc.","AS14618 Amazon.com, Inc.",否,是,正常
-turn://107.173.226.163:3478,107.173.226.163,0.625004,200,无,1,0.47,64,风险,否,否,US,Buffalo,HostPapa,AS36352 HostPapa,否,是,正常
-turn://140.84.162.216:3478,140.84.162.216,0.755091,200,无,2,0.46,55,中性,否,是,MX,Querétaro,Oracle Corporation,AS31898 Oracle Corporation,否,是,正常
-turn://45.77.117.189:3478,45.77.117.189,0.460483,200,无,1,0.45,55,中性,否,否,US,Miami,The Constant Company,"AS20473 The Constant Company, LLC",否,是,正常
-turn://104.131.111.25:3478,104.131.111.25,0.469545,200,无,1,0.45,85,风险,否,否,US,Clifton,"DigitalOcean, LLC","AS14061 DigitalOcean, LLC",是,是,正常
-turn://64.225.10.72:3478,64.225.10.72,0.482918,200,无,2,0.45,88,风险,否,否,US,Clifton,"DigitalOcean, LLC","AS14061 DigitalOcean, LLC",是,是,正常
-turn://129.80.131.238:3478,129.80.131.238,0.456603,200,无,1,0.45,24,纯净,否,否,US,Ashburn,Oracle Corporation,AS31898 Oracle Corporation,否,是,正常
-turn://34.74.241.126:3478,34.74.241.126,0.510186,200,无,2,0.45,33,中性,否,否,US,North Charleston,Google LLC,AS396982 Google LLC,否,是,正常
-turn://161.47.150.41:3478,161.47.150.41,0.511932,200,无,1,0.45,8,纯净,否,否,US,Chicago,Rackspace Hosting,AS19994 Rackspace Hosting,否,是,正常
-turn://134.122.127.213:3478,134.122.127.213,0.651817,200,无,1,0.42,53,中性,否,否,US,North Bergen,"DigitalOcean, LLC","AS14061 DigitalOcean, LLC",否,是,正常
-turn://208.111.83.108:3478,208.111.83.97,0.706222,200,无,2,0.42,3,纯净,否,否,CA,Québec,Oricom Internet inc,AS19515 Oricom Internet inc.,否,否,正常
-turn://5.161.181.152:3478,5.161.181.152,0.987707,200,无,2,0.42,51,中性,否,是,US,Ashburn,Hetzner Online GmbH,AS213230 Hetzner Online GmbH,否,是,正常
-turn://99.82.211.30:3478,99.82.211.30,0.544584,200,无,1,0.41,5,纯净,是,否,US,Corbin,"AT&T Enterprises, LLC","AS7018 AT&T Enterprises, LLC",否,否,正常
-turn://34.75.24.25:3478,34.75.24.25,0.529997,200,无,2,0.41,42,中性,否,否,US,North Charleston,Google LLC,AS396982 Google LLC,否,是,正常
-turn://38.47.238.233:3478,38.47.238.233,0.571448,200,无,2,0.41,48,中性,否,否,US,Los Angeles,"Hong Kong Communications International Co., Limited","AS140227 Hong Kong Communications International Co., Limited",否,是,正常
-turn://44.211.182.218:3478,44.211.182.218,0.387917,200,无,1,0.39,,,,,US,Ashburn,Amazon.com,"AS14618 Amazon.com, Inc.",否,是,正常
-turn://38.40.83.210:3478,38.40.83.210,0.676265,200,无,1,0.38,5,纯净,是,否,US,Daytona Beach,Wire 3 LLC,AS400194 Wire 3 LLC,否,否,正常
-turn://16.58.27.110:3478,16.58.27.110,0.421337,200,无,1,0.38,,,,,US,Columbus,"Amazon.com, Inc.","AS16509 Amazon.com, Inc.",否,是,正常
-turn://198.23.193.141:3478,198.23.193.141,0.680652,200,无,2,0.36,60,中性,否,否,US,Buffalo,HostPapa,AS36352 HostPapa,否,是,正常
-turn://147.182.169.213:3478,147.182.169.213,0.463165,200,无,2,0.36,44,中性,否,否,US,North Bergen,"DigitalOcean, LLC","AS14061 DigitalOcean, LLC",否,是,正常
-turn://148.163.225.222:3478,148.163.225.222,1.082265,200,无,2,0.29,13,纯净,否,是,CO,Bogotá,"NetActuate, Inc","AS36236 NetActuate, Inc",否,否,正常
-turn://157.66.255.13:3478,157.66.255.13,1.416333,200,无,2,0.29,17,纯净,否,否,JP,Kyoto,"RUTILEA, Inc.","AS151390 RUTILEA, Inc.",否,否,正常
-turn://121.141.11.130:3478,121.141.11.130,1.492836,200,无,1,0.26,9,纯净,是,否,KR,Yangcheon-gu,Korea Telecom,AS4766 Korea Telecom,否,否,正常
-turn://99.81.237.27:3478,99.81.237.27,0.794036,200,无,2,0.26,,,,,IE,Dublin,"Amazon.com, Inc.","AS16509 Amazon.com, Inc.",否,是,正常
-turn://114.34.87.173:3478,114.34.87.173,1.190929,200,无,1,0.25,2,纯净,是,否,TW,Taipei,"Chunghwa Telecom Co., Ltd.",AS3462 Data Communication Business Group,否,否,正常
-turn://193.26.159.139:3478,193.26.159.139,1.491833,200,无,1,0.24,46,中性,否,是,DE,Nuremberg,netcup GmbH,AS197540 netcup GmbH,否,是,正常
-turn://86.129.254.59:3478,86.129.254.59,1.326565,200,无,1,0.23,0,纯净,是,否,GB,Kettering,BT Public Internet Service,AS2856 British Telecommunications Limited,否,否,正常
-turn://162.19.47.91:3478,162.19.47.91,0.892666,200,无,2,0.23,,,,,FR,Roubaix,OVH SAS,AS16276 OVH SAS,否,是,正常
-turn://95.140.153.196:3478,95.140.153.196,1.448747,200,无,2,0.23,77,风险,否,是,DE,Frankfurt am Main,Mamaeva,"AS210976 Timeweb, LLP",否,否,正常
-turn://54.36.100.113:3478,54.36.100.113,0.871344,200,无,2,0.23,,,,,FR,Gravelines,OVH SAS,AS16276 OVH SAS,否,是,正常
-turn://213.32.71.101:3478,213.32.71.101,0.878891,200,无,2,0.23,,,,,FR,Gravelines,OVH SAS,AS16276 OVH SAS,否,是,正常
-turn://51.91.251.23:3478,51.91.251.23,0.904815,200,无,1,0.23,,,,,FR,Roubaix,OVH SAS,AS16276 OVH SAS,否,是,正常
-turn://159.195.75.35:3478,159.195.75.35,1.410706,200,无,2,0.23,56,中性,否,否,DE,Nuremberg,netcup GmbH,AS197540 netcup GmbH,否,是,正常
-turn://89.125.66.239:3478,89.125.66.239,1.317934,200,无,2,0.23,39,中性,否,是,NL,Amsterdam,RoyaleHosting BV,AS212477 RoyaleHosting BV,否,否,正常
-turn://45.145.225.168:3478,45.145.225.168,1.384156,200,无,1,0.22,50,中性,否,否,DE,Offenbach,"Oliver Horscht is trading as ""SYNLINQ""",AS44486 synlinq.de,否,是,正常
-turn://172.245.139.189:3478,172.245.139.189,1.228168,200,无,1,0.22,48,中性,否,否,US,Elk Grove Village,HostPapa,AS36352 HostPapa,否,是,正常
-turn://109.176.207.68:3478,109.176.207.68,0.861802,200,无,2,0.22,91,风险,否,是,NL,Amsterdam,"Ultahost, Inc.","AS214036 Ultahost, Inc.",是,是,正常
-turn://169.58.153.97:3478,169.58.153.97,1.397150,200,无,1,0.22,46,中性,否,是,FR,Lauterbourg,Contabo GmbH,AS51167 Contabo GmbH,否,是,正常
-turn://85.214.120.233:3478,85.214.120.233,1.491750,200,无,2,0.22,43,中性,否,否,DE,Berlin,Strato AG,AS6724 Strato GmbH,否,是,正常
-turn://116.203.22.54:3478,116.203.22.54,0.964535,200,无,2,0.22,,,,,DE,Nuremberg,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,否,是,正常
-turn://45.9.60.248:3478,45.9.60.248,1.445369,200,无,2,0.22,53,中性,否,否,DE,Nuremberg,netcup GmbH,AS197540 netcup GmbH,否,是,正常
-turn://18.195.51.64:3478,18.195.51.64,0.876930,200,无,2,0.22,,,,,DE,Frankfurt,Amazon Technologies Inc.,"AS16509 Amazon.com, Inc.",否,是,正常
-turn://161.97.137.183:3478,161.97.137.183,1.400762,200,无,2,0.22,35,中性,否,是,FR,Lauterbourg,Contabo GmbH,AS51167 Contabo GmbH,否,是,正常
-turn://116.202.163.249:3478,116.202.163.249,0.975524,200,无,1,0.22,,,,,DE,Falkenstein,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,否,是,正常
-turn://45.140.43.12:3478,45.140.43.12,1.406706,200,无,2,0.22,49,中性,否,是,DE,Frankfurt am Main,Clouvider Limited,AS62240 Clouvider,否,是,正常
-turn://51.38.110.14:3478,51.38.110.14,0.921598,200,无,1,0.22,,,,,DE,Limburg an der Lahn,OVH SAS,AS16276 OVH SAS,否,是,正常
-turn://194.147.58.230:3478,194.147.58.230,1.401687,200,无,2,0.22,33,中性,否,是,FR,Lauterbourg,Contabo GmbH,AS51167 Contabo GmbH,否,是,正常
-turn://152.228.189.157:3478,152.228.189.157,1.899922,200,无,2,0.22,,,,,FR,Paris,OVH SAS,AS16276 OVH SAS,否,是,正常
-turn://152.228.189.146:3478,152.228.189.146,0.881846,200,无,2,0.22,,,,,FR,Paris,OVH SAS,AS16276 OVH SAS,否,是,正常
-turn://152.228.189.149:3478,152.228.189.149,0.884117,200,无,2,0.22,,,,,FR,Paris,OVH SAS,AS16276 OVH SAS,否,是,正常
-turn://152.228.189.151:3478,152.228.189.151,0.897633,200,无,1,0.22,,,,,FR,Paris,OVH SAS,AS16276 OVH SAS,否,是,正常
-turn://51.254.39.3:3478,51.254.39.3,0.912678,200,无,2,0.22,,,,,FR,Strasbourg,OVH SAS,AS16276 OVH SAS,否,是,正常
-turn://84.247.128.99:3478,84.247.128.99,1.388615,200,无,1,0.22,77,风险,否,是,FR,Lauterbourg,Contabo GmbH,AS51167 Contabo GmbH,否,是,正常
-turn://78.47.22.85:3478,78.47.22.85,1.886911,200,无,2,0.21,,,,,DE,Nuremberg,Hetzner,AS24940 Hetzner Online GmbH,否,是,正常
-turn://137.184.249.176:3478,137.184.249.176,1.978037,200,无,2,0.21,68,风险,否,是,SG,Singapore,"DigitalOcean, LLC","AS14061 DigitalOcean, LLC",否,是,正常
-turn://5.45.100.83:3478,5.45.100.83,0.976705,200,无,1,0.21,55,中性,否,否,DE,Nuremberg,netcup GmbH,AS197540 netcup GmbH,否,是,正常
-turn://54.38.221.251:3478,54.38.221.251,0.918955,200,无,1,0.21,,,,,DE,Limburg an der Lahn,OVH SAS,AS16276 OVH SAS,否,是,正常
-turn://54.169.67.101:3478,54.169.67.101,0.995647,200,无,2,0.21,,,,,SG,Singapore,"Amazon.com, Inc.","AS16509 Amazon.com, Inc.",否,是,正常
-turn://159.69.148.238:3478,159.69.148.238,1.862679,200,无,2,0.21,,,,,DE,Nuremberg,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,否,是,正常
-turn://209.38.192.226:3478,209.38.192.226,1.362554,200,无,2,0.21,42,中性,否,是,DE,Frankfurt am Main,"DigitalOcean, LLC","AS14061 DigitalOcean, LLC",否,是,正常
-turn://103.167.151.70:3478,103.167.151.70,2.001439,200,无,2,0.21,47,中性,否,是,SG,Singapore,HostHatch,"AS63473 HostHatch, LLC",否,是,正常
-turn://46.225.233.71:3478,46.225.233.71,0.964167,200,无,1,0.21,,,,,DE,Nuremberg,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,否,是,正常
-turn://lb-stun.easybroadcast.fr:3478,57.128.177.212,0.885194,200,无,1,0.21,,,,,GB,Erith,OVH SAS,AS16276 OVH SAS,否,是,正常
-turn://195.88.109.142:3478,195.88.109.133,1.443651,200,无,1,0.21,4,纯净,否,否,DE,Gäufelden,CK Software GmbH,AS57407 CK Software GmbH,否,否,正常
-turn://46.105.117.18:3478,46.105.117.18,0.909644,200,无,2,0.21,,,,,FR,Roubaix,OVH SAS,AS16276 OVH SAS,否,是,正常
-turn://185.249.227.68:3478,185.249.227.68,1.472630,200,无,2,0.21,39,中性,否,是,FR,Lauterbourg,Contabo GmbH,AS51167 Contabo GmbH,否,是,正常
-turn://45.129.182.202:3478,45.129.182.202,1.374935,200,无,2,0.21,48,中性,否,否,DE,Nuremberg,netcup GmbH,AS197540 netcup GmbH,否,是,正常
-turn://51.159.131.75:3478,51.159.131.75,1.348202,200,无,2,0.21,21,纯净,是,否,FR,Paris,SCALEWAY,AS12876 Scaleway SAS,否,是,正常
-turn://18.130.145.231:3478,18.130.145.231,0.887449,200,无,1,0.21,,,,,GB,London,Amazon Technologies Inc.,"AS16509 Amazon.com, Inc.",否,是,正常
-turn://185.4.72.143:3478,185.4.72.143,1.474165,200,无,1,0.21,44,中性,否,否,EE,Jõhvi,PAGM network,AS198068 CLOUD.DOG OU,否,是,正常
-turn://144.91.68.78:3478,144.91.68.78,1.459226,200,无,1,0.21,43,中性,否,是,FR,Lauterbourg,Contabo GmbH,AS51167 Contabo GmbH,否,是,正常
-turn://194.164.204.112:3478,194.164.204.112,1.500042,200,无,2,0.21,9,纯净,是,否,DE,Berlin,NETKONECT,AS8560 IONOS SE,否,是,正常
-turn://152.228.189.159:3478,152.228.189.159,0.872536,200,无,2,0.21,,,,,FR,Paris,OVH SAS,AS16276 OVH SAS,否,是,正常
-turn://152.228.189.150:3478,152.228.189.150,0.904619,200,无,1,0.21,,,,,FR,Paris,OVH SAS,AS16276 OVH SAS,否,是,正常
-turn://152.228.189.152:3478,152.228.189.152,0.883117,200,无,2,0.21,,,,,FR,Paris,OVH SAS,AS16276 OVH SAS,否,是,正常
-turn://152.228.189.153:3478,152.228.189.153,0.892641,200,无,1,0.21,,,,,FR,Paris,OVH SAS,AS16276 OVH SAS,否,是,正常
-turn://152.53.144.165:3478,152.53.144.165,1.386415,200,无,2,0.21,58,中性,否,是,DE,Nuremberg,netcup GmbH,AS197540 netcup GmbH,否,是,正常
-turn://91.99.14.79:3478,91.99.14.79,0.954218,200,无,1,0.21,,,,,DE,Falkenstein,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,否,是,正常
-turn://37.27.134.107:3478,37.27.134.107,1.101929,200,无,2,0.20,,,,,FI,Helsinki,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,否,是,正常
-turn://78.46.183.144:3478,78.46.183.144,0.978436,200,无,1,0.20,,,,,DE,Falkenstein,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,否,是,正常
-turn://148.251.152.91:3478,148.251.152.91,0.968361,200,无,1,0.20,,,,,DE,Falkenstein,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,否,是,正常
-turn://62.238.122.128:3478,62.238.122.128,1.074194,200,无,2,0.20,,,,,FI,Helsinki,DELTA Fiber Nederland,AS24940 Hetzner Online GmbH,否,是,正常
-turn://116.203.192.114:3478,116.203.192.114,0.967986,200,无,2,0.20,,,,,DE,Nuremberg,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,否,是,正常
-turn://178.104.150.181:3478,178.104.150.181,0.950610,200,无,1,0.20,,,,,DE,Nuremberg,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,否,否,正常
-turn://85.188.3.227:3478,85.188.3.227,1.464389,200,无,2,0.20,29,中性,否,否,FI,Espoo,Netcrew ry,AS34387 Netcrew ry,否,否,正常
-turn://83.13.244.126:3478,83.13.244.126,1.544037,200,无,2,0.20,4,纯净,是,否,PL,Warsaw,Orange Polska Spolka Akcyjna,AS5617 Orange Polska Spolka Akcyjna,否,否,正常
-turn://185.211.61.187:3478,185.211.61.187,0.993568,200,无,1,0.20,25,纯净,否,否,AT,Vienna,Nessus GmbH,AS47692 Nessus GmbH,否,否,正常
-turn://85.203.53.36:3478,85.203.53.36,1.466070,200,无,1,0.20,37,中性,否,是,SE,Gothenburg,31173 Services AB,AS39351 31173 Services AB,是,否,正常
-turn://135.125.189.46:3478,135.125.189.46,0.942384,200,无,1,0.20,,,,,DE,Limburg an der Lahn,OVH SAS,AS16276 OVH SAS,否,是,正常
-turn://83.164.41.249:3478,83.164.41.249,1.586402,200,无,1,0.19,6,纯净,否,否,AT,Traun,lagis Internet Serviceprovider GmbH,AS12605 LIWEST Kabelmedien GmbH,否,否,正常
-turn://195.226.194.24:3478,195.226.194.24,1.446642,200,无,2,0.19,28,中性,否,是,NL,Amsterdam,Hostkey B.V.,AS57043 HOSTKEY B.V.,是,是,正常
-turn://154.52.20.187:3478,154.52.20.187,0.796817,200,无,2,0.19,30,中性,否,否,US,San Jose,Fortinet Inc.,AS40934 Fortinet Inc.,否,是,正常
-turn://177.3.204.35:3478,177.3.204.35,1.058817,200,无,1,0.19,33,中性,否,是,BG,Sofia,Baxet Group Inc.,AS26383 Baxet Group Inc.,否,否,正常
-turn://37.27.210.141:3478,37.27.210.141,1.101408,200,无,2,0.19,,,,,FI,Helsinki,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,否,是,正常
-turn://185.119.117.112:3478,185.119.117.112,1.507572,200,无,2,0.19,38,中性,否,否,AT,Vienna,IPAX GmbH,AS44133 IPAX GmbH,否,是,正常
-turn://47.237.82.40:3478,47.237.82.40,0.997259,200,无,1,0.19,,,,,SG,Singapore,"Alibaba (US) Technology Co., Ltd.","AS45102 Alibaba (US) Technology Co., Ltd.",否,是,正常
-turn://47.245.83.135:3478,47.245.83.135,0.993960,200,无,1,0.19,,,,,SG,Singapore,"Alibaba (US) Technology Co., Ltd.","AS45102 Alibaba (US) Technology Co., Ltd.",否,是,正常
-turn://186.244.231.176:3478,186.244.231.176,1.354461,200,无,2,0.18,34,中性,否,是,US,Boulder,Cloudvalley Sdn. Bhd.,AS154376 Cloudvalley Sdn. Bhd.,否,是,正常
-turn://38.255.123.227:3478,38.255.123.227,1.132727,200,无,2,0.18,36,中性,否,否,BR,Carapicuíba,E-consulters Enterprise Ltda,AS275714 E-Consulters Enterprise LTDA,否,否,正常
-turn://45.162.235.3:3478,45.162.235.3,1.790661,200,无,1,0.18,3,纯净,是,否,BR,Jacaré dos Homens,Wib Provedores de Acesso LTDA - EPP,AS268582 Wib Provedores de Acesso LTDA - EPP,否,否,正常
-turn://185.183.184.15:3478,185.183.184.15,1.736430,200,无,1,0.18,2,纯净,是,否,GR,Thessaloniki,Metadosis SA,AS206529 Metadosis SA,否,否,正常
-turn://194.226.115.236:3478,194.226.115.236,1.660666,200,无,2,0.18,7,纯净,否,否,RU,Moscow,"""Domain names registrar REG.RU"", Ltd","AS197695 ""Domain names registrar REG.RU"", Ltd",否,否,正常
-turn://129.121.53.187:3478,129.121.53.187,1.636102,200,无,1,0.18,18,纯净,否,是,BR,Vinhedo,Oracle Corporation,AS31898 Oracle Corporation,否,否,正常
-turn://112.213.35.144:3478,112.213.35.144,2.165208,200,无,1,0.18,35,中性,否,否,AU,Sydney,Mammoth Media Pty Ltd,AS133159 Mammoth Media Pty Ltd,否,否,正常
-turn://153.51.115.239:3478,153.51.115.239,1.746925,200,无,1,0.17,36,中性,否,否,RU,Moscow,Yandex.Cloud LLC,AS200350 Yandex.Cloud LLC,否,是,正常
-turn://5.129.215.139:3478,5.129.215.139,1.635767,200,无,1,0.17,33,中性,否,否,RU,Moscow,"JSC ""TIMEWEB""","AS9123 JSC ""TIMEWEB""",否,是,正常
-turn://187.94.215.251:3478,187.94.215.251,1.799015,200,无,2,0.17,3,纯净,是,否,BR,Carangola,Acesse Comunicação Ltda,AS53078 Acesse Comunicação Ltda,否,否,正常
-turn://101.255.66.168:3478,101.255.66.168,2.266877,200,无,2,0.17,3,纯净,是,否,ID,East Jakarta,PT Remala Abadi,AS38511 PT Remala Abadi,否,否,正常
-turn://155.212.168.42:3478,155.212.168.42,1.744577,200,无,1,0.17,21,纯净,否,否,RU,Moscow,JSC IOT,AS29182 JSC IOT,是,否,正常
-turn://186.216.54.13:3478,186.216.54.13,1.898948,200,无,1,0.17,4,纯净,是,否,BR,Soure,Metroflex Telecomunicacoes Ltda,AS262663 METROFLEX TELECOMUNICACOES LTDA,否,否,正常
-turn://45.233.16.23:3478,45.233.16.23,1.720343,200,无,1,0.17,8,纯净,是,否,BR,São Paulo,Pongar Telecom,AS267288 PONGAR TELECOM,否,否,正常
-turn://185.42.14.75:3478,185.42.14.75,1.691558,200,无,1,0.16,64,风险,否,是,RU,Moscow,"JSC ""TIMEWEB""","AS9123 JSC ""TIMEWEB""",否,是,正常
-turn://185.244.51.230:3478,185.244.51.230,1.723918,200,无,1,0.16,64,风险,否,否,RU,Moscow,AdminVPS OOO,AS211183 AdminVPS OOO,否,是,正常
-turn://132.255.72.10:3478,132.255.72.10,1.815699,200,无,2,0.16,9,纯净,是,否,BR,Rosana,Mega Redes Telecom Ltda,AS264463 MEGA REDES TELECOM LTDA,否,否,正常
-turn://190.89.177.14:3478,190.89.177.14,1.855900,200,无,1,0.16,8,纯净,是,否,BR,Várzea Grande,Otilia Antonia Celso,AS270384 OTILIA ANTONIA CELSO,否,否,正常
-turn://191.36.216.94:3478,191.36.216.94,1.898613,200,无,1,0.16,17,纯净,否,否,BR,Colorado do Oeste,CPW Internet,AS263340 CPW TELECOM LTDA,否,否,正常
-turn://103.174.102.232:3478,103.174.102.232,2.545362,200,无,2,0.15,80,风险,否,否,IN,Nashik,Idigitalcamp Web Services,AS133719 IDIGITALCAMP WEB SERVICES,否,否,正常
-turn://160.20.64.37:3478,160.20.64.37,1.768343,200,无,1,0.15,10,纯净,是,否,BR,Irineópolis,Borille Serviços de Telecomunicações Ltda.,AS266150 Borille Serviços de Telecomunicações Ltda.,否,否,正常
-turn://45.179.215.8:3478,45.179.215.8,2.070268,200,无,1,0.15,2,纯净,是,否,BR,Porto Velho,Centro De Negocios Contemporaneo Ltda,AS269103 Camillo FG LTDA,否,否,正常
-turn://47.199.57.14:3478,47.199.57.14,2.269580,200,无,2,0.14,5,纯净,是,否,US,New Port Richey,Frontier Communications Solutions,AS5650 Verizon Business,否,否,正常
-turn://146.235.210.229:3478,146.235.210.229,0.694413,200,无,2,0.14,53,中性,否,否,US,San Jose,Oracle Corporation,AS31898 Oracle Corporation,否,是,正常
-turn://162.19.47.90:3478,162.19.47.90,0.895495,200,无,2,0.14,,,,,FR,Roubaix,OVH SAS,AS16276 OVH SAS,否,是,正常
-turn://139.59.42.223:3478,139.59.42.223,1.462788,200,无,2,0.14,38,中性,否,是,IN,Bengaluru,"DigitalOcean, LLC","AS14061 DigitalOcean, LLC",否,是,正常
-turn://217.199.144.60:3478,217.199.144.60,2.447496,200,无,1,0.14,57,中性,否,否,KE,Nairobi,MTN Business Kenya,AS9129 MTN SA,否,否,正常
-turn://196.40.101.186:3478,196.40.101.186,2.667173,200,无,1,0.13,29,中性,否,否,ZA,Cape Town,Xneelo (Pty) Ltd,AS37153 Xneelo (Pty) Ltd,否,是,正常
-turn://185.74.4.12:3478,185.74.4.12,2.134304,200,无,1,0.13,40,中性,是,否,UZ,Tashkent,"""Uzbektelekom"" Joint Stock Company","AS202660 ""Uzbektelekom"" Joint Stock Company",否,是,正常
-turn://coturn.vsphere.rubetek.com:3478,81.195.146.14,3.174960,200,无,1,0.12,0,纯净,是,否,RU,Oryol,ZAO MTU-Intel's Moscow Region Network,AS8359 MTS PJSC,否,否,正常
-turn://129.232.241.186:3478,129.232.241.186,2.720176,200,无,1,0.11,37,中性,否,否,ZA,Johannesburg,xneelo-JHB,AS37153 Xneelo (Pty) Ltd,否,是,正常
-turn://88.41.55.147:3478,88.41.55.133,2.497619,200,无,1,0.10,9,纯净,是,否,IT,Messina,INTERBUSINESS,AS3269 Telecom Italia S.p.A.,否,否,正常
-turn://stun.easybroadcast.fr:3478,57.128.177.212,0.960210,200,无,1,0.07,,,,,GB,Erith,OVH SAS,AS16276 OVH SAS,否,是,正常
-turn://138.122.44.135:3478,138.122.44.135,2.082854,200,无,1,0.03,1,纯净,是,否,BR,Serra do Mel,Ciclo Tecnologia,AS264315 Ciclo Tecnologia,否,否,正常
+turn://157.230.140.236:3478,157.230.140.236,0.416270,200,无,1,5.43,45,中性,否,否,US,Santa Clara,"DigitalOcean, LLC","AS14061 DigitalOcean, LLC",否,是,正常
+turn://138.197.201.154:3478,138.197.201.154,0.392070,200,无,2,5.16,28,中性,否,否,US,Santa Clara,"DigitalOcean, LLC","AS14061 DigitalOcean, LLC",否,是,正常
+turn://23.108.190.131:3478,23.108.190.131,0.421179,200,无,2,5.15,8,纯净,否,否,US,San Francisco,"Leaseweb USA, Inc.","AS7203 Leaseweb USA, Inc.",否,是,正常
+turn://54.177.144.169:3478,54.177.144.169,0.053259,200,无,1,5.08,,,,,US,San Jose,"Amazon.com, Inc.","AS16509 Amazon.com, Inc.",否,是,正常
+turn://161.35.231.217:3478,161.35.231.217,0.438939,200,无,2,5.06,46,中性,否,否,US,Santa Clara,"DigitalOcean, LLC","AS14061 DigitalOcean, LLC",否,是,正常
+turn://140.82.48.55:3478,140.82.48.55,0.439955,200,无,2,5.00,41,中性,否,否,US,Santa Clara,The Constant Company,"AS20473 The Constant Company, LLC",否,是,正常
+turn://49.51.199.210:3478,49.51.199.210,0.419810,200,无,1,4.94,42,中性,否,是,US,Santa Clara,OPHL,"AS132203 Tencent Building, Kejizhongyi Avenue",否,是,正常
+turn://164.92.71.194:3478,164.92.71.194,0.423884,200,无,1,4.84,65,风险,否,否,US,Santa Clara,"DigitalOcean, LLC","AS14061 DigitalOcean, LLC",是,是,正常
+turn://64.23.159.57:3478,64.23.159.57,0.406799,200,无,2,4.81,44,中性,否,否,US,Santa Clara,"DigitalOcean, LLC","AS14061 DigitalOcean, LLC",否,是,正常
+turn://138.68.39.26:3478,138.68.39.26,0.442631,200,无,1,4.58,33,中性,否,否,US,Santa Clara,"DigitalOcean, LLC","AS14061 DigitalOcean, LLC",否,是,正常
+turn://47.89.234.121:3478,47.89.234.121,0.055926,200,无,0,4.32,,,,,US,Minkler,Alibaba Cloud LLC,"AS45102 Alibaba (US) Technology Co., Ltd.",否,是,正常
+turn://94.183.184.176:3478,94.183.184.176,0.406942,200,无,1,4.18,39,中性,否,是,US,Fremont,CGI GLOBAL LIMITED,AS56971 AS56971 Cloud,否,是,正常
+turn://143.198.234.78:3478,143.198.234.78,0.418903,200,无,1,3.97,43,中性,否,否,US,Santa Clara,"DigitalOcean, LLC","AS14061 DigitalOcean, LLC",否,是,正常
+turn://167.99.166.244:3478,167.99.166.244,0.400168,200,无,1,3.63,27,中性,否,否,US,Santa Clara,"DigitalOcean, LLC","AS14061 DigitalOcean, LLC",否,是,正常
+turn://103.7.139.143:3478,103.7.139.143,0.431545,200,无,1,2.90,43,中性,否,是,US,Los Angeles,5G Network Operations Pty Ltd,AS35916 MULTACOM CORPORATION,否,否,正常
+turn://67.230.162.47:3478,67.230.162.47,0.372422,200,无,1,2.79,28,中性,否,是,US,Los Angeles,IT7 Networks Inc,AS25820 IT7 Networks Inc,是,是,正常
+turn://91.209.228.162:3478,91.209.228.162,0.463960,200,无,2,2.75,33,中性,否,是,US,Los Angeles,ReliableSite.Net LLC,AS23470 ReliableSite.Net LLC,否,否,正常
+turn://64.64.252.96:3478,64.64.252.96,0.406345,200,无,1,2.62,29,中性,否,是,US,Los Angeles,IT7 Networks Inc,AS25820 IT7 Networks Inc,是,是,正常
+turn://165.227.27.153:3478,165.227.27.153,0.358154,200,无,2,2.56,40,中性,否,否,US,Santa Clara,"DigitalOcean, LLC","AS14061 DigitalOcean, LLC",否,是,正常
+turn://208.72.189.206:3478,208.72.189.206,0.462170,200,无,2,2.55,6,纯净,是,否,US,Los Angeles,"Voxology Carrier Services, Inc.","AS40165 Voxology Carrier Services, Inc.",否,否,正常
+turn://172.236.225.141:3478,172.236.225.141,0.388081,200,无,2,2.45,28,中性,否,否,US,Los Angeles,"Akamai Technologies, Inc.",AS63949 Akamai Connected Cloud,否,是,正常
+turn://156.239.242.220:3478,156.239.242.220,0.424379,200,无,2,2.37,35,中性,否,否,US,Los Angeles,VpsQuan L.L.C.,AS62468 VpsQuan L.L.C.,否,是,正常
+turn://209.38.172.216:3478,209.38.172.216,0.414542,200,无,2,2.34,29,中性,否,否,US,Santa Clara,"DigitalOcean, LLC","AS14061 DigitalOcean, LLC",否,是,正常
+turn://154.59.103.5:3478,154.59.103.5,0.542534,200,无,2,2.15,68,风险,是,否,US,Los Angeles,Cogent Communications,"AS174 Cogent Communications, LLC",否,否,正常
+turn://5.78.156.77:3478,5.78.156.77,0.503946,200,无,2,1.93,76,风险,否,是,US,Hillsboro,Hetzner Online GmbH,AS212317 Hetzner Online GmbH,否,是,正常
+turn://34.16.144.188:3478,34.16.144.188,0.474486,200,无,1,1.81,24,纯净,否,否,US,Las Vegas,Google LLC,AS396982 Google LLC,否,是,正常
+turn://35.86.20.110:3478,35.86.20.110,0.148388,200,无,2,1.59,,,,,US,Boardman,"Amazon.com, Inc.","AS16509 Amazon.com, Inc.",否,是,正常
+turn://129.151.22.230:3478,129.151.22.230,0.522171,200,无,2,1.57,40,中性,否,否,US,Phoenix,Oracle Corporation,AS31898 Oracle Corporation,否,是,正常
+turn://184.34.31.136:3478,184.34.31.136,0.150202,200,无,2,1.56,,,,,US,Boardman,BellSouth.net Inc.,"AS16509 Amazon.com, Inc.",否,是,正常
+turn://20.150.217.50:3478,20.150.217.50,0.137783,200,无,1,1.55,,,,,US,Phoenix,Microsoft Corporation,AS8075 Microsoft Corporation,否,是,正常
+turn://154.52.20.187:3478,154.52.20.187,0.583443,200,无,2,1.47,30,中性,否,否,US,San Jose,Fortinet Inc.,AS40934 Fortinet Inc.,否,是,正常
+turn://34.168.252.217:3478,34.168.252.217,0.606903,200,无,1,1.44,35,中性,否,否,US,The Dalles,Google LLC,AS396982 Google LLC,否,是,正常
+turn://35.230.1.124:3478,35.230.1.124,0.531641,200,无,1,1.41,24,纯净,否,否,US,The Dalles,Google LLC,AS396982 Google LLC,否,是,正常
+turn://52.10.14.24:3478,52.10.14.24,0.150851,200,无,2,1.40,,,,,US,Boardman,"Amazon.com, Inc.","AS16509 Amazon.com, Inc.",否,是,正常
+turn://85.239.234.131:3478,85.239.234.131,0.648545,200,无,2,1.33,57,中性,否,是,US,Seattle,Casablanca INT fraction,AS40021 Contabo Inc.,否,是,正常
+turn://35.230.88.149:3478,35.230.88.149,0.523816,200,无,2,1.31,33,中性,否,否,US,The Dalles,Google LLC,AS396982 Google LLC,否,是,正常
+turn://4.149.74.16:3478,4.149.74.16,0.170099,200,无,1,1.30,,,,,US,Quincy,Microsoft Corporation,AS8075 Microsoft Corporation,否,是,正常
+turn://24.252.175.21:3478,24.252.175.21,0.192560,200,无,2,1.24,2,纯净,是,否,US,Mesa,Cox Communications Inc.,AS22773 Cox Communications Inc.,否,否,正常
+turn://23.239.23.202:3478,23.239.23.202,0.464620,200,无,2,1.23,19,纯净,否,否,US,Fremont,"Akamai Technologies, Inc.",AS63949 Akamai Connected Cloud,否,是,正常
+turn://172.179.90.244:3478,172.179.90.244,0.163480,200,无,2,0.97,,,,,US,Quincy,Microsoft,AS8075 Microsoft Corporation,否,是,正常
+turn://205.207.148.12:3478,205.207.148.12,0.553860,200,无,2,0.85,2,纯净,是,否,US,Helena,Montana Internet Corporation,AS4043 Montana Internet Corporation,否,否,正常
+turn://172.240.24.225:3478,172.240.24.225,0.497703,200,无,1,0.80,38,中性,否,否,US,Chicago,"Servers.com, Inc.","AS7979 Servers.com, Inc.",否,是,正常
+turn://172.240.24.227:3478,172.240.24.227,0.510874,200,无,2,0.79,34,中性,否,否,US,Chicago,"Servers.com, Inc.","AS7979 Servers.com, Inc.",否,是,正常
+turn://74.118.129.170:3478,74.118.129.170,0.558807,200,无,2,0.76,5,纯净,否,否,US,Dallas,"Opinion Researchers, L.L.C.","AS4886 Opinion Researchers, L.L.C.",否,否,正常
+turn://192.34.102.143:3478,192.34.102.143,0.531884,200,无,1,0.76,18,纯净,否,否,US,Chicago,PureVoltage Hosting Inc.,AS26548 PureVoltage Hosting Inc.,否,是,正常
+turn://212.28.189.163:3478,212.28.189.163,0.519824,200,无,2,0.67,57,中性,否,是,US,St Louis,Contabo Inc.,AS40021 Contabo Inc.,否,是,正常
+turn://66.23.204.98:3478,66.23.204.98,0.543024,200,无,1,0.67,48,中性,否,否,US,Chicago,Dedicated.com,AS63018 Dedicated.com,否,是,正常
+turn://163.192.195.246:3478,163.192.195.246,0.531168,200,无,2,0.66,48,中性,否,否,US,Chicago,Oracle Corporation,AS31898 Oracle Corporation,否,是,正常
+turn://208.72.185.35:3478,208.72.185.35,0.539842,200,无,2,0.66,3,纯净,是,否,US,Chicago,"Voxology Carrier Services, Inc.","AS40165 Voxology Carrier Services, Inc.",否,否,正常
+turn://140.84.162.216:3478,140.84.162.216,0.642282,200,无,2,0.66,51,中性,否,是,MX,Querétaro,Oracle Corporation,AS31898 Oracle Corporation,否,是,正常
+turn://34.136.208.95:3478,34.136.208.95,0.511078,200,无,1,0.65,27,中性,否,否,US,Council Bluffs,Google LLC,AS396982 Google LLC,否,是,正常
+turn://192.151.159.130:3478,192.151.159.130,0.689920,200,无,2,0.65,25,纯净,否,否,US,Kansas City,"Nocix, LLC","AS33387 Nocix, LLC",否,是,正常
+turn://147.93.133.235:3478,147.93.133.235,0.541520,200,无,2,0.64,31,中性,否,是,US,St Louis,Contabo Inc.,AS40021 Contabo Inc.,否,是,正常
+turn://209.74.85.24:3478,209.74.85.24,0.589164,200,无,1,0.64,39,中性,否,否,US,Phoenix,"Namecheap, Inc.","AS22612 Namecheap, Inc.",否,否,正常
+turn://198.23.59.41:3478,198.23.59.41,0.549203,200,无,2,0.63,32,中性,否,否,US,Coral Springs,LiquidNet US LLC,AS14555 LiquidNet US LLC,否,是,正常
+turn://34.44.70.245:3478,34.44.70.245,0.595604,200,无,2,0.62,34,中性,否,否,US,Council Bluffs,Google LLC,AS396982 Google LLC,否,是,正常
+turn://143.42.156.56:3478,143.42.156.56,0.506733,200,无,2,0.62,21,纯净,否,否,US,Richardson,"Akamai Technologies, Inc.",AS63949 Akamai Connected Cloud,否,是,正常
+turn://104.197.151.62:3478,104.197.151.62,0.559114,200,无,1,0.62,34,中性,否,否,US,Council Bluffs,Google LLC,AS396982 Google LLC,否,是,正常
+turn://146.235.210.229:3478,146.235.210.229,1.091369,200,无,2,0.62,53,中性,否,否,US,San Jose,Oracle Corporation,AS31898 Oracle Corporation,否,是,正常
+turn://155.138.202.133:3478,155.138.202.133,0.480545,200,无,2,0.61,52,中性,否,否,US,Atlanta,The Constant Company,"AS20473 The Constant Company, LLC",否,是,正常
+turn://35.184.112.251:3478,35.184.112.251,0.829475,200,无,2,0.61,25,纯净,否,否,US,Council Bluffs,Google LLC,AS396982 Google LLC,否,是,正常
+turn://132.148.78.10:3478,132.148.78.10,0.682136,200,无,2,0.58,35,中性,否,否,US,Tempe,"GoDaddy.com, LLC","AS398101 GoDaddy.com, LLC",否,是,正常
+turn://161.47.150.41:3478,161.47.150.41,0.524922,200,无,1,0.58,8,纯净,否,否,US,Chicago,Rackspace Hosting,AS19994 Rackspace Hosting,否,是,正常
+turn://52.14.159.194:3478,52.14.159.194,0.335024,200,无,2,0.57,,,,,US,Columbus,"Amazon.com, Inc.","AS16509 Amazon.com, Inc.",否,是,正常
+turn://152.37.196.57:3478,152.37.196.57,0.750180,200,无,2,0.53,8,纯净,是,否,US,Meridian,"CABLE ONE, INC.","AS11492 CABLE ONE, INC.",否,否,正常
+turn://172.240.32.124:3478,172.240.32.124,0.474048,200,无,1,0.52,32,中性,否,否,US,Sterling,"Servers.com, Inc.","AS7979 Servers.com, Inc.",否,是,正常
+turn://34.69.203.149:3478,34.69.203.149,0.569982,200,无,1,0.52,22,纯净,否,否,US,Council Bluffs,Google LLC,AS396982 Google LLC,否,是,正常
+turn://137.116.36.51:3478,137.116.36.51,0.400203,200,无,1,0.52,,,,,US,Boydton,Microsoft Corporation,AS8075 Microsoft Corporation,否,是,正常
+turn://162.35.180.19:3478,162.35.180.19,0.596762,200,无,1,0.51,29,中性,否,否,US,Secaucus,"Interserver, Inc","AS19318 Interserver, Inc",否,是,正常
+turn://5.161.239.143:3478,5.161.239.143,0.536674,200,无,1,0.51,88,风险,否,是,US,Ashburn,Hetzner Online GmbH,AS213230 Hetzner Online GmbH,是,是,正常
+turn://201.79.32.127:3478,201.79.32.127,0.536189,200,无,2,0.51,34,中性,否,否,US,Kansas City,"DigitalOcean, LLC","AS14061 DigitalOcean, LLC",否,否,正常
+turn://45.77.117.189:3478,45.77.117.189,0.601552,200,无,2,0.51,52,中性,否,否,US,Miami,The Constant Company,"AS20473 The Constant Company, LLC",否,是,正常
+turn://34.236.64.164:3478,34.236.64.164,0.414675,200,无,2,0.50,,,,,US,Ashburn,"Amazon.com, Inc.","AS14618 Amazon.com, Inc.",否,是,正常
+turn://100.49.195.68:3478,100.49.195.68,0.429732,200,无,1,0.50,,,,,US,Ashburn,"Amazon.com, Inc.","AS14618 Amazon.com, Inc.",否,是,正常
+turn://198.23.200.218:3478,198.23.200.218,0.738808,200,无,1,0.50,56,中性,否,否,US,Buffalo,HostPapa,AS36352 HostPapa,否,是,正常
+turn://129.80.131.238:3478,129.80.131.238,0.762627,200,无,2,0.50,24,纯净,否,否,US,Ashburn,Oracle Corporation,AS31898 Oracle Corporation,否,是,正常
+turn://66.206.31.204:3478,66.206.31.204,0.515252,200,无,2,0.50,6,纯净,否,否,US,New York,"HIVELOCITY, Inc.","AS29802 HIVELOCITY, Inc.",否,是,正常
+turn://45.56.103.230:3478,45.56.103.230,0.515952,200,无,1,0.50,47,中性,否,否,US,Cedar Knolls,"Akamai Technologies, Inc.",AS63949 Akamai Connected Cloud,否,是,正常
+turn://100.60.16.134:3478,100.60.16.134,0.411317,200,无,1,0.49,,,,,US,Ashburn,"Amazon.com, Inc.","AS14618 Amazon.com, Inc.",否,是,正常
+turn://168.235.89.211:3478,168.235.89.211,0.521241,200,无,1,0.49,36,中性,否,否,US,Piscataway,InMotion Hosting,"AS3842 InMotion Hosting, Inc.",否,是,正常
+turn://174.129.35.123:3478,174.129.35.123,0.434527,200,无,2,0.49,,,,,US,Ashburn,"Amazon.com, Inc.","AS14618 Amazon.com, Inc.",否,是,正常
+turn://152.53.82.246:3478,152.53.82.246,0.551632,200,无,2,0.49,70,风险,否,是,US,Manassas,netcup GmbH,AS214996 netcup GmbH,否,否,正常
+turn://193.122.170.23:3478,193.122.170.23,0.547313,200,无,2,0.49,41,中性,否,否,US,Ashburn,Oracle Corporation,AS31898 Oracle Corporation,否,是,正常
+turn://44.211.182.218:3478,44.211.182.218,0.421647,200,无,2,0.49,,,,,US,Ashburn,Amazon.com,"AS14618 Amazon.com, Inc.",否,是,正常
+turn://18.252.251.20:3478,18.254.123.255,0.539462,200,无,2,0.49,31,中性,否,否,US,Columbus,Amazon Data Services Ireland Ltd,AS8987 Amazon Technologies Inc.,否,是,正常
+turn://5.161.181.152:3478,5.161.181.152,0.785367,200,无,2,0.49,49,中性,否,是,US,Ashburn,Hetzner Online GmbH,AS213230 Hetzner Online GmbH,否,是,正常
+turn://34.75.24.25:3478,34.75.24.25,0.587362,200,无,1,0.48,42,中性,否,否,US,North Charleston,Google LLC,AS396982 Google LLC,否,是,正常
+turn://52.1.155.147:3478,52.1.155.147,0.436870,200,无,1,0.48,,,,,US,Ashburn,"Amazon.com, Inc.","AS14618 Amazon.com, Inc.",否,是,正常
+turn://45.79.151.131:3478,45.79.151.131,0.526490,200,无,1,0.48,41,中性,否,否,US,Cedar Knolls,"Akamai Technologies, Inc.",AS63949 Akamai Connected Cloud,否,是,正常
+turn://134.122.127.213:3478,134.122.127.213,0.899740,200,无,1,0.48,49,中性,否,否,US,North Bergen,"DigitalOcean, LLC","AS14061 DigitalOcean, LLC",否,是,正常
+turn://38.47.238.233:3478,38.47.238.233,0.447059,200,无,1,0.48,37,中性,否,否,US,Los Angeles,"Hong Kong Communications International Co., Limited","AS140227 Hong Kong Communications International Co., Limited",否,是,正常
+turn://155.138.243.241:3478,155.138.243.241,0.744500,200,无,1,0.47,50,中性,否,否,US,Dallas,The Constant Company,"AS20473 The Constant Company, LLC",否,是,正常
+turn://64.225.10.72:3478,64.225.10.72,0.564025,200,无,2,0.47,88,风险,否,否,US,Clifton,"DigitalOcean, LLC","AS14061 DigitalOcean, LLC",是,是,正常
+turn://205.209.117.9:3478,205.209.117.9,0.647732,200,无,1,0.47,32,中性,否,否,US,Englewood Cliffs,"Interserver, Inc","AS19318 Interserver, Inc",否,是,正常
+turn://192.3.28.12:3478,192.3.28.12,0.690159,200,无,2,0.47,22,纯净,否,否,US,Buffalo,HostPapa,AS36352 HostPapa,否,是,正常
+turn://198.23.193.141:3478,198.23.193.141,0.695538,200,无,2,0.45,56,中性,否,否,US,Buffalo,HostPapa,AS36352 HostPapa,否,是,正常
+turn://198.12.123.44:3478,198.12.123.44,0.690083,200,无,2,0.45,38,中性,否,否,US,Buffalo,HostPapa,AS36352 HostPapa,否,是,正常
+turn://147.182.169.213:3478,147.182.169.213,0.543312,200,无,1,0.45,44,中性,否,否,US,North Bergen,"DigitalOcean, LLC","AS14061 DigitalOcean, LLC",否,是,正常
+turn://178.156.251.236:3478,178.156.251.236,0.459129,200,无,2,0.44,39,中性,否,是,US,Ashburn,Hetzner Online GmbH,AS213230 Hetzner Online GmbH,否,是,正常
+turn://172.245.139.189:3478,172.245.139.189,0.985111,200,无,1,0.44,45,中性,否,否,US,Elk Grove Village,HostPapa,AS36352 HostPapa,否,是,正常
+turn://173.214.175.143:3478,173.214.175.143,0.555123,200,无,1,0.44,31,中性,否,否,US,Secaucus,"Interserver, Inc","AS19318 Interserver, Inc",否,是,正常
+turn://38.40.83.210:3478,38.40.83.210,0.932165,200,无,2,0.43,5,纯净,是,否,US,Daytona Beach,Wire 3 LLC,AS400194 Wire 3 LLC,否,否,正常
+turn://107.173.226.163:3478,107.173.226.163,0.729109,200,无,2,0.42,60,中性,否,否,US,Buffalo,HostPapa,AS36352 HostPapa,否,是,正常
+turn://135.148.149.69:3478,135.148.149.69,0.434140,200,无,2,0.41,,,,,US,Reston,OVH SAS,AS16276 OVH SAS,否,是,正常
+turn://54.175.98.226:3478,54.175.98.226,0.428425,200,无,2,0.40,,,,,US,Ashburn,"Amazon.com, Inc.","AS14618 Amazon.com, Inc.",否,是,正常
+turn://104.131.111.25:3478,104.131.111.25,1.134327,200,无,2,0.40,85,风险,否,否,US,Clifton,"DigitalOcean, LLC","AS14061 DigitalOcean, LLC",是,是,正常
+turn://208.111.83.108:3478,208.111.83.97,0.698878,200,无,1,0.40,3,纯净,否,否,CA,Québec,Oricom Internet inc,AS19515 Oricom Internet inc.,否,否,正常
+turn://34.74.241.126:3478,34.74.241.126,0.562133,200,无,2,0.39,33,中性,否,否,US,North Charleston,Google LLC,AS396982 Google LLC,否,是,正常
+turn://47.199.57.14:3478,47.199.57.14,0.617182,200,无,1,0.36,5,纯净,是,否,US,New Port Richey,Frontier Communications Solutions,AS5650 Verizon Business,否,否,正常
+turn://148.163.225.222:3478,148.163.225.222,1.075866,200,无,1,0.32,13,纯净,否,是,CO,Bogotá,"NetActuate, Inc","AS36236 NetActuate, Inc",否,否,正常
+turn://198.55.51.20:3478,198.55.51.19,0.501805,200,无,2,0.27,39,中性,否,否,CA,North York,Nuday Networks Inc.,AS1100 Nuday Networks Inc.,否,否,正常
+turn://157.66.255.13:3478,157.66.255.13,1.443357,200,无,1,0.27,17,纯净,否,否,JP,Kyoto,"RUTILEA, Inc.","AS151390 RUTILEA, Inc.",否,否,正常
+turn://99.81.237.27:3478,99.81.237.27,0.783321,200,无,1,0.25,,,,,IE,Dublin,"Amazon.com, Inc.","AS16509 Amazon.com, Inc.",否,是,正常
+turn://121.141.11.130:3478,121.141.11.130,1.943377,200,无,2,0.24,9,纯净,是,否,KR,Yangcheon-gu,Korea Telecom,AS4766 Korea Telecom,否,否,正常
+turn://114.34.87.173:3478,114.34.87.173,1.243199,200,无,2,0.24,2,纯净,是,否,TW,Taipei,"Chunghwa Telecom Co., Ltd.",AS3462 Data Communication Business Group,否,否,正常
+turn://45.145.225.168:3478,45.145.225.168,1.425209,200,无,2,0.23,42,中性,否,否,DE,Offenbach,"Oliver Horscht is trading as ""SYNLINQ""",AS44486 synlinq.de,否,是,正常
+turn://109.176.207.68:3478,109.176.207.68,1.314154,200,无,2,0.23,91,风险,否,是,NL,Amsterdam,"Ultahost, Inc.","AS214036 Ultahost, Inc.",是,是,正常
+turn://169.58.153.97:3478,169.58.153.97,1.292167,200,无,1,0.23,47,中性,否,是,FR,Lauterbourg,Contabo GmbH,AS51167 Contabo GmbH,否,是,正常
+turn://162.19.47.91:3478,162.19.47.91,0.893607,200,无,2,0.23,,,,,FR,Roubaix,OVH SAS,AS16276 OVH SAS,否,是,正常
+turn://54.36.100.113:3478,54.36.100.113,0.892319,200,无,2,0.23,,,,,FR,Gravelines,OVH SAS,AS16276 OVH SAS,否,是,正常
+turn://lb-stun.easybroadcast.fr:3478,57.128.177.212,1.014610,200,无,1,0.23,,,,,GB,Erith,OVH SAS,AS16276 OVH SAS,否,是,正常
+turn://161.97.137.183:3478,161.97.137.183,1.364993,200,无,1,0.23,35,中性,否,是,FR,Lauterbourg,Contabo GmbH,AS51167 Contabo GmbH,否,是,正常
+turn://213.32.71.101:3478,213.32.71.101,0.890692,200,无,1,0.23,,,,,FR,Gravelines,OVH SAS,AS16276 OVH SAS,否,是,正常
+turn://51.91.251.23:3478,51.91.251.23,0.884875,200,无,1,0.23,,,,,FR,Roubaix,OVH SAS,AS16276 OVH SAS,否,是,正常
+turn://159.195.75.35:3478,159.195.75.35,1.360661,200,无,2,0.23,53,中性,否,否,DE,Nuremberg,netcup GmbH,AS197540 netcup GmbH,否,是,正常
+turn://194.147.58.230:3478,194.147.58.230,1.351762,200,无,1,0.23,32,中性,否,是,FR,Lauterbourg,Contabo GmbH,AS51167 Contabo GmbH,否,是,正常
+turn://18.130.145.231:3478,18.130.145.231,0.836870,200,无,2,0.23,,,,,GB,London,Amazon Technologies Inc.,"AS16509 Amazon.com, Inc.",否,是,正常
+turn://89.125.66.239:3478,89.125.66.239,1.381274,200,无,1,0.23,42,中性,否,是,NL,Amsterdam,RoyaleHosting BV,AS212477 RoyaleHosting BV,否,否,正常
+turn://159.69.148.238:3478,159.69.148.238,1.893468,200,无,1,0.22,,,,,DE,Nuremberg,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,否,是,正常
+turn://78.46.183.144:3478,78.46.183.144,0.934226,200,无,1,0.22,,,,,DE,Falkenstein,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,否,是,正常
+turn://162.19.47.90:3478,162.19.47.90,0.890195,200,无,2,0.22,,,,,FR,Roubaix,OVH SAS,AS16276 OVH SAS,否,是,正常
+turn://116.203.22.54:3478,116.203.22.54,0.956007,200,无,2,0.22,,,,,DE,Nuremberg,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,否,是,正常
+turn://209.38.192.226:3478,209.38.192.226,1.375227,200,无,2,0.22,42,中性,否,是,DE,Frankfurt am Main,"DigitalOcean, LLC","AS14061 DigitalOcean, LLC",否,是,正常
+turn://45.162.235.3:3478,45.162.235.3,1.503963,200,无,2,0.22,3,纯净,是,否,BR,Jacaré dos Homens,Wib Provedores de Acesso LTDA - EPP,AS268582 Wib Provedores de Acesso LTDA - EPP,否,否,正常
+turn://18.195.51.64:3478,18.195.51.64,0.900367,200,无,2,0.22,,,,,DE,Frankfurt,Amazon Technologies Inc.,"AS16509 Amazon.com, Inc.",否,是,正常
+turn://46.225.233.71:3478,46.225.233.71,0.959524,200,无,1,0.22,,,,,DE,Nuremberg,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,否,是,正常
+turn://stun.easybroadcast.fr:3478,57.128.177.212,0.943708,200,无,2,0.22,,,,,GB,Erith,OVH SAS,AS16276 OVH SAS,否,是,正常
+turn://195.88.109.142:3478,195.88.109.133,1.393705,200,无,2,0.22,4,纯净,否,否,DE,Gäufelden,CK Software GmbH,AS57407 CK Software GmbH,否,否,正常
+turn://116.202.163.249:3478,116.202.163.249,0.936377,200,无,2,0.22,,,,,DE,Falkenstein,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,否,是,正常
+turn://45.140.43.12:3478,45.140.43.12,1.392130,200,无,1,0.22,43,中性,否,是,DE,Frankfurt am Main,Clouvider Limited,AS62240 Clouvider,否,是,正常
+turn://46.105.117.18:3478,46.105.117.18,0.895739,200,无,2,0.22,,,,,FR,Roubaix,OVH SAS,AS16276 OVH SAS,否,是,正常
+turn://185.249.227.68:3478,185.249.227.68,1.519827,200,无,2,0.22,37,中性,否,是,FR,Lauterbourg,Contabo GmbH,AS51167 Contabo GmbH,否,是,正常
+turn://51.38.110.14:3478,51.38.110.14,0.932956,200,无,2,0.22,,,,,DE,Limburg an der Lahn,OVH SAS,AS16276 OVH SAS,否,是,正常
+turn://85.203.53.36:3478,85.203.53.36,1.389915,200,无,1,0.22,37,中性,否,是,SE,Gothenburg,31173 Services AB,AS39351 31173 Services AB,是,否,正常
+turn://45.129.182.202:3478,45.129.182.202,1.493982,200,无,1,0.22,45,中性,否,否,DE,Nuremberg,netcup GmbH,AS197540 netcup GmbH,否,是,正常
+turn://51.159.131.75:3478,51.159.131.75,1.342914,200,无,1,0.22,14,纯净,是,否,FR,Paris,SCALEWAY,AS12876 Scaleway SAS,否,是,正常
+turn://152.228.189.159:3478,152.228.189.159,0.891571,200,无,2,0.22,,,,,FR,Paris,OVH SAS,AS16276 OVH SAS,否,是,正常
+turn://152.228.189.157:3478,152.228.189.157,1.895581,200,无,2,0.22,,,,,FR,Paris,OVH SAS,AS16276 OVH SAS,否,是,正常
+turn://152.228.189.150:3478,152.228.189.150,0.896405,200,无,1,0.22,,,,,FR,Paris,OVH SAS,AS16276 OVH SAS,否,是,正常
+turn://152.228.189.149:3478,152.228.189.149,0.889285,200,无,2,0.22,,,,,FR,Paris,OVH SAS,AS16276 OVH SAS,否,是,正常
+turn://152.228.189.152:3478,152.228.189.152,0.882586,200,无,1,0.22,,,,,FR,Paris,OVH SAS,AS16276 OVH SAS,否,是,正常
+turn://152.228.189.153:3478,152.228.189.153,0.881127,200,无,2,0.22,,,,,FR,Paris,OVH SAS,AS16276 OVH SAS,否,是,正常
+turn://152.228.189.151:3478,152.228.189.151,0.884733,200,无,1,0.22,,,,,FR,Paris,OVH SAS,AS16276 OVH SAS,否,是,正常
+turn://193.26.159.139:3478,193.26.159.139,1.436948,200,无,2,0.22,44,中性,否,是,DE,Nuremberg,netcup GmbH,AS197540 netcup GmbH,否,是,正常
+turn://51.254.39.3:3478,51.254.39.3,0.944720,200,无,1,0.22,,,,,FR,Strasbourg,OVH SAS,AS16276 OVH SAS,否,是,正常
+turn://84.247.128.99:3478,84.247.128.99,1.402146,200,无,2,0.22,75,风险,否,是,FR,Lauterbourg,Contabo GmbH,AS51167 Contabo GmbH,否,是,正常
+turn://91.99.14.79:3478,91.99.14.79,0.930090,200,无,2,0.22,,,,,DE,Falkenstein,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,否,是,正常
+turn://85.214.120.233:3478,85.214.120.233,1.508200,200,无,2,0.21,37,中性,否,否,DE,Berlin,Strato AG,AS6724 Strato GmbH,否,是,正常
+turn://45.9.60.248:3478,45.9.60.248,1.365020,200,无,2,0.21,42,中性,否,否,DE,Nuremberg,netcup GmbH,AS197540 netcup GmbH,否,是,正常
+turn://185.119.117.112:3478,185.119.117.112,1.465561,200,无,2,0.21,37,中性,否,否,AT,Vienna,IPAX GmbH,AS44133 IPAX GmbH,否,是,正常
+turn://178.104.150.181:3478,178.104.150.181,0.959823,200,无,1,0.21,,,,,DE,Nuremberg,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,否,否,正常
+turn://85.188.3.227:3478,85.188.3.227,1.491281,200,无,2,0.21,28,中性,否,否,FI,Espoo,Netcrew ry,AS34387 Netcrew ry,否,否,正常
+turn://112.213.35.144:3478,112.213.35.144,2.005964,200,无,1,0.21,35,中性,否,否,AU,Sydney,Mammoth Media Pty Ltd,AS133159 Mammoth Media Pty Ltd,否,否,正常
+turn://152.228.189.146:3478,152.228.189.146,0.884962,200,无,1,0.21,,,,,FR,Paris,OVH SAS,AS16276 OVH SAS,否,是,正常
+turn://152.53.144.165:3478,152.53.144.165,1.373850,200,无,1,0.21,57,中性,否,是,DE,Nuremberg,netcup GmbH,AS197540 netcup GmbH,否,是,正常
+turn://135.125.189.46:3478,51.89.27.111,0.964535,200,无,2,0.21,,,,,GB,London,OVH SAS,AS16276 OVH SAS,否,是,正常
+turn://78.47.22.85:3478,78.47.22.85,1.900216,200,无,2,0.20,,,,,DE,Nuremberg,Hetzner,AS24940 Hetzner Online GmbH,否,是,正常
+turn://137.184.249.176:3478,137.184.249.176,2.083354,200,无,1,0.20,64,风险,否,是,SG,Singapore,"DigitalOcean, LLC","AS14061 DigitalOcean, LLC",否,是,正常
+turn://5.45.100.83:3478,5.45.100.83,1.373016,200,无,1,0.20,47,中性,否,否,DE,Nuremberg,netcup GmbH,AS197540 netcup GmbH,否,是,正常
+turn://54.38.221.251:3478,54.38.221.251,0.932705,200,无,1,0.20,,,,,DE,Limburg an der Lahn,OVH SAS,AS16276 OVH SAS,否,是,正常
+turn://195.226.194.24:3478,195.226.194.24,1.439801,200,无,2,0.20,28,中性,否,是,NL,Amsterdam,Hostkey B.V.,AS57043 HOSTKEY B.V.,是,是,正常
+turn://54.169.67.101:3478,54.169.67.101,1.036915,200,无,2,0.20,,,,,SG,Singapore,"Amazon.com, Inc.","AS16509 Amazon.com, Inc.",否,是,正常
+turn://148.251.152.91:3478,148.251.152.91,0.934797,200,无,2,0.20,,,,,DE,Falkenstein,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,否,是,正常
+turn://95.140.153.196:3478,95.140.153.196,1.375303,200,无,1,0.20,70,风险,否,是,DE,Frankfurt am Main,Mamaeva,"AS210976 Timeweb, LLP",否,否,正常
+turn://185.211.61.187:3478,185.211.61.187,1.485825,200,无,1,0.20,25,纯净,否,否,AT,Vienna,Nessus GmbH,AS47692 Nessus GmbH,否,否,正常
+turn://185.4.72.143:3478,185.4.72.143,1.521057,200,无,1,0.20,39,中性,否,否,EE,Jõhvi,PAGM network,AS198068 CLOUD.DOG OU,否,是,正常
+turn://107.152.36.168:3478,107.152.36.168,1.710971,200,无,1,0.19,57,中性,否,否,US,Newark,"tzulo, inc.","AS11878 tzulo, inc.",否,是,正常
+turn://38.255.123.227:3478,38.255.123.227,1.613882,200,无,1,0.19,36,中性,否,否,BR,Carapicuíba,E-consulters Enterprise Ltda,AS275714 E-Consulters Enterprise LTDA,否,否,正常
+turn://62.238.122.128:3478,62.238.122.128,1.103327,200,无,2,0.19,,,,,FI,Helsinki,DELTA Fiber Nederland,AS24940 Hetzner Online GmbH,否,是,正常
+turn://103.167.151.70:3478,103.167.151.70,2.043146,200,无,2,0.19,47,中性,否,是,SG,Singapore,HostHatch,"AS63473 HostHatch, LLC",否,是,正常
+turn://129.121.53.187:3478,129.121.53.187,1.658916,200,无,1,0.19,19,纯净,否,是,BR,Vinhedo,Oracle Corporation,AS31898 Oracle Corporation,否,否,正常
+turn://83.13.244.126:3478,83.13.244.126,1.522346,200,无,1,0.19,4,纯净,是,否,PL,Warsaw,Orange Polska Spolka Akcyjna,AS5617 Orange Polska Spolka Akcyjna,否,否,正常
+turn://144.91.68.78:3478,144.91.68.78,1.362992,200,无,1,0.19,43,中性,否,是,FR,Lauterbourg,Contabo GmbH,AS51167 Contabo GmbH,否,是,正常
+turn://194.164.204.112:3478,194.164.204.112,1.552232,200,无,1,0.19,9,纯净,是,否,DE,Berlin,NETKONECT,AS8560 IONOS SE,否,是,正常
+turn://47.245.83.135:3478,47.245.83.135,1.034076,200,无,2,0.19,,,,,SG,Singapore,"Alibaba (US) Technology Co., Ltd.","AS45102 Alibaba (US) Technology Co., Ltd.",否,是,正常
+turn://83.164.41.249:3478,83.164.41.249,1.636672,200,无,2,0.18,6,纯净,否,否,AT,Traun,lagis Internet Serviceprovider GmbH,AS12605 LIWEST Kabelmedien GmbH,否,否,正常
+turn://37.27.134.107:3478,37.27.134.107,1.114732,200,无,1,0.18,,,,,FI,Helsinki,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,否,是,正常
+turn://177.3.204.35:3478,177.3.204.35,1.632141,200,无,1,0.18,33,中性,否,是,BG,Sofia,Baxet Group Inc.,AS26383 Baxet Group Inc.,否,否,正常
+turn://37.27.210.141:3478,37.27.210.141,1.109393,200,无,2,0.18,,,,,FI,Helsinki,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,否,是,正常
+turn://116.203.192.114:3478,116.203.192.114,0.954533,200,无,2,0.18,,,,,DE,Nuremberg,Hetzner Online GmbH,AS24940 Hetzner Online GmbH,否,是,正常
+turn://132.255.72.10:3478,132.255.72.10,1.741282,200,无,2,0.18,9,纯净,是,否,BR,Rosana,Mega Redes Telecom Ltda,AS264463 MEGA REDES TELECOM LTDA,否,否,正常
+turn://47.237.82.40:3478,47.237.82.40,1.028289,200,无,1,0.18,,,,,SG,Singapore,"Alibaba (US) Technology Co., Ltd.","AS45102 Alibaba (US) Technology Co., Ltd.",否,是,正常
+turn://155.212.168.42:3478,155.212.168.42,1.743917,200,无,2,0.18,21,纯净,否,否,RU,Moscow,JSC IOT,AS29182 JSC IOT,是,否,正常
+turn://45.233.16.23:3478,45.233.16.23,1.908626,200,无,1,0.18,8,纯净,是,否,BR,São Paulo,Pongar Telecom,AS267288 PONGAR TELECOM,否,否,正常
+turn://86.129.254.59:3478,86.129.254.59,1.351839,200,无,2,0.17,0,纯净,是,否,GB,Kettering,BT Public Internet Service,AS2856 British Telecommunications Limited,否,否,正常
+turn://186.244.231.176:3478,186.244.231.176,2.390525,200,无,1,0.17,34,中性,否,是,US,Boulder,Cloudvalley Sdn. Bhd.,AS154376 Cloudvalley Sdn. Bhd.,否,是,正常
+turn://185.42.14.75:3478,185.42.14.75,1.716605,200,无,1,0.17,60,中性,否,是,RU,Moscow,"JSC ""TIMEWEB""","AS9123 JSC ""TIMEWEB""",否,是,正常
+turn://160.20.64.37:3478,160.20.64.37,1.707561,200,无,2,0.17,10,纯净,是,否,BR,Irineópolis,Borille Serviços de Telecomunicações Ltda.,AS266150 Borille Serviços de Telecomunicações Ltda.,否,否,正常
+turn://153.51.115.239:3478,153.51.115.239,1.658629,200,无,1,0.17,36,中性,否,否,RU,Moscow,Yandex.Cloud LLC,AS200350 Yandex.Cloud LLC,否,是,正常
+turn://185.183.184.15:3478,185.183.184.15,1.685925,200,无,2,0.17,2,纯净,是,否,GR,Thessaloniki,Metadosis SA,AS206529 Metadosis SA,否,否,正常
+turn://187.94.215.251:3478,187.94.215.251,1.799444,200,无,1,0.17,3,纯净,是,否,BR,Carangola,Acesse Comunicação Ltda,AS53078 Acesse Comunicação Ltda,否,否,正常
+turn://194.226.115.236:3478,194.226.115.236,1.689452,200,无,1,0.17,7,纯净,否,否,RU,Moscow,"""Domain names registrar REG.RU"", Ltd","AS197695 ""Domain names registrar REG.RU"", Ltd",否,否,正常
+turn://190.89.177.14:3478,190.89.177.14,1.827419,200,无,2,0.17,8,纯净,是,否,BR,Várzea Grande,Otilia Antonia Celso,AS270384 OTILIA ANTONIA CELSO,否,否,正常
+turn://100.49.246.146:3478,100.49.246.146,0.406531,200,无,1,0.16,,,,,US,Ashburn,"Amazon.com, Inc.","AS14618 Amazon.com, Inc.",否,是,正常
+turn://5.129.215.139:3478,5.129.215.139,1.732770,200,无,1,0.16,33,中性,否,否,RU,Moscow,"JSC ""TIMEWEB""","AS9123 JSC ""TIMEWEB""",否,是,正常
+turn://101.255.66.168:3478,101.255.66.168,2.209066,200,无,1,0.16,3,纯净,是,否,ID,East Jakarta,PT Remala Abadi,AS38511 PT Remala Abadi,否,否,正常
+turn://191.36.216.94:3478,191.36.216.94,1.857520,200,无,1,0.16,17,纯净,否,否,BR,Colorado do Oeste,CPW Internet,AS263340 CPW TELECOM LTDA,否,否,正常
+turn://103.174.102.232:3478,103.174.102.232,2.523560,200,无,1,0.15,79,风险,否,否,IN,Nashik,Idigitalcamp Web Services,AS133719 IDIGITALCAMP WEB SERVICES,否,否,正常
+turn://186.216.54.13:3478,186.216.54.13,1.970073,200,无,1,0.15,4,纯净,是,否,BR,Soure,Metroflex Telecomunicacoes Ltda,AS262663 METROFLEX TELECOMUNICACOES LTDA,否,否,正常
+turn://45.179.215.8:3478,45.179.215.8,2.035720,200,无,1,0.15,2,纯净,是,否,BR,Porto Velho,Centro De Negocios Contemporaneo Ltda,AS269103 Camillo FG LTDA,否,否,正常
+turn://185.244.51.230:3478,185.244.51.230,1.682095,200,无,1,0.14,59,中性,否,否,RU,Moscow,AdminVPS OOO,AS211183 AdminVPS OOO,否,是,正常
+turn://139.59.42.223:3478,139.59.42.223,2.530111,200,无,1,0.14,38,中性,否,是,IN,Bengaluru,"DigitalOcean, LLC","AS14061 DigitalOcean, LLC",否,是,正常
+turn://217.199.144.60:3478,217.199.144.60,2.473543,200,无,1,0.14,57,中性,否,否,KE,Nairobi,MTN Business Kenya,AS9129 MTN SA,否,否,正常
+turn://99.82.211.30:3478,99.82.211.30,0.663917,200,无,1,0.13,5,纯净,是,否,US,Corbin,"AT&T Enterprises, LLC","AS7018 AT&T Enterprises, LLC",否,否,正常
+turn://coturn.vsphere.rubetek.com:3478,81.195.146.14,4.329532,200,无,1,0.13,0,纯净,是,否,RU,Oryol,ZAO MTU-Intel's Moscow Region Network,AS8359 MTS PJSC,否,否,正常
+turn://88.41.55.147:3478,88.41.55.133,1.935664,200,无,1,0.13,9,纯净,是,否,IT,Messina,INTERBUSINESS,AS3269 Telecom Italia S.p.A.,否,否,正常
+turn://185.74.4.12:3478,185.74.4.12,2.144700,200,无,1,0.13,34,中性,是,否,UZ,Tashkent,"""Uzbektelekom"" Joint Stock Company","AS202660 ""Uzbektelekom"" Joint Stock Company",否,是,正常
+turn://196.40.101.186:3478,196.40.101.186,2.620731,200,无,1,0.12,28,中性,否,否,ZA,Cape Town,Xneelo (Pty) Ltd,AS37153 Xneelo (Pty) Ltd,否,是,正常
+turn://129.232.241.186:3478,129.232.241.186,2.677500,200,无,1,0.12,37,中性,否,否,ZA,Johannesburg,xneelo-JHB,AS37153 Xneelo (Pty) Ltd,否,是,正常
+turn://138.122.44.135:3478,138.122.44.135,2.032312,200,无,1,0.11,1,纯净,是,否,BR,Serra do Mel,Ciclo Tecnologia,AS264315 Ciclo Tecnologia,否,否,正常
+turn://192.227.207.208:3478,192.227.207.208,0.530234,200,无,1,0.09,39,中性,否,否,US,Dallas,HostPapa,AS36352 HostPapa,否,是,正常
+turn://16.58.27.110:3478,16.58.27.110,0.389440,200,无,1,0.07,,,,,US,Columbus,"Amazon.com, Inc.","AS16509 Amazon.com, Inc.",否,是,正常
