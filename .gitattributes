@@ -1,0 +1,2 @@
+# Shell scripts must stay LF; CRLF breaks `set -u` / `trap` on the Linux runner.
+*.sh text eol=lf
