@@ -2,7 +2,7 @@
 ## TURN批量探测及下载网址
 https://sock.chengnice.dpdns.org
 
-结果可自行下载，并会自动同步到本项目的candidates.txt
+结果可自行下载，并会自动同步到本项目的[candidates.txt](/candidates.txt)
 ## 海选名单
 rank目录里的[rank-latest.csv](rank/rank-latest.csv)为海选结果，**只收录判定=正常且带宽>0 的中继**（不通/需要账密/Google不通/大陆判定一律不入表），按带宽降序，同一中继重复候选只保留带宽最高一行。完整全量数据（含淘汰行）见 Actions 产物 rank.csv。
 
