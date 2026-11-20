@@ -1,5 +1,5 @@
 #!/bin/bash
-# sweep.sh v3.2 — TURN 中继海选（GitHub Actions / 任意 Linux）中文输出版
+# sweep.sh v3.3 — TURN 中继海选（GitHub Actions / 任意 Linux）中文输出版
 # 每台中继测：出口IP+纯净度(IPPure) → Google 单请求（可达性+大陆跳转判定）→ 并发突发 → 带宽
 # 输出 rank.csv：带宽列统一为 MB/s（由 B/s 换算）
 # 判定: 正常 = Google 200 且无大陆跳转；大陆判定 = 被 Google 判定中国大陆（当天直接移除候选）
@@ -59,9 +59,15 @@ test_one() {
   sleep 0.8
 
   # 出口 IP + 延迟 + 纯净度（IPPure 公开接口，无需 key；失败回退 api.ip.sb）
-  local R EXITIP LAT FSCORE RESI BCAST
-  R=$(curl -s --max-time 8 -x "socks5h://127.0.0.1:$LP" -w '|%{time_total}' https://my.ippure.com/v1/info 2>/dev/null | tr -d '\n')
-  EXITIP=$(printf '%s' "$R" | sed -nE 's/.*"ip":[ ]?"([^"]+)".*/\1/p')
+  # Cloudflare 会对 curl 默认 UA 发托管挑战（403 Just a moment），必须带浏览器 UA
+  local UA='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
+  local R EXITIP LAT FSCORE RESI BCAST try
+  for try in 1 2; do
+    R=$(curl -s --max-time 8 -A "$UA" -H 'Accept: application/json' -x "socks5h://127.0.0.1:$LP" -w '|%{time_total}' https://my.ippure.com/v1/info 2>/dev/null | tr -d '\n')
+    EXITIP=$(printf '%s' "$R" | sed -nE 's/.*"ip":[ ]?"([^"]+)".*/\1/p')
+    [ -n "$EXITIP" ] && break
+    sleep 1
+  done
   FSCORE=$(printf '%s' "$R" | sed -nE 's/.*"fraudScore":[ ]?([0-9]+).*/\1/p')
   RESI=$(printf '%s' "$R" | sed -nE 's/.*"isResidential":[ ]?(true|false).*/\1/p')
   BCAST=$(printf '%s' "$R" | sed -nE 's/.*"isBroadcast":[ ]?(true|false).*/\1/p')
@@ -69,6 +75,12 @@ test_one() {
   if [ -z "$EXITIP" ]; then
     R=$(curl -s --max-time 6 -x "socks5h://127.0.0.1:$LP" -w '|%{time_total}' https://api.ip.sb/ip 2>/dev/null | tr -d '\n')
     EXITIP=${R%%|*}; LAT=${R##*|}
+  fi
+  # 纯净度字段没取到就写 NA，便于在 CSV 里区分"被拦/超时"与真值
+  if [ -n "$EXITIP" ]; then
+    [ -z "$FSCORE" ] && FSCORE=NA
+    [ -z "$RESI" ] && RESI=NA
+    [ -z "$BCAST" ] && BCAST=NA
   fi
   if [ -z "$EXITIP" ]; then
     local ST=需要账密
@@ -106,11 +118,11 @@ test_one() {
   fi
 
   # 2 并发突发耐受
-  local i P_OK=0
-  for i in 1 2; do
-    curl -s --max-time 6 -x "socks5h://127.0.0.1:$LP" -o /dev/null -w '%{http_code}' https://www.google.com/generate_204 2>/dev/null > "/tmp/burst_${LP}_$i" &
-  done
-  local p1=$! p2=$!
+  local i P_OK=0 p1 p2
+  curl -s --max-time 6 -x "socks5h://127.0.0.1:$LP" -o /dev/null -w '%{http_code}' https://www.google.com/generate_204 2>/dev/null > "/tmp/burst_${LP}_1" &
+  p1=$!
+  curl -s --max-time 6 -x "socks5h://127.0.0.1:$LP" -o /dev/null -w '%{http_code}' https://www.google.com/generate_204 2>/dev/null > "/tmp/burst_${LP}_2" &
+  p2=$!
   wait $p1 $p2
   for i in 1 2; do [ "$(cat "/tmp/burst_${LP}_$i" 2>/dev/null)" = "204" ] && P_OK=$((P_OK+1)); done
 
@@ -172,6 +184,8 @@ for i in range(0, len(ips), 15):
     time.sleep(1.2)
 
 def purity(fs):
+    if str(fs).strip().upper() == "NA":
+        return "未取到"
     try:
         v = int(float(fs))
     except Exception:
@@ -185,11 +199,24 @@ def to_mb(v):
         return v
 
 def yn(v):
-    s = str(v).lower()
+    s = str(v).strip().lower()
+    if s == "na":
+        return "未取到"
     if s == "true":
         return "是"
     if s == "false":
         return "否"
+    return ""
+
+def native(v):
+    """ippure 给的是 isBroadcast：true=广播IP，所以原生 = 取反。"""
+    s = str(v).strip().lower()
+    if s == "na":
+        return "未取到"
+    if s == "true":
+        return "否"
+    if s == "false":
+        return "是"
     return ""
 
 w = csv.writer(open(outp, "w", newline="", encoding="utf-8-sig"))
@@ -209,7 +236,7 @@ for r in rows:
     else:
         verdict = "不通"
     resi = yn(r[8]) if len(r) > 8 else ""
-    bcast = yn(r[9]) if len(r) > 9 else ""
+    bcast = native(r[9]) if len(r) > 9 else ""
     bw = to_mb(r[6]) if len(r) > 6 else ""
     out = (r[:6] + [bw] + r[7:8] + [purity(fs), resi, bcast] +
            [g.get("countryCode", ""), g.get("city", ""), g.get("isp", ""),
