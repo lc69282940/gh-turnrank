@@ -8,10 +8,23 @@ on:
 permissions:
   contents: write
 
+# 同一时间只跑一轮，避免两次运行同时改 candidates/rank 并互相 push 冲突
+concurrency:
+  group: turnrank-sweep
+  cancel-in-progress: false
+
+env:
+  SHARDS: 16   # 必须和 matrix.shard 的个数一致
+  WORKERS: 16  # 每片的并发 worker 数
+
 jobs:
   sweep:
     runs-on: ubuntu-latest
-    timeout-minutes: 50
+    timeout-minutes: 360   # 6h，GitHub 上限；正常情况下 1-2 分钟就跑完
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
     steps:
       - uses: actions/checkout@v4
 
@@ -22,19 +35,59 @@ jobs:
       - name: Build turnbridge
         run: go build -o turnbridge .
 
-      # 第4参数 rank/rank-latest.csv = 干净版（只含判定=正常且带宽>0），不通/需要账密/Google不通不入表
+      - name: Shard candidates
+        run: python3 shard_candidates.py "${{ matrix.shard }}" "$SHARDS" candidates.txt "$RUNNER_TEMP/cands.txt"
+
       - name: Sweep relays
-        run: bash sweep.sh candidates.txt rank.csv 16 rank/rank-latest.csv
+        run: |
+          if [ ! -s "$RUNNER_TEMP/cands.txt" ]; then
+            echo "shard empty, skip"
+            exit 0
+          fi
+          bash sweep.sh "$RUNNER_TEMP/cands.txt" "$RUNNER_TEMP/rank-${{ matrix.shard }}.csv" "$WORKERS" "$RUNNER_TEMP/clean-${{ matrix.shard }}.csv"
+
+      - name: Upload shard result
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: shard-${{ matrix.shard }}
+          path: |
+            ${{ runner.temp }}/rank-${{ matrix.shard }}.csv
+            ${{ runner.temp }}/clean-${{ matrix.shard }}.csv
+          retention-days: 1
+          if-no-files-found: ignore
+
+  merge:
+    needs: sweep
+    if: always()
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download shard results
+        continue-on-error: true
+        uses: actions/download-artifact@v4
+        with:
+          pattern: shard-*
+          merge-multiple: true
+          path: ${{ runner.temp }}/shards
+
+      - name: Merge shards
+        run: python3 merge_shards.py "$RUNNER_TEMP/shards" rank.csv rank/rank-latest.csv
 
       - name: Prune relays (dead/CN immediately; others after 3 days)
         if: always()
         run: python3 prune_state.py candidates.txt rank.csv
 
       - name: Upload ranking artifact
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: rank
           path: rank.csv
+          retention-days: 1
+          if-no-files-found: ignore
 
       - name: Commit ranking to repo
         run: |
