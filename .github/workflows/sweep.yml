@@ -3,7 +3,7 @@ name: turnrank-sweep
 on:
   workflow_dispatch: {}
   schedule:
-    - cron: "0 21 * * *"   # 每天 UTC 21:00 = 北京 05:00
+    - cron: "17 21 * * *"   # 每天 UTC 21:17 = 北京 05:17（避开整点，减少 schedule 排队延迟）
 
 permissions:
   contents: write
